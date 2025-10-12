@@ -1,0 +1,134 @@
+[
+  {
+    "org_id": "ORG-E-001",
+    "org_name": "Bayou Steel Works",
+    "org_type": "emitter",
+    "verification_status": "Gold",
+    "hq_location": "Baton Rouge, LA",
+    "lat": 30.4515,
+    "lon": -91.1871,
+    "region": "east",
+    "contact_email": "contact@bayousteel.com"
+  },
+  {
+    "org_id": "ORG-E-002",
+    "org_name": "Pelican Power Gen",
+    "org_type": "emitter",
+    "verification_status": "Silver",
+    "hq_location": "Lake Charles, LA",
+    "lat": 30.2266,
+    "lon": -93.2174,
+    "region": "west",
+    "contact_email": "ops@pelicanpower.com"
+  },
+  {
+    "org_id": "ORG-E-003",
+    "org_name": "Riverfront BioEthanol",
+    "org_type": "emitter",
+    "verification_status": "Gold",
+    "hq_location": "Port Allen, LA",
+    "lat": 30.4515,
+    "lon": -91.2108,
+    "region": "east",
+    "contact_email": "info@riverbio.com"
+  },
+  {
+    "org_id": "ORG-U-101",
+    "org_name": "Gulf Cement Co.",
+    "org_type": "utilizer",
+    "verification_status": "Gold",
+    "hq_location": "New Orleans, LA",
+    "lat": 29.9511,
+    "lon": -90.0715,
+    "region": "southeast",
+    "contact_email": "procurement@gulfcement.com"
+  },
+  {
+    "org_id": "ORG-U-102",
+    "org_name": "Delta Algae Labs",
+    "org_type": "utilizer",
+    "verification_status": "Silver",
+    "hq_location": "Lafayette, LA",
+    "lat": 30.2241,
+    "lon": -92.0198,
+    "region": "central",
+    "contact_email": "buy@deltaalgae.org"
+  },
+  {
+    "org_id": "ORG-U-103",
+    "org_name": "Bay Concrete Mix",
+    "org_type": "utilizer",
+    "verification_status": "Bronze",
+    "hq_location": "Houma, LA",
+    "lat": 29.5958,
+    "lon": -90.7195,
+    "region": "south",
+    "contact_email": "supply@bayconcrete.com"
+  },
+  {
+    "org_id": "ORG-S-201",
+    "org_name": "Cypress Storage Partners",
+    "org_type": "storage",
+    "verification_status": "Gold",
+    "hq_location": "St. James, LA",
+    "lat": 30.046,
+    "lon": -90.8004,
+    "region": "east",
+    "contact_email": "sales@cypressstorage.com"
+  },
+  {
+    "org_id": "ORG-S-202",
+    "org_name": "Acadiana CCS Hub",
+    "org_type": "storage",
+    "verification_status": "Silver",
+    "hq_location": "Lafayette, LA",
+    "lat": 30.2241,
+    "lon": -92.0198,
+    "region": "central",
+    "contact_email": "hub@acadianaccs.com"
+  },
+  {
+    "org_id": "ORG-T-301",
+    "org_name": "Gator Pipeline LLC",
+    "org_type": "transport",
+    "verification_status": "Gold",
+    "hq_location": "Baton Rouge, LA",
+    "lat": 30.4515,
+    "lon": -91.1871,
+    "region": "east",
+    "contact_email": "routes@gatorpipe.com"
+  },
+  {
+    "org_id": "ORG-T-302",
+    "org_name": "Pelican Tank Trucking",
+    "org_type": "transport",
+    "verification_status": "Silver",
+    "hq_location": "Lake Charles, LA",
+    "lat": 30.2266,
+    "lon": -93.2174,
+    "region": "west",
+    "contact_email": "dispatch@pelicantank.com"
+  },
+  {
+    "org_id": "ORG-T-303",
+    "org_name": "Bayou River Barge",
+    "org_type": "transport",
+    "verification_status": "Bronze",
+    "hq_location": "New Orleans, LA",
+    "lat": 29.9511,
+    "lon": -90.0715,
+    "region": "southeast",
+    "contact_email": "ops@bayouriver.com"
+  },
+  {
+    "org_id": "ORG-S-203",
+    "org_name": "Gulf Coast Deep Storage",
+    "org_type": "storage",
+    "verification_status": "Gold",
+    "hq_location": "Port Arthur, TX",
+    "lat": 29.8849,
+    "lon": -93.9399,
+    "region": "gulf",
+    "contact_email": "info@gcds.com"
+  }
+]
