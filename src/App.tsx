@@ -12,11 +12,12 @@ import { DataEntryPage } from './pages/operator/DataEntryPage';
 import { SettingsPage } from './pages/operator/SettingsPage';
 import { PublicHomePage } from './pages/public/PublicHomePage';
 import { ExploreIndustryPage } from './pages/public/ExploreIndustryPage';
+import { MarketplaceHomePage } from './pages/marketplace/MarketplaceHomePage';
 import { EntryPage } from './pages/EntryPage';
 import { OperatorAuthPage } from './pages/auth/OperatorAuthPage';
 import { OperatorPage, PublicPage } from './types';
 
-type AppRoute = 'entry' | 'auth' | 'public' | 'operator';
+type AppRoute = 'entry' | 'auth' | 'public' | 'operator' | 'marketplace';
 
 function App() {
   const [currentRoute, setCurrentRoute] = useState<AppRoute>('entry');
@@ -88,6 +89,10 @@ function App() {
     setCurrentRoute('auth');
   };
 
+  const handleSelectMarketplace = () => {
+    setCurrentRoute('marketplace');
+  };
+
   const handleOperatorLogin = () => {
     setCurrentRoute('operator');
   };
@@ -101,7 +106,8 @@ function App() {
     return (
       <EntryPage 
         onSelectPublic={handleSelectPublic} 
-        onSelectOperator={handleSelectOperator} 
+        onSelectOperator={handleSelectOperator}
+        onSelectMarketplace={handleSelectMarketplace}
       />
     );
   }
@@ -126,6 +132,11 @@ function App() {
         <main className="bg-white min-h-screen">{renderPublicPage()}</main>
       </div>
     );
+  }
+
+  // Marketplace route
+  if (currentRoute === 'marketplace') {
+    return <MarketplaceHomePage />;
   }
 
   // Operator route
