@@ -1,0 +1,245 @@
+[
+  {
+    "id": "port-allen-ethanol",
+    "name": "Port Allen Ethanol",
+    "lat": 30.4515,
+    "lng": -91.2108,
+    "type": "Carbon Capture Facility",
+    "emissions": 24956,
+    "unit": "tCO₂ captured",
+    "year": 2024,
+    "status": "active"
+  },
+  {
+    "id": "geismar-ammonia",
+    "name": "Geismar Ammonia",
+    "lat": 30.2386,
+    "lng": -90.9954,
+    "type": "Carbon Capture Facility",
+    "emissions": 18500,
+    "unit": "tCO₂ captured",
+    "year": 2024,
+    "status": "active"
+  },
+  {
+    "id": "st-james-industrial",
+    "name": "St. James Industrial",
+    "lat": 30.0471,
+    "lng": -90.8065,
+    "type": "Carbon Capture Facility",
+    "emissions": 15200,
+    "unit": "tCO₂ captured",
+    "year": 2024,
+    "status": "active"
+  },
+  {
+    "id": "port-sulphur",
+    "name": "Port Sulphur",
+    "lat": 29.478,
+    "lng": -89.684,
+    "type": "Domestic Shipping",
+    "emissions": 103630,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "ouachita",
+    "name": "Ouachita",
+    "lat": 32.706,
+    "lng": -92.068,
+    "type": "Power plant",
+    "emissions": 1750000,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "white-oaks-landfill",
+    "name": "White Oaks Landfill",
+    "lat": 32.497,
+    "lng": -91.982,
+    "type": "Waste disposal site",
+    "emissions": 145260,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "calumet-shreveport",
+    "name": "Calumet Shreveport Refinery",
+    "lat": 32.468,
+    "lng": -93.793,
+    "type": "Refinery",
+    "emissions": 324790,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "ada-carbon-red-river",
+    "name": "ADA Carbon Solutions Red River",
+    "lat": 32.004,
+    "lng": -93.391,
+    "type": "Power plant",
+    "emissions": 20100,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "brame-energy-center",
+    "name": "Brame Energy Center",
+    "lat": 31.398,
+    "lng": -92.719,
+    "type": "Power plant",
+    "emissions": 2480000,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "almatis-burnside",
+    "name": "Almatis Burnside Inc",
+    "lat": 30.148,
+    "lng": -90.909,
+    "type": "Other metals plant",
+    "emissions": 249880,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "dow-st-charles",
+    "name": "Dow St Charles Operations",
+    "lat": 29.984,
+    "lng": -90.447,
+    "type": "Power plant",
+    "emissions": 335860,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "new-orleans-shipping",
+    "name": "New Orleans",
+    "lat": 29.913,
+    "lng": -90.108,
+    "type": "International Shipping",
+    "emissions": 1040000,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "acadia-energy",
+    "name": "Acadia Energy Center",
+    "lat": 30.429,
+    "lng": -92.413,
+    "type": "Power plant",
+    "emissions": 2130000,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "sabine-parish-landfill",
+    "name": "Sabine Parish Landfill",
+    "lat": 31.616,
+    "lng": -93.555,
+    "type": "Waste disposal site",
+    "emissions": 145230,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "fieldwood-intracoastal",
+    "name": "Fieldwood Intracoastal City",
+    "lat": 29.777,
+    "lng": -92.175,
+    "type": "Domestic Shipping",
+    "emissions": 56440,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "coughlin-power",
+    "name": "Coughlin Power Station",
+    "lat": 30.844,
+    "lng": -92.261,
+    "type": "Power plant",
+    "emissions": 1420000,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "linde-inc",
+    "name": "Linde Inc",
+    "lat": 30.139,
+    "lng": -93.527,
+    "type": "Chemicals plant",
+    "emissions": 345240,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "rs-cogen",
+    "name": "RS Cogen",
+    "lat": 30.221,
+    "lng": -93.283,
+    "type": "Power plant",
+    "emissions": 690440,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "cameron-lng",
+    "name": "Cameron LNG Terminal, Hackberry, LA",
+    "lat": 30.046,
+    "lng": -93.335,
+    "type": "International Shipping",
+    "emissions": 1090000,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "citgo-lake-charles",
+    "name": "Citgo Lake Charles Refinery",
+    "lat": 30.181,
+    "lng": -93.333,
+    "type": "Refinery",
+    "emissions": 4670000,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "perryville-power",
+    "name": "Perryville Power Station",
+    "lat": 32.691,
+    "lng": -92.018,
+    "type": "Power plant",
+    "emissions": 1350000,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  },
+  {
+    "id": "venture-global-lng",
+    "name": "Venture Global LNG Terminal, LA",
+    "lat": 29.772,
+    "lng": -93.341,
+    "type": "International Shipping",
+    "emissions": 597080,
+    "unit": "tCO₂e 100yr",
+    "year": 2024,
+    "status": "monitored"
+  }
+]
+

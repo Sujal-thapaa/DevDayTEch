@@ -1,0 +1,5 @@
+Facility Name,Facility Type,Date,CO2 Emissions,Unit,Capture Rate (%),Location,Latitude,Longitude,Notes
+Port Sulphur,Domestic Shipping,2024-01-15,103630,t CO2e 100yr,85.5,Plaquemines Parish,29.478,-89.684,Sample entry
+Ouachita,Power plant,2024-01-15,1750000,t CO2e 100yr,90.0,Ouachita Parish,32.706,-92.068,Sample entry
+White Oaks Landfill,Waste disposal site,2024-01-15,145260,t CO2e 100yr,75.0,Ouachita Parish,32.497,-91.982,Sample entry
+
