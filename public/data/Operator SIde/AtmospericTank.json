@@ -1,0 +1,1202 @@
+[
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Jan",
+    "Avg Temperature (F)": 93.4,
+    "Avg Pressure (psig)": 34.2,
+    "CO2 Mole Fraction": 0.621,
+    "CO2 Recovered by VRU (mt)": 283.23,
+    "Annual CO2 from Tanks (mt)": 256.29,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Feb",
+    "Avg Temperature (F)": 104.8,
+    "Avg Pressure (psig)": 25.4,
+    "CO2 Mole Fraction": 0.659,
+    "CO2 Recovered by VRU (mt)": 555.19,
+    "Annual CO2 from Tanks (mt)": 676.81,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Mar",
+    "Avg Temperature (F)": 90.4,
+    "Avg Pressure (psig)": 31.2,
+    "CO2 Mole Fraction": 0.625,
+    "CO2 Recovered by VRU (mt)": 457.26,
+    "Annual CO2 from Tanks (mt)": 358.08,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Apr",
+    "Avg Temperature (F)": 93.8,
+    "Avg Pressure (psig)": 32.8,
+    "CO2 Mole Fraction": 0.677,
+    "CO2 Recovered by VRU (mt)": 709.82,
+    "Annual CO2 from Tanks (mt)": 222.29,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "May",
+    "Avg Temperature (F)": 108.8,
+    "Avg Pressure (psig)": 30.3,
+    "CO2 Mole Fraction": 0.469,
+    "CO2 Recovered by VRU (mt)": 292.56,
+    "Annual CO2 from Tanks (mt)": 808.08,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Jun",
+    "Avg Temperature (F)": 100.1,
+    "Avg Pressure (psig)": 33.1,
+    "CO2 Mole Fraction": 0.618,
+    "CO2 Recovered by VRU (mt)": 736.28,
+    "Annual CO2 from Tanks (mt)": 1034.24,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Jul",
+    "Avg Temperature (F)": 99.1,
+    "Avg Pressure (psig)": 24.1,
+    "CO2 Mole Fraction": 0.619,
+    "CO2 Recovered by VRU (mt)": 779.31,
+    "Annual CO2 from Tanks (mt)": 1037.03,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Aug",
+    "Avg Temperature (F)": 90.7,
+    "Avg Pressure (psig)": 27.7,
+    "CO2 Mole Fraction": 0.551,
+    "CO2 Recovered by VRU (mt)": 483.74,
+    "Annual CO2 from Tanks (mt)": 696.31,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Sep",
+    "Avg Temperature (F)": 100.1,
+    "Avg Pressure (psig)": 34.2,
+    "CO2 Mole Fraction": 0.757,
+    "CO2 Recovered by VRU (mt)": 240.73,
+    "Annual CO2 from Tanks (mt)": 800.3,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Oct",
+    "Avg Temperature (F)": 105.9,
+    "Avg Pressure (psig)": 21.2,
+    "CO2 Mole Fraction": 0.824,
+    "CO2 Recovered by VRU (mt)": 496.43,
+    "Annual CO2 from Tanks (mt)": 878.07,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Nov",
+    "Avg Temperature (F)": 93.8,
+    "Avg Pressure (psig)": 30.3,
+    "CO2 Mole Fraction": 0.734,
+    "CO2 Recovered by VRU (mt)": 106.05,
+    "Annual CO2 from Tanks (mt)": 332.59,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Dec",
+    "Avg Temperature (F)": 90.2,
+    "Avg Pressure (psig)": 34.2,
+    "CO2 Mole Fraction": 0.498,
+    "CO2 Recovered by VRU (mt)": 378.95,
+    "Annual CO2 from Tanks (mt)": 791.36,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Jan",
+    "Avg Temperature (F)": 99.2,
+    "Avg Pressure (psig)": 27.7,
+    "CO2 Mole Fraction": 0.551,
+    "CO2 Recovered by VRU (mt)": 271.06,
+    "Annual CO2 from Tanks (mt)": 787.1,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Feb",
+    "Avg Temperature (F)": 85.2,
+    "Avg Pressure (psig)": 30.8,
+    "CO2 Mole Fraction": 0.519,
+    "CO2 Recovered by VRU (mt)": 201.55,
+    "Annual CO2 from Tanks (mt)": 919.99,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Mar",
+    "Avg Temperature (F)": 95,
+    "Avg Pressure (psig)": 20.1,
+    "CO2 Mole Fraction": 0.511,
+    "CO2 Recovered by VRU (mt)": 732.66,
+    "Annual CO2 from Tanks (mt)": 986.36,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Apr",
+    "Avg Temperature (F)": 88.6,
+    "Avg Pressure (psig)": 32.8,
+    "CO2 Mole Fraction": 0.529,
+    "CO2 Recovered by VRU (mt)": 250.45,
+    "Annual CO2 from Tanks (mt)": 965.03,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "May",
+    "Avg Temperature (F)": 109.5,
+    "Avg Pressure (psig)": 33.7,
+    "CO2 Mole Fraction": 0.827,
+    "CO2 Recovered by VRU (mt)": 406.38,
+    "Annual CO2 from Tanks (mt)": 276.52,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Jun",
+    "Avg Temperature (F)": 97.3,
+    "Avg Pressure (psig)": 27.4,
+    "CO2 Mole Fraction": 0.646,
+    "CO2 Recovered by VRU (mt)": 724.7,
+    "Annual CO2 from Tanks (mt)": 280.74,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Jul",
+    "Avg Temperature (F)": 109.9,
+    "Avg Pressure (psig)": 23.5,
+    "CO2 Mole Fraction": 0.753,
+    "CO2 Recovered by VRU (mt)": 173.78,
+    "Annual CO2 from Tanks (mt)": 681.13,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Aug",
+    "Avg Temperature (F)": 104.5,
+    "Avg Pressure (psig)": 32.8,
+    "CO2 Mole Fraction": 0.57,
+    "CO2 Recovered by VRU (mt)": 198.93,
+    "Annual CO2 from Tanks (mt)": 308.17,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Sep",
+    "Avg Temperature (F)": 88.7,
+    "Avg Pressure (psig)": 30.5,
+    "CO2 Mole Fraction": 0.491,
+    "CO2 Recovered by VRU (mt)": 125.28,
+    "Annual CO2 from Tanks (mt)": 590.25,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Oct",
+    "Avg Temperature (F)": 104.9,
+    "Avg Pressure (psig)": 23.1,
+    "CO2 Mole Fraction": 0.498,
+    "CO2 Recovered by VRU (mt)": 418.52,
+    "Annual CO2 from Tanks (mt)": 998.91,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Nov",
+    "Avg Temperature (F)": 92.7,
+    "Avg Pressure (psig)": 26.1,
+    "CO2 Mole Fraction": 0.75,
+    "CO2 Recovered by VRU (mt)": 724.19,
+    "Annual CO2 from Tanks (mt)": 582.48,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Dec",
+    "Avg Temperature (F)": 86.3,
+    "Avg Pressure (psig)": 32.4,
+    "CO2 Mole Fraction": 0.825,
+    "CO2 Recovered by VRU (mt)": 533.73,
+    "Annual CO2 from Tanks (mt)": 566.72,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Jan",
+    "Avg Temperature (F)": 98.6,
+    "Avg Pressure (psig)": 24.8,
+    "CO2 Mole Fraction": 0.791,
+    "CO2 Recovered by VRU (mt)": 458.38,
+    "Annual CO2 from Tanks (mt)": 795.33,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Feb",
+    "Avg Temperature (F)": 102,
+    "Avg Pressure (psig)": 28.7,
+    "CO2 Mole Fraction": 0.759,
+    "CO2 Recovered by VRU (mt)": 656.49,
+    "Annual CO2 from Tanks (mt)": 1145.95,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Mar",
+    "Avg Temperature (F)": 86,
+    "Avg Pressure (psig)": 22.5,
+    "CO2 Mole Fraction": 0.588,
+    "CO2 Recovered by VRU (mt)": 125.94,
+    "Annual CO2 from Tanks (mt)": 365.84,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Apr",
+    "Avg Temperature (F)": 86.6,
+    "Avg Pressure (psig)": 23.9,
+    "CO2 Mole Fraction": 0.462,
+    "CO2 Recovered by VRU (mt)": 433.17,
+    "Annual CO2 from Tanks (mt)": 360.86,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "May",
+    "Avg Temperature (F)": 99.3,
+    "Avg Pressure (psig)": 31,
+    "CO2 Mole Fraction": 0.559,
+    "CO2 Recovered by VRU (mt)": 711.14,
+    "Annual CO2 from Tanks (mt)": 320.43,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Jun",
+    "Avg Temperature (F)": 92.1,
+    "Avg Pressure (psig)": 21.9,
+    "CO2 Mole Fraction": 0.529,
+    "CO2 Recovered by VRU (mt)": 705.65,
+    "Annual CO2 from Tanks (mt)": 1164.32,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Jul",
+    "Avg Temperature (F)": 95.7,
+    "Avg Pressure (psig)": 23.1,
+    "CO2 Mole Fraction": 0.557,
+    "CO2 Recovered by VRU (mt)": 402.98,
+    "Annual CO2 from Tanks (mt)": 1104.09,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Aug",
+    "Avg Temperature (F)": 90.1,
+    "Avg Pressure (psig)": 35,
+    "CO2 Mole Fraction": 0.759,
+    "CO2 Recovered by VRU (mt)": 509.45,
+    "Annual CO2 from Tanks (mt)": 852.48,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Sep",
+    "Avg Temperature (F)": 100.7,
+    "Avg Pressure (psig)": 22.7,
+    "CO2 Mole Fraction": 0.729,
+    "CO2 Recovered by VRU (mt)": 543.68,
+    "Annual CO2 from Tanks (mt)": 932.36,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Oct",
+    "Avg Temperature (F)": 93,
+    "Avg Pressure (psig)": 34.3,
+    "CO2 Mole Fraction": 0.651,
+    "CO2 Recovered by VRU (mt)": 445.09,
+    "Annual CO2 from Tanks (mt)": 807.63,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Nov",
+    "Avg Temperature (F)": 98.9,
+    "Avg Pressure (psig)": 21.7,
+    "CO2 Mole Fraction": 0.743,
+    "CO2 Recovered by VRU (mt)": 789.68,
+    "Annual CO2 from Tanks (mt)": 1069.66,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Dec",
+    "Avg Temperature (F)": 85.9,
+    "Avg Pressure (psig)": 22.4,
+    "CO2 Mole Fraction": 0.798,
+    "CO2 Recovered by VRU (mt)": 664.06,
+    "Annual CO2 from Tanks (mt)": 689.59,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Jan",
+    "Avg Temperature (F)": 104.5,
+    "Avg Pressure (psig)": 29.8,
+    "CO2 Mole Fraction": 0.721,
+    "CO2 Recovered by VRU (mt)": 570.39,
+    "Annual CO2 from Tanks (mt)": 640.03,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Feb",
+    "Avg Temperature (F)": 90,
+    "Avg Pressure (psig)": 21.1,
+    "CO2 Mole Fraction": 0.827,
+    "CO2 Recovered by VRU (mt)": 735.17,
+    "Annual CO2 from Tanks (mt)": 1115.73,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Mar",
+    "Avg Temperature (F)": 103.3,
+    "Avg Pressure (psig)": 25.5,
+    "CO2 Mole Fraction": 0.679,
+    "CO2 Recovered by VRU (mt)": 110.51,
+    "Annual CO2 from Tanks (mt)": 930.45,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Apr",
+    "Avg Temperature (F)": 92.8,
+    "Avg Pressure (psig)": 25,
+    "CO2 Mole Fraction": 0.561,
+    "CO2 Recovered by VRU (mt)": 632.41,
+    "Annual CO2 from Tanks (mt)": 838.57,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "May",
+    "Avg Temperature (F)": 108.7,
+    "Avg Pressure (psig)": 31.4,
+    "CO2 Mole Fraction": 0.719,
+    "CO2 Recovered by VRU (mt)": 520.14,
+    "Annual CO2 from Tanks (mt)": 806.22,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Jun",
+    "Avg Temperature (F)": 90,
+    "Avg Pressure (psig)": 28.3,
+    "CO2 Mole Fraction": 0.532,
+    "CO2 Recovered by VRU (mt)": 507.09,
+    "Annual CO2 from Tanks (mt)": 987.77,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Jul",
+    "Avg Temperature (F)": 89.7,
+    "Avg Pressure (psig)": 22.7,
+    "CO2 Mole Fraction": 0.457,
+    "CO2 Recovered by VRU (mt)": 577.18,
+    "Annual CO2 from Tanks (mt)": 983.98,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Aug",
+    "Avg Temperature (F)": 100.8,
+    "Avg Pressure (psig)": 30.6,
+    "CO2 Mole Fraction": 0.492,
+    "CO2 Recovered by VRU (mt)": 246,
+    "Annual CO2 from Tanks (mt)": 913.47,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Sep",
+    "Avg Temperature (F)": 87.3,
+    "Avg Pressure (psig)": 34.6,
+    "CO2 Mole Fraction": 0.814,
+    "CO2 Recovered by VRU (mt)": 276.73,
+    "Annual CO2 from Tanks (mt)": 1085.48,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Oct",
+    "Avg Temperature (F)": 108.8,
+    "Avg Pressure (psig)": 20.7,
+    "CO2 Mole Fraction": 0.707,
+    "CO2 Recovered by VRU (mt)": 389.69,
+    "Annual CO2 from Tanks (mt)": 373.02,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Nov",
+    "Avg Temperature (F)": 95.3,
+    "Avg Pressure (psig)": 33,
+    "CO2 Mole Fraction": 0.75,
+    "CO2 Recovered by VRU (mt)": 779.25,
+    "Annual CO2 from Tanks (mt)": 334.26,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Dec",
+    "Avg Temperature (F)": 95.8,
+    "Avg Pressure (psig)": 23.7,
+    "CO2 Mole Fraction": 0.486,
+    "CO2 Recovered by VRU (mt)": 236.47,
+    "Annual CO2 from Tanks (mt)": 777.4,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Jan",
+    "Avg Temperature (F)": 107.6,
+    "Avg Pressure (psig)": 22.6,
+    "CO2 Mole Fraction": 0.821,
+    "CO2 Recovered by VRU (mt)": 790.67,
+    "Annual CO2 from Tanks (mt)": 947.04,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Feb",
+    "Avg Temperature (F)": 93.4,
+    "Avg Pressure (psig)": 22.5,
+    "CO2 Mole Fraction": 0.493,
+    "CO2 Recovered by VRU (mt)": 660.27,
+    "Annual CO2 from Tanks (mt)": 306.67,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Mar",
+    "Avg Temperature (F)": 86.3,
+    "Avg Pressure (psig)": 27.8,
+    "CO2 Mole Fraction": 0.825,
+    "CO2 Recovered by VRU (mt)": 713.53,
+    "Annual CO2 from Tanks (mt)": 559.32,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Apr",
+    "Avg Temperature (F)": 103.5,
+    "Avg Pressure (psig)": 31.8,
+    "CO2 Mole Fraction": 0.753,
+    "CO2 Recovered by VRU (mt)": 116.65,
+    "Annual CO2 from Tanks (mt)": 806.07,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "May",
+    "Avg Temperature (F)": 95.5,
+    "Avg Pressure (psig)": 21.1,
+    "CO2 Mole Fraction": 0.68,
+    "CO2 Recovered by VRU (mt)": 250.55,
+    "Annual CO2 from Tanks (mt)": 713.34,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Jun",
+    "Avg Temperature (F)": 97.3,
+    "Avg Pressure (psig)": 24.2,
+    "CO2 Mole Fraction": 0.84,
+    "CO2 Recovered by VRU (mt)": 128.46,
+    "Annual CO2 from Tanks (mt)": 433.07,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Jul",
+    "Avg Temperature (F)": 94.5,
+    "Avg Pressure (psig)": 21.8,
+    "CO2 Mole Fraction": 0.528,
+    "CO2 Recovered by VRU (mt)": 458.77,
+    "Annual CO2 from Tanks (mt)": 534.29,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Aug",
+    "Avg Temperature (F)": 92.4,
+    "Avg Pressure (psig)": 28.6,
+    "CO2 Mole Fraction": 0.752,
+    "CO2 Recovered by VRU (mt)": 368.08,
+    "Annual CO2 from Tanks (mt)": 471.15,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Sep",
+    "Avg Temperature (F)": 96.3,
+    "Avg Pressure (psig)": 25.7,
+    "CO2 Mole Fraction": 0.527,
+    "CO2 Recovered by VRU (mt)": 204.42,
+    "Annual CO2 from Tanks (mt)": 991.94,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Oct",
+    "Avg Temperature (F)": 95.9,
+    "Avg Pressure (psig)": 28.9,
+    "CO2 Mole Fraction": 0.726,
+    "CO2 Recovered by VRU (mt)": 299.98,
+    "Annual CO2 from Tanks (mt)": 283.36,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Nov",
+    "Avg Temperature (F)": 85.6,
+    "Avg Pressure (psig)": 21.5,
+    "CO2 Mole Fraction": 0.694,
+    "CO2 Recovered by VRU (mt)": 374.62,
+    "Annual CO2 from Tanks (mt)": 934.2,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Dec",
+    "Avg Temperature (F)": 90.4,
+    "Avg Pressure (psig)": 32.1,
+    "CO2 Mole Fraction": 0.491,
+    "CO2 Recovered by VRU (mt)": 632.94,
+    "Annual CO2 from Tanks (mt)": 300.79,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Jan",
+    "Avg Temperature (F)": 98.3,
+    "Avg Pressure (psig)": 25.1,
+    "CO2 Mole Fraction": 0.584,
+    "CO2 Recovered by VRU (mt)": 227.26,
+    "Annual CO2 from Tanks (mt)": 663.45,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Feb",
+    "Avg Temperature (F)": 94.7,
+    "Avg Pressure (psig)": 27.1,
+    "CO2 Mole Fraction": 0.472,
+    "CO2 Recovered by VRU (mt)": 474.22,
+    "Annual CO2 from Tanks (mt)": 1068.94,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Mar",
+    "Avg Temperature (F)": 104.2,
+    "Avg Pressure (psig)": 20.6,
+    "CO2 Mole Fraction": 0.657,
+    "CO2 Recovered by VRU (mt)": 363.38,
+    "Annual CO2 from Tanks (mt)": 1187.53,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Apr",
+    "Avg Temperature (F)": 89.1,
+    "Avg Pressure (psig)": 21.5,
+    "CO2 Mole Fraction": 0.758,
+    "CO2 Recovered by VRU (mt)": 516.53,
+    "Annual CO2 from Tanks (mt)": 525.39,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "May",
+    "Avg Temperature (F)": 108.2,
+    "Avg Pressure (psig)": 23.3,
+    "CO2 Mole Fraction": 0.63,
+    "CO2 Recovered by VRU (mt)": 257.1,
+    "Annual CO2 from Tanks (mt)": 232.29,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Jun",
+    "Avg Temperature (F)": 109.2,
+    "Avg Pressure (psig)": 24.7,
+    "CO2 Mole Fraction": 0.85,
+    "CO2 Recovered by VRU (mt)": 456.03,
+    "Annual CO2 from Tanks (mt)": 647.47,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Jul",
+    "Avg Temperature (F)": 98.7,
+    "Avg Pressure (psig)": 23.1,
+    "CO2 Mole Fraction": 0.572,
+    "CO2 Recovered by VRU (mt)": 591.24,
+    "Annual CO2 from Tanks (mt)": 726.54,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Aug",
+    "Avg Temperature (F)": 101.1,
+    "Avg Pressure (psig)": 32.6,
+    "CO2 Mole Fraction": 0.642,
+    "CO2 Recovered by VRU (mt)": 327.93,
+    "Annual CO2 from Tanks (mt)": 947.7,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Sep",
+    "Avg Temperature (F)": 104.4,
+    "Avg Pressure (psig)": 20.8,
+    "CO2 Mole Fraction": 0.558,
+    "CO2 Recovered by VRU (mt)": 595.63,
+    "Annual CO2 from Tanks (mt)": 580.56,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Oct",
+    "Avg Temperature (F)": 106.1,
+    "Avg Pressure (psig)": 31.1,
+    "CO2 Mole Fraction": 0.502,
+    "CO2 Recovered by VRU (mt)": 163.9,
+    "Annual CO2 from Tanks (mt)": 1097.55,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Nov",
+    "Avg Temperature (F)": 86.1,
+    "Avg Pressure (psig)": 22.9,
+    "CO2 Mole Fraction": 0.595,
+    "CO2 Recovered by VRU (mt)": 630.22,
+    "Annual CO2 from Tanks (mt)": 914.56,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Dec",
+    "Avg Temperature (F)": 85.1,
+    "Avg Pressure (psig)": 29.7,
+    "CO2 Mole Fraction": 0.815,
+    "CO2 Recovered by VRU (mt)": 263.88,
+    "Annual CO2 from Tanks (mt)": 1053.52,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Jan",
+    "Avg Temperature (F)": 102.7,
+    "Avg Pressure (psig)": 25.8,
+    "CO2 Mole Fraction": 0.702,
+    "CO2 Recovered by VRU (mt)": 299.99,
+    "Annual CO2 from Tanks (mt)": 551.69,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Feb",
+    "Avg Temperature (F)": 95,
+    "Avg Pressure (psig)": 26,
+    "CO2 Mole Fraction": 0.705,
+    "CO2 Recovered by VRU (mt)": 490.04,
+    "Annual CO2 from Tanks (mt)": 1137.08,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Mar",
+    "Avg Temperature (F)": 103.4,
+    "Avg Pressure (psig)": 21.7,
+    "CO2 Mole Fraction": 0.829,
+    "CO2 Recovered by VRU (mt)": 746.41,
+    "Annual CO2 from Tanks (mt)": 1158.62,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Apr",
+    "Avg Temperature (F)": 95.4,
+    "Avg Pressure (psig)": 28.5,
+    "CO2 Mole Fraction": 0.748,
+    "CO2 Recovered by VRU (mt)": 782.05,
+    "Annual CO2 from Tanks (mt)": 1156.91,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "May",
+    "Avg Temperature (F)": 90.3,
+    "Avg Pressure (psig)": 21.7,
+    "CO2 Mole Fraction": 0.625,
+    "CO2 Recovered by VRU (mt)": 203.93,
+    "Annual CO2 from Tanks (mt)": 865.96,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Jun",
+    "Avg Temperature (F)": 105.4,
+    "Avg Pressure (psig)": 30.7,
+    "CO2 Mole Fraction": 0.727,
+    "CO2 Recovered by VRU (mt)": 670.17,
+    "Annual CO2 from Tanks (mt)": 591.58,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Jul",
+    "Avg Temperature (F)": 106.5,
+    "Avg Pressure (psig)": 30.5,
+    "CO2 Mole Fraction": 0.827,
+    "CO2 Recovered by VRU (mt)": 604.31,
+    "Annual CO2 from Tanks (mt)": 308.49,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Aug",
+    "Avg Temperature (F)": 97.1,
+    "Avg Pressure (psig)": 25.9,
+    "CO2 Mole Fraction": 0.547,
+    "CO2 Recovered by VRU (mt)": 744.5,
+    "Annual CO2 from Tanks (mt)": 569.15,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Sep",
+    "Avg Temperature (F)": 97.5,
+    "Avg Pressure (psig)": 21.3,
+    "CO2 Mole Fraction": 0.626,
+    "CO2 Recovered by VRU (mt)": 660.98,
+    "Annual CO2 from Tanks (mt)": 1013.65,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Oct",
+    "Avg Temperature (F)": 100.2,
+    "Avg Pressure (psig)": 29.4,
+    "CO2 Mole Fraction": 0.572,
+    "CO2 Recovered by VRU (mt)": 285.5,
+    "Annual CO2 from Tanks (mt)": 312.16,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Nov",
+    "Avg Temperature (F)": 90.1,
+    "Avg Pressure (psig)": 32.2,
+    "CO2 Mole Fraction": 0.564,
+    "CO2 Recovered by VRU (mt)": 559.5,
+    "Annual CO2 from Tanks (mt)": 977.55,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Dec",
+    "Avg Temperature (F)": 97.9,
+    "Avg Pressure (psig)": 28.4,
+    "CO2 Mole Fraction": 0.734,
+    "CO2 Recovered by VRU (mt)": 671.26,
+    "Annual CO2 from Tanks (mt)": 1087.15,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Jan",
+    "Avg Temperature (F)": 96.9,
+    "Avg Pressure (psig)": 23.5,
+    "CO2 Mole Fraction": 0.493,
+    "CO2 Recovered by VRU (mt)": 306.33,
+    "Annual CO2 from Tanks (mt)": 791.52,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Feb",
+    "Avg Temperature (F)": 105.5,
+    "Avg Pressure (psig)": 31.3,
+    "CO2 Mole Fraction": 0.627,
+    "CO2 Recovered by VRU (mt)": 376.81,
+    "Annual CO2 from Tanks (mt)": 965.54,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Mar",
+    "Avg Temperature (F)": 109.2,
+    "Avg Pressure (psig)": 29.2,
+    "CO2 Mole Fraction": 0.468,
+    "CO2 Recovered by VRU (mt)": 154.85,
+    "Annual CO2 from Tanks (mt)": 802.51,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Apr",
+    "Avg Temperature (F)": 101.6,
+    "Avg Pressure (psig)": 30.7,
+    "CO2 Mole Fraction": 0.817,
+    "CO2 Recovered by VRU (mt)": 251.97,
+    "Annual CO2 from Tanks (mt)": 449.15,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "May",
+    "Avg Temperature (F)": 109.1,
+    "Avg Pressure (psig)": 30.5,
+    "CO2 Mole Fraction": 0.825,
+    "CO2 Recovered by VRU (mt)": 618.86,
+    "Annual CO2 from Tanks (mt)": 287.18,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Jun",
+    "Avg Temperature (F)": 95.4,
+    "Avg Pressure (psig)": 26.9,
+    "CO2 Mole Fraction": 0.62,
+    "CO2 Recovered by VRU (mt)": 120.33,
+    "Annual CO2 from Tanks (mt)": 769.07,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Jul",
+    "Avg Temperature (F)": 85.1,
+    "Avg Pressure (psig)": 21.8,
+    "CO2 Mole Fraction": 0.721,
+    "CO2 Recovered by VRU (mt)": 322.8,
+    "Annual CO2 from Tanks (mt)": 649.85,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Aug",
+    "Avg Temperature (F)": 90.6,
+    "Avg Pressure (psig)": 28.5,
+    "CO2 Mole Fraction": 0.5,
+    "CO2 Recovered by VRU (mt)": 401.86,
+    "Annual CO2 from Tanks (mt)": 423.79,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Sep",
+    "Avg Temperature (F)": 90.2,
+    "Avg Pressure (psig)": 30.9,
+    "CO2 Mole Fraction": 0.818,
+    "CO2 Recovered by VRU (mt)": 270.84,
+    "Annual CO2 from Tanks (mt)": 333.44,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Oct",
+    "Avg Temperature (F)": 103.5,
+    "Avg Pressure (psig)": 22.5,
+    "CO2 Mole Fraction": 0.511,
+    "CO2 Recovered by VRU (mt)": 441.51,
+    "Annual CO2 from Tanks (mt)": 823.28,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Nov",
+    "Avg Temperature (F)": 105.2,
+    "Avg Pressure (psig)": 32.9,
+    "CO2 Mole Fraction": 0.599,
+    "CO2 Recovered by VRU (mt)": 284.77,
+    "Annual CO2 from Tanks (mt)": 366.86,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Dec",
+    "Avg Temperature (F)": 106.2,
+    "Avg Pressure (psig)": 29.3,
+    "CO2 Mole Fraction": 0.636,
+    "CO2 Recovered by VRU (mt)": 337.66,
+    "Annual CO2 from Tanks (mt)": 861.74,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Jan",
+    "Avg Temperature (F)": 109.4,
+    "Avg Pressure (psig)": 23,
+    "CO2 Mole Fraction": 0.694,
+    "CO2 Recovered by VRU (mt)": 492.72,
+    "Annual CO2 from Tanks (mt)": 922.7,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Feb",
+    "Avg Temperature (F)": 98.9,
+    "Avg Pressure (psig)": 35,
+    "CO2 Mole Fraction": 0.76,
+    "CO2 Recovered by VRU (mt)": 418.94,
+    "Annual CO2 from Tanks (mt)": 1118.99,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Mar",
+    "Avg Temperature (F)": 97.6,
+    "Avg Pressure (psig)": 24.2,
+    "CO2 Mole Fraction": 0.506,
+    "CO2 Recovered by VRU (mt)": 166.35,
+    "Annual CO2 from Tanks (mt)": 886.68,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Apr",
+    "Avg Temperature (F)": 93.7,
+    "Avg Pressure (psig)": 26.6,
+    "CO2 Mole Fraction": 0.649,
+    "CO2 Recovered by VRU (mt)": 696.97,
+    "Annual CO2 from Tanks (mt)": 239.78,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "May",
+    "Avg Temperature (F)": 94,
+    "Avg Pressure (psig)": 21.8,
+    "CO2 Mole Fraction": 0.831,
+    "CO2 Recovered by VRU (mt)": 449.51,
+    "Annual CO2 from Tanks (mt)": 933.15,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Jun",
+    "Avg Temperature (F)": 99.3,
+    "Avg Pressure (psig)": 31.2,
+    "CO2 Mole Fraction": 0.548,
+    "CO2 Recovered by VRU (mt)": 739.84,
+    "Annual CO2 from Tanks (mt)": 411.84,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Jul",
+    "Avg Temperature (F)": 101.4,
+    "Avg Pressure (psig)": 32.7,
+    "CO2 Mole Fraction": 0.665,
+    "CO2 Recovered by VRU (mt)": 103.39,
+    "Annual CO2 from Tanks (mt)": 429.78,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Aug",
+    "Avg Temperature (F)": 104.4,
+    "Avg Pressure (psig)": 28.9,
+    "CO2 Mole Fraction": 0.616,
+    "CO2 Recovered by VRU (mt)": 505.35,
+    "Annual CO2 from Tanks (mt)": 754.97,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Sep",
+    "Avg Temperature (F)": 102.2,
+    "Avg Pressure (psig)": 23.3,
+    "CO2 Mole Fraction": 0.562,
+    "CO2 Recovered by VRU (mt)": 746.8,
+    "Annual CO2 from Tanks (mt)": 475.49,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Oct",
+    "Avg Temperature (F)": 106.9,
+    "Avg Pressure (psig)": 33.9,
+    "CO2 Mole Fraction": 0.564,
+    "CO2 Recovered by VRU (mt)": 390.91,
+    "Annual CO2 from Tanks (mt)": 606.01,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Nov",
+    "Avg Temperature (F)": 98.7,
+    "Avg Pressure (psig)": 24.1,
+    "CO2 Mole Fraction": 0.75,
+    "CO2 Recovered by VRU (mt)": 567.69,
+    "Annual CO2 from Tanks (mt)": 803.35,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Dec",
+    "Avg Temperature (F)": 101,
+    "Avg Pressure (psig)": 26.9,
+    "CO2 Mole Fraction": 0.623,
+    "CO2 Recovered by VRU (mt)": 139.28,
+    "Annual CO2 from Tanks (mt)": 1010.15,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Jan",
+    "Avg Temperature (F)": 91.7,
+    "Avg Pressure (psig)": 31.5,
+    "CO2 Mole Fraction": 0.49,
+    "CO2 Recovered by VRU (mt)": 205.1,
+    "Annual CO2 from Tanks (mt)": 1056.56,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Feb",
+    "Avg Temperature (F)": 108.2,
+    "Avg Pressure (psig)": 25.1,
+    "CO2 Mole Fraction": 0.57,
+    "CO2 Recovered by VRU (mt)": 324.29,
+    "Annual CO2 from Tanks (mt)": 996.45,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Mar",
+    "Avg Temperature (F)": 93.8,
+    "Avg Pressure (psig)": 32.1,
+    "CO2 Mole Fraction": 0.636,
+    "CO2 Recovered by VRU (mt)": 315.97,
+    "Annual CO2 from Tanks (mt)": 449.2,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Apr",
+    "Avg Temperature (F)": 92.7,
+    "Avg Pressure (psig)": 32.6,
+    "CO2 Mole Fraction": 0.531,
+    "CO2 Recovered by VRU (mt)": 654.02,
+    "Annual CO2 from Tanks (mt)": 887.04,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "May",
+    "Avg Temperature (F)": 105,
+    "Avg Pressure (psig)": 29.4,
+    "CO2 Mole Fraction": 0.529,
+    "CO2 Recovered by VRU (mt)": 389.04,
+    "Annual CO2 from Tanks (mt)": 518.99,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Jun",
+    "Avg Temperature (F)": 94.9,
+    "Avg Pressure (psig)": 29.7,
+    "CO2 Mole Fraction": 0.693,
+    "CO2 Recovered by VRU (mt)": 728.56,
+    "Annual CO2 from Tanks (mt)": 411.71,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Jul",
+    "Avg Temperature (F)": 85.2,
+    "Avg Pressure (psig)": 26.7,
+    "CO2 Mole Fraction": 0.821,
+    "CO2 Recovered by VRU (mt)": 687.86,
+    "Annual CO2 from Tanks (mt)": 692.58,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Aug",
+    "Avg Temperature (F)": 100.8,
+    "Avg Pressure (psig)": 23.4,
+    "CO2 Mole Fraction": 0.514,
+    "CO2 Recovered by VRU (mt)": 244.68,
+    "Annual CO2 from Tanks (mt)": 732.16,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Sep",
+    "Avg Temperature (F)": 87.7,
+    "Avg Pressure (psig)": 25.1,
+    "CO2 Mole Fraction": 0.583,
+    "CO2 Recovered by VRU (mt)": 576.83,
+    "Annual CO2 from Tanks (mt)": 1148.84,
+    "Any VRU Controls? (Y/N)": "N"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Oct",
+    "Avg Temperature (F)": 94,
+    "Avg Pressure (psig)": 20.1,
+    "CO2 Mole Fraction": 0.456,
+    "CO2 Recovered by VRU (mt)": 203.89,
+    "Annual CO2 from Tanks (mt)": 929.54,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Nov",
+    "Avg Temperature (F)": 93,
+    "Avg Pressure (psig)": 25.2,
+    "CO2 Mole Fraction": 0.56,
+    "CO2 Recovered by VRU (mt)": 424.22,
+    "Annual CO2 from Tanks (mt)": 295.31,
+    "Any VRU Controls? (Y/N)": "Y"
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Dec",
+    "Avg Temperature (F)": 90.1,
+    "Avg Pressure (psig)": 23.7,
+    "CO2 Mole Fraction": 0.548,
+    "CO2 Recovered by VRU (mt)": 673.24,
+    "Annual CO2 from Tanks (mt)": 264.08,
+    "Any VRU Controls? (Y/N)": "N"
+  }
+]

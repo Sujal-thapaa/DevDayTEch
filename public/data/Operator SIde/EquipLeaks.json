@@ -1,0 +1,322 @@
+[
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 275,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 406.07
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 94,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 41.14
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 91,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 365.6
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 293,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 310.95
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 217,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 144.88
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 101,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 328.64
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 265,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 164.16
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 191,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 449.28
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 301,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 281.72
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 391,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 448.6
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 72,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 443.57
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 300,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 336.19
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 225,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 245.58
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 399,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 232.25
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 280,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 359.83
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 374,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 375.58
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 91,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 109.19
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 289,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 253.91
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 138,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 389.42
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 361,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 472.58
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 302,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 479.97
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 81,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 106.58
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 357,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 454.57
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 247,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 179.89
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 368,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 190.18
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 299,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 251.16
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 354,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 248.57
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 119,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 483.18
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 178,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 77.65
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 262,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 130.73
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 230,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 283.35
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 376,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 41.35
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 322,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 278.73
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 193,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 270.93
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 90,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 136.86
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 149,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 454.51
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Emission Source Type": "Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 222,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 458.05
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Emission Source Type": "Connectors",
+    "Region": "Western U.S.",
+    "Count (Counte)": 98,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 136.2
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Emission Source Type": "Relief Valves",
+    "Region": "Western U.S.",
+    "Count (Counte)": 380,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 62.92
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Emission Source Type": "Open-Ended Lines",
+    "Region": "Western U.S.",
+    "Count (Counte)": 231,
+    "Operational Hours (Te)": 8760,
+    "CO2 (mt)": 53.22
+  }
+]

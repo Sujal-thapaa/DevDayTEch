@@ -1,0 +1,842 @@
+[
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Jan",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 14,
+    "Annual CO2 (mt)": 280.43
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Feb",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 23,
+    "Annual CO2 (mt)": 214.27
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Mar",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 8,
+    "Annual CO2 (mt)": 283.55
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Apr",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 6,
+    "Annual CO2 (mt)": 233.88
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "May",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 7,
+    "Annual CO2 (mt)": 315.1
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Jun",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 16,
+    "Annual CO2 (mt)": 321.77
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Jul",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 19,
+    "Annual CO2 (mt)": 308.63
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Aug",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 9,
+    "Annual CO2 (mt)": 337.3
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Sep",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 24,
+    "Annual CO2 (mt)": 367.73
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Oct",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 24,
+    "Annual CO2 (mt)": 357.28
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Nov",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 16,
+    "Annual CO2 (mt)": 374.15
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Month": "Dec",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 13,
+    "Annual CO2 (mt)": 376.93
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Jan",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 24,
+    "Annual CO2 (mt)": 272.81
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Feb",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 18,
+    "Annual CO2 (mt)": 119.05
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Mar",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 17,
+    "Annual CO2 (mt)": 201.17
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Apr",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 22,
+    "Annual CO2 (mt)": 258.27
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "May",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 15,
+    "Annual CO2 (mt)": 38.47
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Jun",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 20,
+    "Annual CO2 (mt)": 383.7
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Jul",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 22,
+    "Annual CO2 (mt)": 131.63
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Aug",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 348.39
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Sep",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 15,
+    "Annual CO2 (mt)": 162.47
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Oct",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 24,
+    "Annual CO2 (mt)": 191.77
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Nov",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 14,
+    "Annual CO2 (mt)": 265.73
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Month": "Dec",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 12,
+    "Annual CO2 (mt)": 178.41
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Jan",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 6,
+    "Annual CO2 (mt)": 213.09
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Feb",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 9,
+    "Annual CO2 (mt)": 358.1
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Mar",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 17,
+    "Annual CO2 (mt)": 162.36
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Apr",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 52.66
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "May",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 12,
+    "Annual CO2 (mt)": 218.7
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Jun",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 25,
+    "Annual CO2 (mt)": 334.82
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Jul",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 18,
+    "Annual CO2 (mt)": 349.92
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Aug",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 21,
+    "Annual CO2 (mt)": 119.16
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Sep",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 21,
+    "Annual CO2 (mt)": 232.87
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Oct",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 18,
+    "Annual CO2 (mt)": 60.96
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Nov",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 18,
+    "Annual CO2 (mt)": 150.73
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Month": "Dec",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 12,
+    "Annual CO2 (mt)": 325.03
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Jan",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 334.66
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Feb",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 15,
+    "Annual CO2 (mt)": 122.69
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Mar",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 246.88
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Apr",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 363.36
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "May",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 25,
+    "Annual CO2 (mt)": 251.11
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Jun",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 19,
+    "Annual CO2 (mt)": 335.2
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Jul",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 16,
+    "Annual CO2 (mt)": 312.4
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Aug",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 19,
+    "Annual CO2 (mt)": 350.81
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Sep",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 24,
+    "Annual CO2 (mt)": 342.03
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Oct",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 22,
+    "Annual CO2 (mt)": 382.24
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Nov",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 18,
+    "Annual CO2 (mt)": 348.41
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Month": "Dec",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 16,
+    "Annual CO2 (mt)": 150.41
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Jan",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 15,
+    "Annual CO2 (mt)": 268.91
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Feb",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 5,
+    "Annual CO2 (mt)": 206.88
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Mar",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 18,
+    "Annual CO2 (mt)": 33.23
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Apr",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 9,
+    "Annual CO2 (mt)": 399.96
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "May",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 17,
+    "Annual CO2 (mt)": 239.17
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Jun",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 23,
+    "Annual CO2 (mt)": 169.38
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Jul",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 9,
+    "Annual CO2 (mt)": 300.13
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Aug",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 399.66
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Sep",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 25,
+    "Annual CO2 (mt)": 149.97
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Oct",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 6,
+    "Annual CO2 (mt)": 207.5
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Nov",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 21,
+    "Annual CO2 (mt)": 396.42
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Month": "Dec",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 32.75
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Jan",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 121.07
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Feb",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 237.58
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Mar",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 323.27
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Apr",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 5,
+    "Annual CO2 (mt)": 229.5
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "May",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 15,
+    "Annual CO2 (mt)": 221.82
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Jun",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 16,
+    "Annual CO2 (mt)": 387.9
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Jul",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 5,
+    "Annual CO2 (mt)": 95.12
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Aug",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 9,
+    "Annual CO2 (mt)": 210.52
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Sep",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 7,
+    "Annual CO2 (mt)": 153.59
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Oct",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 12,
+    "Annual CO2 (mt)": 336.92
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Nov",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 23,
+    "Annual CO2 (mt)": 151.87
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Month": "Dec",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 24,
+    "Annual CO2 (mt)": 328.58
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Jan",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 5,
+    "Annual CO2 (mt)": 140.96
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Feb",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 17,
+    "Annual CO2 (mt)": 200.76
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Mar",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 20,
+    "Annual CO2 (mt)": 40.98
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Apr",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 14,
+    "Annual CO2 (mt)": 37.33
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "May",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 24,
+    "Annual CO2 (mt)": 112.17
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Jun",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 25,
+    "Annual CO2 (mt)": 192.7
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Jul",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 25,
+    "Annual CO2 (mt)": 176.76
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Aug",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 17,
+    "Annual CO2 (mt)": 200.2
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Sep",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 5,
+    "Annual CO2 (mt)": 214.23
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Oct",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 19,
+    "Annual CO2 (mt)": 362.01
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Nov",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 13,
+    "Annual CO2 (mt)": 346.98
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Month": "Dec",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 389.27
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Jan",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 118.72
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Feb",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 9,
+    "Annual CO2 (mt)": 52.27
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Mar",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 7,
+    "Annual CO2 (mt)": 36.58
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Apr",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 18,
+    "Annual CO2 (mt)": 179.07
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "May",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 14,
+    "Annual CO2 (mt)": 233
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Jun",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 17,
+    "Annual CO2 (mt)": 137.78
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Jul",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 22,
+    "Annual CO2 (mt)": 35.58
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Aug",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 22,
+    "Annual CO2 (mt)": 181.47
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Sep",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 15,
+    "Annual CO2 (mt)": 116.79
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Oct",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 8,
+    "Annual CO2 (mt)": 334.37
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Nov",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 147.23
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Month": "Dec",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 23,
+    "Annual CO2 (mt)": 282.07
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Jan",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 12,
+    "Annual CO2 (mt)": 286.36
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Feb",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 15,
+    "Annual CO2 (mt)": 214.58
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Mar",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 12,
+    "Annual CO2 (mt)": 51.91
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Apr",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 5,
+    "Annual CO2 (mt)": 333.1
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "May",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 24,
+    "Annual CO2 (mt)": 216.9
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Jun",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 6,
+    "Annual CO2 (mt)": 249.36
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Jul",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 7,
+    "Annual CO2 (mt)": 236.16
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Aug",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 255.1
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Sep",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 17,
+    "Annual CO2 (mt)": 262.55
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Oct",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 156.96
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Nov",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 17,
+    "Annual CO2 (mt)": 273.64
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Month": "Dec",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 19,
+    "Annual CO2 (mt)": 204.26
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Jan",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 7,
+    "Annual CO2 (mt)": 279.51
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Feb",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 21,
+    "Annual CO2 (mt)": 292.21
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Mar",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 21,
+    "Annual CO2 (mt)": 376.37
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Apr",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 20,
+    "Annual CO2 (mt)": 175.04
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "May",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 103.31
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Jun",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 16,
+    "Annual CO2 (mt)": 361.99
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Jul",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 20,
+    "Annual CO2 (mt)": 119.86
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Aug",
+    "Equipment/Event Type": "Pipeline Vent",
+    "Number of Blowdowns (N)": 11,
+    "Annual CO2 (mt)": 37.67
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Sep",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 15,
+    "Annual CO2 (mt)": 126.86
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Oct",
+    "Equipment/Event Type": "Compressor",
+    "Number of Blowdowns (N)": 10,
+    "Annual CO2 (mt)": 137.35
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Nov",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 14,
+    "Annual CO2 (mt)": 209.01
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Month": "Dec",
+    "Equipment/Event Type": "Valve Maintenance",
+    "Number of Blowdowns (N)": 7,
+    "Annual CO2 (mt)": 40.7
+  }
+]

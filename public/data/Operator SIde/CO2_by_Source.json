@@ -1,0 +1,502 @@
+[
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 4503.24
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 3421.69
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 2854.87
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 7107.96
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 7905.21
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 4182.29
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 4668.64
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 3246.88
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 5786.8
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Source Category": "Total",
+    "CO2 (mt)": 43677.58
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 275.73
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 2068.56
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 508.16
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 528.79
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 4157.11
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 6659.5
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 225.39
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 2208.77
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 645.32
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Source Category": "Total",
+    "CO2 (mt)": 17277.33
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 6524.9
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 1306.87
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 1408.99
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 7740.02
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 4356.07
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 663.57
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 4221.87
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 252.1
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 2308.78
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Source Category": "Total",
+    "CO2 (mt)": 28783.17
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 5553.85
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 6593.76
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 2741.69
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 3592.86
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 5832.1
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 3908.37
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 7363.55
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 2328
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 951.93
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Source Category": "Total",
+    "CO2 (mt)": 38866.11
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 2668.25
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 568.93
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 3111.19
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 5446.7
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 989.55
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 4531.77
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 4147.47
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 1354.1
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 1999.15
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Source Category": "Total",
+    "CO2 (mt)": 24817.11
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 845.35
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 3882.37
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 6762.92
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 5380.23
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 2585.07
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 1123.24
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 719.17
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 7047.61
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 7534.95
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Source Category": "Total",
+    "CO2 (mt)": 35880.91
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 6477.78
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 4383.54
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 5224.93
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 4027.64
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 3400.55
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 6744.69
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 3378.83
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 6701.04
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 3070.48
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Source Category": "Total",
+    "CO2 (mt)": 43409.48
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 3324.23
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 6533.32
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 5208.39
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 5464.11
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 2249.59
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 7729.45
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 2259.52
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 2337.42
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 1493.68
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Source Category": "Total",
+    "CO2 (mt)": 36599.71
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 391.17
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 5125.08
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 6859.88
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 5470.83
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 4167.26
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 7732.47
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 3691.55
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 816.03
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 5396.63
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Source Category": "Total",
+    "CO2 (mt)": 39650.9
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Flare Stacks",
+    "CO2 (mt)": 1794.99
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Atmospheric Tanks",
+    "CO2 (mt)": 2791.93
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Blowdowns",
+    "CO2 (mt)": 6833.04
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Equip Leaks",
+    "CO2 (mt)": 5637.8
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Compressors",
+    "CO2 (mt)": 3645.35
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Pneumatic Pumps",
+    "CO2 (mt)": 6521.55
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Combustion Units",
+    "CO2 (mt)": 3741.71
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Acid Gas Removal",
+    "CO2 (mt)": 5599.59
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Dehydrators",
+    "CO2 (mt)": 2555.76
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Source Category": "Total",
+    "CO2 (mt)": 39121.72
+  }
+]
