@@ -1,25 +1,10 @@
 import React from 'react';
-import { FileText, Check, AlertCircle, Download, Database } from 'lucide-react';
+import { FileText, Check, AlertCircle, Download } from 'lucide-react';
 import { Button } from '../../components/ui/Button';
 import { Badge } from '../../components/ui/Badge';
 import { Card } from '../../components/ui/Card';
 
-interface ReportsPageProps {
-  isDataLoaded: boolean;
-}
-
-export const ReportsPage: React.FC<ReportsPageProps> = ({ isDataLoaded }) => {
-  if (!isDataLoaded) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
-        <FileText size={64} className="text-gray-300 mb-4" />
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">No Compliance Reports Available</h2>
-        <p className="text-gray-600 mb-6 max-w-md">
-          Upload emissions data to generate compliance reports and track regulatory requirements.
-        </p>
-      </div>
-    );
-  }
+export const ReportsPage: React.FC = () => {
   const reports = [
     {
       id: 'r-001',

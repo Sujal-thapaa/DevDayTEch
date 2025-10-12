@@ -16,11 +16,7 @@ interface ManualEntryData {
   notes: string;
 }
 
-interface DataEntryPageProps {
-  onDataProcessed: () => void;
-}
-
-export const DataEntryPage: React.FC<DataEntryPageProps> = ({ onDataProcessed }) => {
+export const DataEntryPage: React.FC = () => {
   const [showManualEntry, setShowManualEntry] = useState(false);
   const [uploadedFiles, setUploadedFiles] = useState<File[]>([]);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -77,9 +73,8 @@ export const DataEntryPage: React.FC<DataEntryPageProps> = ({ onDataProcessed })
       setProcessingProgress(100);
       setIsProcessing(false);
       
-      // Show success and update parent
+      // Show success message
       setShowSuccessMessage(true);
-      onDataProcessed();
       
       // Reset form
       setManualData({
@@ -138,11 +133,10 @@ export const DataEntryPage: React.FC<DataEntryPageProps> = ({ onDataProcessed })
       setProcessingProgress(100);
       setIsProcessing(false);
       
-      // Show success message and trigger data display
+      // Show success message
       setShowSuccessMessage(true);
-      onDataProcessed(); // This signals all pages to display their mock data
       
-      console.log('✅ Processing complete - Data now visible across all pages');
+      console.log('✅ Processing complete');
       
       // Clear files after a moment
       setTimeout(() => {

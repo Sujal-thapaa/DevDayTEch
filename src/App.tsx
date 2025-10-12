@@ -22,28 +22,27 @@ function App() {
   const [currentRoute, setCurrentRoute] = useState<AppRoute>('entry');
   const [operatorPage, setOperatorPage] = useState<OperatorPage>('data-entry');
   const [publicPage, setPublicPage] = useState<PublicPage>('home');
-  const [isDataLoaded, setIsDataLoaded] = useState<boolean>(false);
 
   const renderOperatorPage = () => {
     switch (operatorPage) {
       case 'home':
-        return <HomePage onNavigate={setOperatorPage} isDataLoaded={isDataLoaded} />;
+        return <HomePage onNavigate={setOperatorPage} />;
       case 'analysis':
-        return <AnalysisPage onNavigate={setOperatorPage} isDataLoaded={isDataLoaded} />;
+        return <AnalysisPage onNavigate={setOperatorPage} />;
       case 'roi':
-        return <ROIPage onNavigate={setOperatorPage} isDataLoaded={isDataLoaded} />;
+        return <ROIPage onNavigate={setOperatorPage} />;
       case 'reports':
-        return <ReportsPage isDataLoaded={isDataLoaded} />;
+        return <ReportsPage />;
       case 'incidents':
-        return <IncidentsPage isDataLoaded={isDataLoaded} />;
+        return <IncidentsPage />;
       case 'market':
         return <MarketPage />;
       case 'data-entry':
-        return <DataEntryPage onDataProcessed={() => setIsDataLoaded(true)} />;
+        return <DataEntryPage />;
       case 'settings':
         return <SettingsPage />;
       default:
-        return <HomePage onNavigate={setOperatorPage} isDataLoaded={isDataLoaded} />;
+        return <HomePage onNavigate={setOperatorPage} />;
     }
   };
 

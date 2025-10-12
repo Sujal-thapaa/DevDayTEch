@@ -28,10 +28,9 @@ import { OperatorPage } from '../../types';
 
 interface AnalysisPageProps {
   onNavigate: (page: OperatorPage) => void;
-  isDataLoaded: boolean;
 }
 
-export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate, isDataLoaded }) => {
+export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
   const [selectedFacility, setSelectedFacility] = useState('all');
   const [dateRange, setDateRange] = useState('6m');
   const [metric, setMetric] = useState('captured');
@@ -45,21 +44,6 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate, isDataLo
     credit45Q: 85,
     transportMode: 'pipeline',
   });
-
-  if (!isDataLoaded) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
-        <TrendingUp size={64} className="text-gray-300 mb-4" />
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">No Analysis Data Available</h2>
-        <p className="text-gray-600 mb-6 max-w-md">
-          Upload emissions data to view predictive analytics, forecasts, and AI-powered recommendations.
-        </p>
-        <Button variant="primary" onClick={() => onNavigate('data-entry')}>
-          Go to Data Entry
-        </Button>
-      </div>
-    );
-  }
 
   const calculateScenarioOutputs = () => {
     const lcoc = (scenarioInputs.opex + scenarioInputs.capex * 0.1) / 25000;

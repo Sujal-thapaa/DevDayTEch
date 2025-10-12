@@ -7,10 +7,9 @@ import { OperatorPage } from '../../types';
 
 interface ROIPageProps {
   onNavigate: (page: OperatorPage) => void;
-  isDataLoaded: boolean;
 }
 
-export const ROIPage: React.FC<ROIPageProps> = ({ onNavigate, isDataLoaded }) => {
+export const ROIPage: React.FC<ROIPageProps> = ({ onNavigate }) => {
   const [inputs, setInputs] = useState({
     captureRate: 25000,
     purity: 99.0,
@@ -61,21 +60,6 @@ export const ROIPage: React.FC<ROIPageProps> = ({ onNavigate, isDataLoaded }) =>
     { label: 'Transport Cost', impact: -15.3, direction: 'down' },
     { label: 'Injection Fee', impact: -12.8, direction: 'down' },
   ];
-
-  if (!isDataLoaded) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
-        <DollarSign size={64} className="text-gray-300 mb-4" />
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">No ROI Data Available</h2>
-        <p className="text-gray-600 mb-6 max-w-md">
-          Upload emissions data to calculate return on investment and perform financial analysis.
-        </p>
-        <Button variant="primary" onClick={() => onNavigate('data-entry')}>
-          Go to Data Entry
-        </Button>
-      </div>
-    );
-  }
 
   return (
     <div className="space-y-6">

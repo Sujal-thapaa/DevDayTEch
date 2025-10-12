@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, TrendingUp, Database } from 'lucide-react';
+import { ArrowRight, TrendingUp } from 'lucide-react';
 import { KPICard } from '../../components/ui/Card';
 import { Button } from '../../components/ui/Button';
 import { Badge } from '../../components/ui/Badge';
@@ -16,25 +16,9 @@ import { OperatorPage } from '../../types';
 
 interface HomePageProps {
   onNavigate: (page: OperatorPage) => void;
-  isDataLoaded: boolean;
 }
 
-export const HomePage: React.FC<HomePageProps> = ({ onNavigate, isDataLoaded }) => {
-  if (!isDataLoaded) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
-        <Database size={64} className="text-gray-300 mb-4" />
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">No Data Available</h2>
-        <p className="text-gray-600 mb-6 max-w-md">
-          Please upload your emissions data files in the Data Entry section to view analytics and insights.
-        </p>
-        <Button variant="primary" onClick={() => onNavigate('data-entry')}>
-          Go to Data Entry
-        </Button>
-      </div>
-    );
-  }
-
+export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
   return (
     <div className="space-y-6">
       <div>
