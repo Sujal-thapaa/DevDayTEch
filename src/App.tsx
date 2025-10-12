@@ -11,6 +11,7 @@ import { MarketPage } from './pages/operator/MarketPage';
 import { DataEntryPage } from './pages/operator/DataEntryPage';
 import { SettingsPage } from './pages/operator/SettingsPage';
 import { PublicHomePage } from './pages/public/PublicHomePage';
+import { ExploreIndustryPage } from './pages/public/ExploreIndustryPage';
 import { EntryPage } from './pages/EntryPage';
 import { OperatorAuthPage } from './pages/auth/OperatorAuthPage';
 import { OperatorPage, PublicPage } from './types';
@@ -51,12 +52,7 @@ function App() {
       case 'home':
         return <PublicHomePage />;
       case 'explore':
-        return (
-          <div className="max-w-7xl mx-auto py-8 px-6">
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">Explore Industry</h1>
-            <p className="text-gray-600">Industry profiles and company information coming soon...</p>
-          </div>
-        );
+        return <ExploreIndustryPage />;
       case 'economy':
         return (
           <div className="max-w-7xl mx-auto py-8 px-6">

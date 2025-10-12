@@ -1,0 +1,992 @@
+[
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 300169.6,
+    "Total CO2e (mt CO2e)": 309897.9,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Cleco Houma Plant",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 665273.2,
+    "Total CO2e (mt CO2e)": 680395.2,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "LyondellBasell Alexandria Site",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 893586.2,
+    "Total CO2e (mt CO2e)": 920441.7,
+    "Latitude": 31.3113,
+    "Longitude": -92.4451
+  },
+  {
+    "Facility Name": "CF Industries Houma Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1456313.7,
+    "Total CO2e (mt CO2e)": 1497235.3,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 764446.3,
+    "Total CO2e (mt CO2e)": 802572.2,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 271692.8,
+    "Total CO2e (mt CO2e)": 287560.6,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "PBF Energy Reserve Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1616691.3,
+    "Total CO2e (mt CO2e)": 1680754.2,
+    "Latitude": 30.0535,
+    "Longitude": -90.5481
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 242773.2,
+    "Total CO2e (mt CO2e)": 255567.7,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "LyondellBasell Lake Charles Facility",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 789937.1,
+    "Total CO2e (mt CO2e)": 831984.8,
+    "Latitude": 30.2266,
+    "Longitude": -93.2174
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Works",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 240796.6,
+    "Total CO2e (mt CO2e)": 260024,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "PBF Energy Reserve Refinery",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1328479.5,
+    "Total CO2e (mt CO2e)": 1355049.1,
+    "Latitude": 30.0535,
+    "Longitude": -90.5481
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 210470.1,
+    "Total CO2e (mt CO2e)": 226131.5,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1338021.6,
+    "Total CO2e (mt CO2e)": 1457348.9,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shreveport Utilities Houma Utilities",
+    "Sector": "Public Sector",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 91959.8,
+    "Total CO2e (mt CO2e)": 99712.9,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1296841.9,
+    "Total CO2e (mt CO2e)": 1403759,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "International Paper Lake Charles Works",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 213789.2,
+    "Total CO2e (mt CO2e)": 220035.7,
+    "Latitude": 30.2266,
+    "Longitude": -93.2174
+  },
+  {
+    "Facility Name": "Yara Lafayette Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 977380.1,
+    "Total CO2e (mt CO2e)": 1008252.7,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1776656.9,
+    "Total CO2e (mt CO2e)": 1897192.4,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 741552.7,
+    "Total CO2e (mt CO2e)": 793815.9,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 139334.9,
+    "Total CO2e (mt CO2e)": 147877.2,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 798197.9,
+    "Total CO2e (mt CO2e)": 838336.2,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Lafayette Utilities System Shreveport Utilities",
+    "Sector": "Public Sector",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 119854.2,
+    "Total CO2e (mt CO2e)": 122251.3,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Baton Rouge Water Norco Plant",
+    "Sector": "Public Sector",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 96614.8,
+    "Total CO2e (mt CO2e)": 102605,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "PBF Energy Lafayette Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1489494.3,
+    "Total CO2e (mt CO2e)": 1593989.1,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "CF Industries Belle Chasse Plant",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1086584.5,
+    "Total CO2e (mt CO2e)": 1150658.8,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1364500.8,
+    "Total CO2e (mt CO2e)": 1430648,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 103560.8,
+    "Total CO2e (mt CO2e)": 109530.6,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "NRG Reserve Station",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 607573.2,
+    "Total CO2e (mt CO2e)": 629997,
+    "Latitude": 30.0535,
+    "Longitude": -90.5481
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1323114.5,
+    "Total CO2e (mt CO2e)": 1375348.2,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Occidental Geismar Site",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 804330,
+    "Total CO2e (mt CO2e)": 860916.4,
+    "Latitude": 30.2191,
+    "Longitude": -90.9923
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1905223.3,
+    "Total CO2e (mt CO2e)": 2021362.8,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Renewable Energy Group Lafayette Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 131582,
+    "Total CO2e (mt CO2e)": 142177,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LyondellBasell Bogalusa Site",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 826592.2,
+    "Total CO2e (mt CO2e)": 888622.2,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "POET Lafayette Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 135417.1,
+    "Total CO2e (mt CO2e)": 140924.3,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "WestRock St. Gabriel Works",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 224157.8,
+    "Total CO2e (mt CO2e)": 239167.1,
+    "Latitude": 30.2571,
+    "Longitude": -91.0998
+  },
+  {
+    "Facility Name": "Marathon Alexandria Refinery",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1557724.9,
+    "Total CO2e (mt CO2e)": 1622460.4,
+    "Latitude": 31.3113,
+    "Longitude": -92.4451
+  },
+  {
+    "Facility Name": "Yara Geismar Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1148748.4,
+    "Total CO2e (mt CO2e)": 1175493.7,
+    "Latitude": 30.2191,
+    "Longitude": -90.9923
+  },
+  {
+    "Facility Name": "LyondellBasell St. Rose Site",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 850129.8,
+    "Total CO2e (mt CO2e)": 914225.4,
+    "Latitude": 29.9488,
+    "Longitude": -90.3231
+  },
+  {
+    "Facility Name": "Georgia-Pacific Lafayette Mill",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 202254.1,
+    "Total CO2e (mt CO2e)": 216394.1,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Yara St. Gabriel Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1052827.1,
+    "Total CO2e (mt CO2e)": 1087062,
+    "Latitude": 30.2571,
+    "Longitude": -91.0998
+  },
+  {
+    "Facility Name": "Mosaic Lake Charles Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1328954,
+    "Total CO2e (mt CO2e)": 1368513.1,
+    "Latitude": 30.2266,
+    "Longitude": -93.2174
+  },
+  {
+    "Facility Name": "ExxonMobil Lafayette Refinery",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1544109.6,
+    "Total CO2e (mt CO2e)": 1661020.3,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 254380.7,
+    "Total CO2e (mt CO2e)": 266733.1,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 838778.1,
+    "Total CO2e (mt CO2e)": 871723.3,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "LyondellBasell St. Gabriel Site",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 836398.9,
+    "Total CO2e (mt CO2e)": 897667.3,
+    "Latitude": 30.2571,
+    "Longitude": -91.0998
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1585200.3,
+    "Total CO2e (mt CO2e)": 1725443.4,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Holcim New Orleans Plant",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 295577.1,
+    "Total CO2e (mt CO2e)": 323726.6,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET Monroe Facility",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 148307.6,
+    "Total CO2e (mt CO2e)": 155283.9,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "CF Industries Garyville Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1361508.4,
+    "Total CO2e (mt CO2e)": 1444629.5,
+    "Latitude": 30.0566,
+    "Longitude": -90.6195
+  },
+  {
+    "Facility Name": "LSU Utility Plant Alexandria Plant",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 705691.7,
+    "Total CO2e (mt CO2e)": 752326.4,
+    "Latitude": 31.3113,
+    "Longitude": -92.4451
+  },
+  {
+    "Facility Name": "Mosaic Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1280824.8,
+    "Total CO2e (mt CO2e)": 1344108.1,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 116609.5,
+    "Total CO2e (mt CO2e)": 125556.7,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET Lafayette Facility",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 138528.1,
+    "Total CO2e (mt CO2e)": 148225.3,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Geismar Works",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 321289,
+    "Total CO2e (mt CO2e)": 333370.5,
+    "Latitude": 30.2191,
+    "Longitude": -90.9923
+  },
+  {
+    "Facility Name": "ExxonMobil Reserve Refinery",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1476699.8,
+    "Total CO2e (mt CO2e)": 1592852.2,
+    "Latitude": 30.0535,
+    "Longitude": -90.5481
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 319501.7,
+    "Total CO2e (mt CO2e)": 329120.7,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 116560.5,
+    "Total CO2e (mt CO2e)": 121267.2,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Green Plains Lafayette Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 124128.2,
+    "Total CO2e (mt CO2e)": 129207.3,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 262997,
+    "Total CO2e (mt CO2e)": 284964,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 542901.7,
+    "Total CO2e (mt CO2e)": 582977.6,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 149134.6,
+    "Total CO2e (mt CO2e)": 155384.2,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Alexandria Utilities Norco Works",
+    "Sector": "Public Sector",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 83965.1,
+    "Total CO2e (mt CO2e)": 87248.4,
+    "Latitude": 31.3113,
+    "Longitude": -92.4451
+  },
+  {
+    "Facility Name": "City of New Orleans Utilities Port Allen Works",
+    "Sector": "Public Sector",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 65900.3,
+    "Total CO2e (mt CO2e)": 69327,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Plant",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 267415.9,
+    "Total CO2e (mt CO2e)": 287875.3,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Renewable Energy Group Port Allen Facility",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 163536.4,
+    "Total CO2e (mt CO2e)": 172621.9,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Alexandria Utilities St. Rose Works",
+    "Sector": "Public Sector",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 100339.5,
+    "Total CO2e (mt CO2e)": 107040,
+    "Latitude": 31.3113,
+    "Longitude": -92.4451
+  },
+  {
+    "Facility Name": "POET Port Allen Facility",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 97595.9,
+    "Total CO2e (mt CO2e)": 101235.3,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Marathon Geismar Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1352839.5,
+    "Total CO2e (mt CO2e)": 1460442.6,
+    "Latitude": 30.2191,
+    "Longitude": -90.9923
+  },
+  {
+    "Facility Name": "Occidental Alexandria Complex",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 948864.3,
+    "Total CO2e (mt CO2e)": 989688.4,
+    "Latitude": 31.3113,
+    "Longitude": -92.4451
+  },
+  {
+    "Facility Name": "Argos Lafayette Works",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 292888.4,
+    "Total CO2e (mt CO2e)": 312353.8,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "NRG Port Allen Station",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 675935.1,
+    "Total CO2e (mt CO2e)": 707114.4,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "CF Industries Westlake Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1172842.1,
+    "Total CO2e (mt CO2e)": 1246661.2,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Lake Charles Works",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 252186.1,
+    "Total CO2e (mt CO2e)": 267239.8,
+    "Latitude": 30.2266,
+    "Longitude": -93.2174
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 333493.3,
+    "Total CO2e (mt CO2e)": 359445.5,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Georgia-Pacific Geismar Works",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 215460.6,
+    "Total CO2e (mt CO2e)": 225809.2,
+    "Latitude": 30.2191,
+    "Longitude": -90.9923
+  },
+  {
+    "Facility Name": "Renewable Energy Group Monroe Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 113046.8,
+    "Total CO2e (mt CO2e)": 117126.4,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Mosaic St. James Plant",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1269998.6,
+    "Total CO2e (mt CO2e)": 1355442.6,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Phillips 66 St. Rose Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1447339.6,
+    "Total CO2e (mt CO2e)": 1502233.3,
+    "Latitude": 29.9488,
+    "Longitude": -90.3231
+  },
+  {
+    "Facility Name": "Green Plains Bogalusa Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 148329,
+    "Total CO2e (mt CO2e)": 157155,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "POET Gramercy Facility",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 115787.4,
+    "Total CO2e (mt CO2e)": 122154.3,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Phillips 66 Alexandria Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1440143.7,
+    "Total CO2e (mt CO2e)": 1496028.8,
+    "Latitude": 31.3113,
+    "Longitude": -92.4451
+  },
+  {
+    "Facility Name": "Green Plains Shreveport Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 145793.6,
+    "Total CO2e (mt CO2e)": 153567,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "NRG Monroe Station",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 500519.3,
+    "Total CO2e (mt CO2e)": 517023.3,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Entergy Houma Plant",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 617690.3,
+    "Total CO2e (mt CO2e)": 644988,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 285783.3,
+    "Total CO2e (mt CO2e)": 291499,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Green Plains Monroe Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 122306.5,
+    "Total CO2e (mt CO2e)": 126810.4,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 624662.1,
+    "Total CO2e (mt CO2e)": 661683,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "CF Industries St. Rose Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1438374.6,
+    "Total CO2e (mt CO2e)": 1514459,
+    "Latitude": 29.9488,
+    "Longitude": -90.3231
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1578540.2,
+    "Total CO2e (mt CO2e)": 1628215.5,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Graphic Packaging Lafayette Works",
+    "Sector": "Pulp & Paper",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 280943.7,
+    "Total CO2e (mt CO2e)": 295313.5,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Baton Rouge Works",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 359735.1,
+    "Total CO2e (mt CO2e)": 375666.6,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Valero Shreveport Refinery",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1425712.8,
+    "Total CO2e (mt CO2e)": 1492944.7,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "LSU Utility Plant Gramercy Plant",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 476428.2,
+    "Total CO2e (mt CO2e)": 501131,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Yara Plaquemine Plant",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 993111.9,
+    "Total CO2e (mt CO2e)": 1014968,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "CF Industries Bogalusa Complex",
+    "Sector": "Fertilizer",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1212982,
+    "Total CO2e (mt CO2e)": 1292549.3,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 1624142.7,
+    "Total CO2e (mt CO2e)": 1700744.8,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "POET Monroe Plant",
+    "Sector": "Biofuels",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 75238.1,
+    "Total CO2e (mt CO2e)": 80338.9,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Lafarge Geismar Works",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 352386.2,
+    "Total CO2e (mt CO2e)": 379875.9,
+    "Latitude": 30.2191,
+    "Longitude": -90.9923
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 392507.9,
+    "Total CO2e (mt CO2e)": 400358.1,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "LSU Utility Plant Port Allen Plant",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 682108.2,
+    "Total CO2e (mt CO2e)": 722280.5,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 159519.6,
+    "Total CO2e (mt CO2e)": 171829.1,
+    "Latitude": 30.2191,
+    "Longitude": -90.9923
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 138671.8,
+    "Total CO2e (mt CO2e)": 149194.6,
+    "Latitude": 30.2266,
+    "Longitude": -93.2174
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 139678.6,
+    "Total CO2e (mt CO2e)": 147928.8,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 150811.9,
+    "Total CO2e (mt CO2e)": 160573.8,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Sector": "Power",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 153000.8,
+    "Total CO2e (mt CO2e)": 163027.3,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Sector": "Petrochemical",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 158981.3,
+    "Total CO2e (mt CO2e)": 166796.4,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Sector": "CO? Transport & Storage",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 146177.1,
+    "Total CO2e (mt CO2e)": 151702.2,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Sector": "CO? Transport & Storage",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 147748.4,
+    "Total CO2e (mt CO2e)": 157697.4,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Sector": "CO? Transport & Storage",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 144920,
+    "Total CO2e (mt CO2e)": 148680,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Sector": "CO? Transport & Storage",
+    "Reporting Year": 2025,
+    "Total CO2 (mt)": 150005.4,
+    "Total CO2e (mt CO2e)": 156591.8,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  }
+]

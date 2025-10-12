@@ -1,0 +1,2882 @@
+[
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 3221.8,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 5676.9,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 7239,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 2650.7,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 2171.9,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 8814.1,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 7871.4,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 5345.6,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 5656.2,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 4318.2,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 5670.6,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Lafarge Baton Rouge Works",
+    "Sector": "Cement",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 12483.2,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 6614.3,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 10250.9,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 23542.1,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 23050.3,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 33184.5,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 24858.1,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 8656.6,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 10731.1,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 14732.9,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 17298.8,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 10059.4,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Sasol Port Allen Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 21122.8,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 3491.3,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 3623.3,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 1094.5,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 2862.8,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 1298.1,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 1385.3,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 1488.1,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 6709.1,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 3354.6,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 3384.9,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 1567.7,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Belle Chasse Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 5641.8,
+    "Latitude": 29.8508,
+    "Longitude": -89.9828
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 13395.4,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 7637.5,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 5271.9,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 4711,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 9583.9,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 3142.4,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 5904.4,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 8047.7,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 11554.9,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 2999,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 13157.3,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "WestRock Baton Rouge Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 6421.6,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 7551.5,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 18300,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 3778.3,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 4614.2,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 8307.6,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 4057,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 5577.4,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 14409.2,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 10875.5,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 12304.4,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 4136.6,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Graphic Packaging Westlake Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 8360.4,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 21606,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 57596.2,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 27915.9,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 43731.4,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 36602.2,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 21582.5,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 55048,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 40181.7,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 51320.8,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 30041.9,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 24839.5,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "CF Industries Chalmette Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 36143.7,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 35662.8,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 22372.6,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 51945.2,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 61790.4,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 22590.9,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 27845.6,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 27295.9,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 30920.8,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 57559.2,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 64515.4,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 24208.5,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "ExxonMobil Donaldsonville Complex",
+    "Sector": "Refining",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 58731,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 19789.4,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 34962.1,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 32083.6,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 46622.5,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 29424.8,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 33131.4,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 30974,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 24703.6,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 38148.6,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 46238.6,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 29296.3,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Phillips 66 Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 28956.6,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 33534.4,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 27731,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 8138.7,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 13318.6,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 24728.2,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 12277.8,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 6238.7,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 22672.9,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 35112.6,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 30763,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 36983.1,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Entergy Chalmette Plant",
+    "Sector": "Power",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 30671.2,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 3188.7,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 2288.5,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 4599.6,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 1304.3,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 6618.8,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 2473,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 3797.6,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 5666.3,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 4562.5,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 2454,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 2631.9,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Green Plains Baton Rouge Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 1028.9,
+    "Latitude": 30.4515,
+    "Longitude": -91.1871
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 17877.3,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 12477.7,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 8521.7,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 13733.4,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 15549.2,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 22836.7,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 10348.1,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 33413.1,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 9999.2,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 11581.2,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 19675.5,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Methanex St. James Site",
+    "Sector": "Petrochemical",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 21025.6,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 18177.9,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 41338.8,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 18649.3,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 23748.5,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 18769.7,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 44106.1,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 14139,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 34256.6,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 18805.9,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 34140,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 17824.3,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "CF Industries Shreveport Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 24364.8,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 2528.1,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 3326.8,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 4134.2,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 5237.3,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 3429,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 4338.8,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 1802,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 1796.2,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 2861.1,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 3936.4,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 2420.3,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Shreveport Utilities Westlake Utilities",
+    "Sector": "Public Sector",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 2122.8,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 31796.4,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 43967.5,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 17046.9,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 68134.4,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 37065.9,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 12884.4,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 23165.1,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 70978.3,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 27523.5,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 74792.6,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 72339.7,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Yara Donaldsonville Complex",
+    "Sector": "Fertilizer",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 61738.3,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 21024.5,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 38023.7,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 20994,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 18854.2,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 47078.4,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 27490.6,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 28409.1,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 25531.1,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 28176.9,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 35825.4,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 37348.3,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Marathon Bogalusa Complex",
+    "Sector": "Refining",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 44653,
+    "Latitude": 30.7902,
+    "Longitude": -89.8481
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 5626.2,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 2411.2,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 1257.7,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 6992.8,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 2986,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 6128.7,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 5317.4,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 10819.6,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 5047.5,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 3064.3,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 7661,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Georgia-Pacific Chalmette Mill",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 5057.3,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 32477.4,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 12309.1,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 13877.2,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 29486.4,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 26433.6,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 23015.6,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 27275.7,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 44363.5,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 42219.4,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 15375.5,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 38637.5,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "Shintech Chalmette Complex",
+    "Sector": "Petrochemical",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 27862.9,
+    "Latitude": 29.9427,
+    "Longitude": -89.9653
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 35939.7,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 61824.3,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 33975.8,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 27154.3,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 28864.7,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 44299.2,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 18647.2,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 24481.8,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 33629.6,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 60505.8,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 62215.9,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "ExxonMobil Monroe Complex",
+    "Sector": "Refining",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 19955.6,
+    "Latitude": 32.5093,
+    "Longitude": -92.1193
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 928.6,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 5431.9,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 2274,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 845.7,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 4118.9,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 511.2,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 2440.1,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 2595.7,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 1794,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 5349.5,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 1076.2,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "POET New Orleans Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 921.9,
+    "Latitude": 29.9511,
+    "Longitude": -90.0715
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 5409.5,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 6222.1,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 7308.2,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 12218.3,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 21427.6,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 7624,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 12011.8,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 16818.4,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 19505.3,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 18767.1,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 16332.2,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "Lafarge Gramercy Works",
+    "Sector": "Cement",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 14699.7,
+    "Latitude": 30.0563,
+    "Longitude": -90.6895
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 5060,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 1595.2,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 5404.3,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 2485.4,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 1322.3,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 5720.9,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 2396.7,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 898.8,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 1719.2,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 1790.3,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 5329.8,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "POET St. James Plant",
+    "Sector": "Biofuels",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 1714.1,
+    "Latitude": 30.017,
+    "Longitude": -90.791
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 5935.2,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 7807.4,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 11282.7,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 7766.6,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 12334.2,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 15305.4,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 9992.7,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 7751.5,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 6211.8,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 9479.9,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 7188.1,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "Georgia-Pacific Port Allen Works",
+    "Sector": "Pulp & Paper",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 2796.3,
+    "Latitude": 30.4524,
+    "Longitude": -91.2109
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 21609.5,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 8716.3,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 11244,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 7847.2,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 16615.8,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 14590.5,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 2585.9,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 9878,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 31292.8,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 13805.4,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 14737.7,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "NRG Plaquemine Station",
+    "Sector": "Power",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 2443.7,
+    "Latitude": 30.2891,
+    "Longitude": -91.234
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 6669.8,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 2904.9,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 3134,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 2064.7,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 954,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 1292.9,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 1239.1,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 3654.5,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 2484.7,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 1012.3,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 3237,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Renewable Energy Group Westlake Facility",
+    "Sector": "Biofuels",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 4905.1,
+    "Latitude": 30.2427,
+    "Longitude": -93.2507
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 4471.7,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 10567.4,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 6820.6,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 7856.9,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 16239.4,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 10677.2,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 11180.2,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 7336.5,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 7515.5,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 7847.1,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 12880.3,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Lafayette Plant",
+    "Sector": "Cement",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 2382.3,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 6918.5,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 8568.2,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 5374.2,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 10455.2,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 11007.4,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 3848.6,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 2977.6,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 3118.3,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 3665.5,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 7330.5,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 991.9,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "Buzzi Houma Works",
+    "Sector": "Cement",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 4904.3,
+    "Latitude": 29.5958,
+    "Longitude": -90.7195
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 22275.9,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 25351.3,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 16710.4,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 15808.3,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 15866.6,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 10568.7,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 27462.7,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 31818.7,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 22841.9,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 15089.8,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 17243.7,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "LSU Utility Plant Lafayette Station",
+    "Sector": "Power",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 4516,
+    "Latitude": 30.2241,
+    "Longitude": -92.0198
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 18655.6,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 23659.8,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 26407.5,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 26831.4,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 47088.5,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 28897.5,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 50246.7,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 31144.9,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 38600.4,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 15984.5,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 33480.1,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Complex",
+    "Sector": "Refining",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 19600,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 45065.8,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 32852,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 30263.9,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 19919,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 50938.1,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 55043.7,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 36863.6,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 25412.1,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 32514,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 38030.2,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 19064.7,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Marathon Shreveport Refinery",
+    "Sector": "Refining",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 12159.5,
+    "Latitude": 32.5252,
+    "Longitude": -93.7502
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2024-10",
+    "Injected CO2 (mt)": 15884,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2024-11",
+    "Injected CO2 (mt)": 13917.5,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2024-12",
+    "Injected CO2 (mt)": 11368,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-01",
+    "Injected CO2 (mt)": 5354,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-02",
+    "Injected CO2 (mt)": 11630.5,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-03",
+    "Injected CO2 (mt)": 4543.2,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-04",
+    "Injected CO2 (mt)": 15570.1,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-05",
+    "Injected CO2 (mt)": 13579.1,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-06",
+    "Injected CO2 (mt)": 4253.1,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-07",
+    "Injected CO2 (mt)": 7684.2,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-08",
+    "Injected CO2 (mt)": 11883.5,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  },
+  {
+    "Facility Name": "Lafarge Donaldsonville Plant",
+    "Sector": "Cement",
+    "Month": "2025-09",
+    "Injected CO2 (mt)": 11561.9,
+    "Latitude": 30.1016,
+    "Longitude": -90.9943
+  }
+]

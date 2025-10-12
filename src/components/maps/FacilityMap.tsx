@@ -32,11 +32,34 @@ const center = {
 
 export const FacilityMap: React.FC<FacilityMapProps> = ({ facilities, apiKey }) => {
   const [selectedFacility, setSelectedFacility] = React.useState<Facility | null>(null);
-  // Google Maps JS API loader
-  const { isLoaded: isMapsApiLoaded } = useJsApiLoader({
+  // Google Maps JS API loader with error handling
+  const { isLoaded: isMapsApiLoaded, loadError } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: apiKey,
   });
+
+  // Handle Google Maps API loading errors
+  if (loadError) {
+    console.error('❌ Google Maps API failed to load:', loadError);
+    return (
+      <div style={{
+        width: '100%',
+        height: '400px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#f3f4f6',
+        borderRadius: '8px',
+      }}>
+        <div style={{ textAlign: 'center', padding: '2rem' }}>
+          <h3 style={{ color: '#DC2626', marginBottom: '8px' }}>Map Loading Error</h3>
+          <p style={{ color: '#6B7280', fontSize: '14px' }}>
+            Unable to load Google Maps. Please check your API key and try again.
+          </p>
+        </div>
+      </div>
+    );
+  }
   const [map, setMap] = React.useState<google.maps.Map | null>(null);
   const [louisianaPolygons, setLouisianaPolygons] = React.useState<google.maps.LatLngLiteral[][]>([]);
   const [markersReady, setMarkersReady] = React.useState(false);
@@ -50,6 +73,11 @@ export const FacilityMap: React.FC<FacilityMapProps> = ({ facilities, apiKey }) 
       polygonsCount: louisianaPolygons.length,
       facilitiesCount: facilities.length
     });
+    
+    if (facilities.length > 0) {
+      console.log('📍 Sample facility data:', facilities[0]);
+      console.log(`📊 Total facilities to render: ${facilities.length}`);
+    }
   }, [isMapsApiLoaded, map, markersReady, louisianaPolygons.length, facilities.length]);
 
   // Enable markers after map and API are loaded
@@ -263,17 +291,21 @@ export const FacilityMap: React.FC<FacilityMapProps> = ({ facilities, apiKey }) 
         )}
 
         {/* Factory Markers - render ABOVE polygon */}
-        {markersReady && facilities.map((facility, idx) => {
-          if (idx === 0) {
-            console.log('🏭 Rendering markers:', {
-              count: facilities.length,
-              markersReady,
-              isMapsApiLoaded,
-              hasMap: !!map
-            });
+        {markersReady && (() => {
+          const validFacilities = facilities.filter(f => 
+            f.lat && f.lng && 
+            !isNaN(f.lat) && !isNaN(f.lng) &&
+            f.lat >= 28.0 && f.lat <= 33.0 && // Louisiana bounds roughly
+            f.lng >= -94.0 && f.lng <= -88.0
+          );
+          
+          if (validFacilities.length !== facilities.length) {
+            console.warn(`⚠️ Filtered out ${facilities.length - validFacilities.length} facilities with invalid coordinates`);
           }
-          console.log(`  📍 Marker ${idx}: ${facility.name} at [${facility.lat}, ${facility.lng}]`);
-          return (
+          
+          console.log(`🏭 Rendering ${validFacilities.length} markers`);
+          
+          return validFacilities.map((facility, idx) => (
             <Marker
               key={`facility-${facility.id}`}
               position={{ lat: facility.lat, lng: facility.lng }}
@@ -289,16 +321,19 @@ export const FacilityMap: React.FC<FacilityMapProps> = ({ facilities, apiKey }) 
               }}
               zIndex={10000}
               options={{
-                optimized: false,
+                optimized: true, // Better performance for many markers
               }}
               onLoad={() => {
-                if (idx === 0 || idx === facilities.length - 1) {
-                  console.log(`✓ Marker ${idx} (${facility.name}) loaded successfully`);
+                if (idx === 0) {
+                  console.log(`✓ First marker loaded: ${facility.name}`);
+                } else if (idx === validFacilities.length - 1) {
+                  console.log(`✓ Last marker loaded: ${facility.name}`);
+                  console.log(`✅ All ${validFacilities.length} markers loaded successfully`);
                 }
               }}
             />
-          );
-        })}
+          ));
+        })()}
 
         {selectedFacility && (
           <InfoWindow

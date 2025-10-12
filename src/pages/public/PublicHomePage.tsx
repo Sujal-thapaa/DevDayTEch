@@ -1,13 +1,61 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { MapPin, TrendingUp, Users, Briefcase } from 'lucide-react';
 import { Card } from '../../components/ui/Card';
 import { Badge } from '../../components/ui/Badge';
 import { FacilityMap } from '../../components/maps/FacilityMap';
 import { GOOGLE_MAPS_API_KEY } from '../../config/maps';
-import facilitiesData from '../../data/facilities.json';
+
+interface FacilityData {
+  "Facility Name": string;
+  "Sector": string;
+  "Reporting Year": number;
+  "Total CO2 (mt)": number;
+  "Total CO2e (mt CO2e)": number;
+  "Latitude": number;
+  "Longitude": number;
+}
 
 export const PublicHomePage: React.FC = () => {
-  const facilities = facilitiesData;
+  const [facilities, setFacilities] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Load facility data from public folder
+    fetch('/data/facility.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((data: FacilityData[]) => {
+        console.log(`📥 Received ${data.length} facilities from facility.json`);
+        
+        // Transform data to match FacilityMap expected structure
+        const transformedData = data.map((facility, index) => ({
+          id: `facility-${index}`,
+          name: facility["Facility Name"],
+          lat: facility.Latitude,
+          lng: facility.Longitude,
+          type: facility.Sector,
+          emissions: Math.round(facility["Total CO2e (mt CO2e)"]),
+          unit: "mt CO2e",
+          year: facility["Reporting Year"],
+          status: facility.Sector.includes("Transport & Storage") ? "active" : "monitored"
+        }));
+        
+        console.log(`✅ Transformed ${transformedData.length} facilities for map`);
+        console.log('📍 First facility:', transformedData[0]);
+        console.log('📍 Last facility:', transformedData[transformedData.length - 1]);
+        
+        setFacilities(transformedData);
+        setIsLoading(false);
+      })
+      .catch(error => {
+        console.error('❌ Error loading facility data:', error);
+        setIsLoading(false);
+      });
+  }, []);
 
   return (
     <div 
@@ -38,7 +86,9 @@ export const PublicHomePage: React.FC = () => {
           <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
             <MapPin className="text-green-600" size={24} />
           </div>
-          <div className="text-3xl font-bold text-gray-900 mb-1">3</div>
+          <div className="text-3xl font-bold text-gray-900 mb-1">
+            {isLoading ? '...' : facilities.filter(f => f.status === 'active').length}
+          </div>
           <div className="text-sm text-gray-600">Active Facilities</div>
         </Card>
 
@@ -77,10 +127,21 @@ export const PublicHomePage: React.FC = () => {
             </div>
           </div>
         </div>
-        <FacilityMap facilities={facilities} apiKey={GOOGLE_MAPS_API_KEY} />
-        <p className="text-sm text-gray-600 mt-4">
-          Interactive map showing {facilities.length} facilities across Louisiana. Click on markers for detailed information including facility type, emissions data, and location coordinates. Hover over the state to see it highlight.
-        </p>
+        {isLoading ? (
+          <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#174B7A] mx-auto mb-4"></div>
+              <p className="text-gray-600">Loading facility data...</p>
+            </div>
+          </div>
+        ) : (
+          <>
+            <FacilityMap facilities={facilities} apiKey={GOOGLE_MAPS_API_KEY} />
+            <p className="text-sm text-gray-600 mt-4">
+              Interactive map showing {facilities.length} facilities across Louisiana. Click on markers for detailed information including facility type, emissions data, and location coordinates. Hover over the state to see it highlight.
+            </p>
+          </>
+        )}
       </Card>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
