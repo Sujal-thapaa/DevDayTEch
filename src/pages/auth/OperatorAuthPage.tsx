@@ -49,11 +49,15 @@ export const OperatorAuthPage: React.FC<OperatorAuthPageProps> = ({ onLogin, onB
 
         {/* Form Container */}
         <div className="bg-black/30 backdrop-blur-md rounded-2xl p-8 border border-white/20">
-          {/* Logo/Title */}
+          {/* Logo */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-white mb-2">
-              CO₂Track LA
-            </h1>
+            <div className="mb-4 flex justify-center">
+              <img 
+                src="/image/CarbonHorizon.png" 
+                alt="CarbonHorizon" 
+                className="h-20 w-auto"
+              />
+            </div>
             <p className="text-white/90 text-lg">
               {isSignup ? 'Create Operator Account' : 'Operator Login'}
             </p>

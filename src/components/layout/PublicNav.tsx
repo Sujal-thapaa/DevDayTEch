@@ -24,13 +24,14 @@ export const PublicNav: React.FC<PublicNavProps> = ({ currentPage, onNavigate, o
       </div>
       <nav className="bg-white border-b border-gray-200 py-4 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-[#174B7A] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">CO₂</span>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-900">CO₂Track LA</h1>
-              <p className="text-xs text-gray-600">Public Portal</p>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/image/CarbonHorizon.png" 
+              alt="CarbonHorizon" 
+              className="h-20 w-auto"
+            />
+            <div className="border-l border-gray-300 pl-3">
+              <p className="text-xs text-gray-600 font-medium">Public Portal</p>
             </div>
           </div>
           <div className="flex gap-6 items-center">

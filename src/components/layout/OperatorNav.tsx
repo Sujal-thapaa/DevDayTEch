@@ -34,8 +34,12 @@ export const OperatorNav: React.FC<OperatorNavProps> = ({
   return (
     <nav className="w-64 bg-[#174B7A] h-screen fixed left-0 top-0 text-white flex flex-col">
       <div className="p-6 border-b border-white/10">
-        <h1 className="text-xl font-bold">CO₂Track LA</h1>
-        <p className="text-sm text-white/70 mt-1">Operator Portal</p>
+        <img 
+          src="/image/CarbonHorizon.png" 
+          alt="CarbonHorizon" 
+          className="h-20 w-auto mb-3"
+        />
+        <p className="text-sm text-white/70">Operator Portal</p>
       </div>
 
       <div className="flex-1 overflow-y-auto py-4">

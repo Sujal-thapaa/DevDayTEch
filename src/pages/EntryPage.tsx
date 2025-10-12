@@ -16,10 +16,14 @@ export const EntryPage: React.FC<EntryPageProps> = ({ onSelectPublic, onSelectOp
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-md px-6 animate-fade-in">
-        {/* Logo/Title */}
-        <h1 className="text-6xl font-bold text-white mb-4 tracking-tight">
-          CO₂Track LA
-        </h1>
+        {/* Logo */}
+        <div className="mb-6 flex justify-center">
+          <img 
+            src="/image/CarbonHorizon.png" 
+            alt="CarbonHorizon" 
+            className="h-64 w-auto"
+          />
+        </div>
         
         {/* Subtitle */}
         <p className="text-xl text-white mb-12 font-normal">
