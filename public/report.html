@@ -1,0 +1,2074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO₂ Operations & Compliance Report - Q4 2025</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        @media print {
+            @page {
+                margin: 0.75in;
+                size: letter;
+            }
+            body {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+            .no-break {
+                page-break-inside: avoid;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            color: #000;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 3px solid #000;
+        }
+
+        .logo-section {
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            color: #000;
+            font-size: 22px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: #333;
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .doc-number {
+            font-size: 11px;
+            color: #000;
+            margin-top: 10px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .executive-summary {
+            background: #f5f5f5;
+            padding: 20px;
+            border: 2px solid #000;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #000;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #000;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            color: #000;
+            font-size: 14px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            clear: both;
+        }
+
+        h4 {
+            color: #000;
+            font-size: 12px;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .metric-box {
+            background: #fff;
+            border: 1px solid #000;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            padding-bottom: 5px;
+            border-bottom: 1px dotted #666;
+        }
+
+        .metric-label {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .metric-value {
+            color: #000;
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+        }
+
+        .alert-box {
+            padding: 15px;
+            margin: 10px 0;
+            border: 2px solid #000;
+        }
+
+        .alert-high {
+            background: #e8e8e8;
+        }
+
+        .alert-medium {
+            background: #f5f5f5;
+        }
+
+        .alert-low {
+            background: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 11px;
+            border: 2px solid #000;
+        }
+
+        th {
+            background: #000;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #000;
+        }
+
+        td {
+            padding: 8px 10px;
+            border: 1px solid #000;
+        }
+
+        tr:nth-child(even) {
+            background: #f5f5f5;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #000;
+            text-align: center;
+            font-size: 10px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border: 1px solid #000;
+            font-size: 10px;
+            font-weight: bold;
+            margin-left: 5px;
+            font-family: 'Courier New', monospace;
+        }
+
+        strong {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .chart-container {
+            position: relative;
+            margin: 35px 0;
+            padding: 25px;
+            background: #fff;
+            border: 2px solid #000;
+            page-break-inside: avoid;
+            clear: both;
+            min-height: 400px;
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 600px;
+            width: 100%;
+            margin: 20px auto;
+            padding: 15px 0;
+        }
+
+        .chart-wrapper-small {
+            position: relative;
+            height: 280px;
+            width: 100%;
+            margin: 10px auto;
+        }
+
+        canvas {
+            max-width: 100%;
+            height: auto !important;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .chart-container h4 {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+            font-size: 13px;
+        }
+
+        .chart-container p {
+            margin-top: 20px;
+            padding-top: 10px;
+            clear: both;
+        }
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .kpi-card {
+            background: #000;
+            color: #fff;
+            padding: 15px;
+            border: 2px solid #000;
+            text-align: center;
+        }
+
+        .kpi-value {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 5px 0;
+            font-family: 'Courier New', monospace;
+        }
+
+        .kpi-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .classification {
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            border: 3px double #000;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .signature-block {
+            margin-top: 40px;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+
+        .signature-line {
+            border-bottom: 1px solid #000;
+            width: 300px;
+            margin: 20px 0 5px 0;
+        }
+
+        .watermark {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            font-size: 120px;
+            color: rgba(0, 0, 0, 0.05);
+            font-weight: bold;
+            z-index: -1;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+            <div class="watermark">CONFIDENTIAL</div>
+
+    <div class="header">
+        <div class="logo-section">CARBON CAPTURE SOLUTIONS LLC</div>
+        <div class="logo-section">Operations & Compliance Division</div>
+        <h1>CO₂ Operations & Compliance Report</h1>
+        <div class="subtitle">Reporting Period: Fourth Quarter 2025 (October)</div>
+        <div class="doc-number">Document ID: CCS-OPS-2025-Q4-001 | Classification: CONFIDENTIAL - INTERNAL USE ONLY</div>
+    </div>
+
+    <div class="classification">
+        CONFIDENTIAL - PROPRIETARY INFORMATION
+    </div>
+
+    <div class="executive-summary no-break">
+        <h3 style="margin-top: 0;">EXECUTIVE SUMMARY</h3>
+        <p>This comprehensive report provides an overview of carbon capture, storage, and utilization operations across all facilities for the current reporting period. The report encompasses real-time performance metrics, predictive analytics, compliance status, and incident management activities covering ten (10) major facilities with a total operational capacity of 5.1 million metric tons per annum. Operations are conducted in accordance with 40 CFR Part 146 (Underground Injection Control), IRS Section 45Q (Carbon Sequestration Tax Credit), and LAC 33:III (Louisiana Environmental Quality Standards).</p>
+        <p><strong>KEY FINDINGS:</strong> Monthly capture performance exceeds baseline targets by 8.4%. Compliance rating maintains excellent status at 94.7%. Three (3) high-priority operational issues require immediate attention, including critical storage capacity constraints at Site-B facility.</p>
+    </div>
+
+    <!-- KPI Dashboard -->
+    <div class="kpi-grid no-break">
+        <div class="kpi-card">
+            <div class="kpi-label">Total Captured (MTD)</div>
+            <div class="kpi-value">24,956</div>
+            <div class="kpi-label">tCO₂ (+8.4%)</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-label">Total Injected (MTD)</div>
+            <div class="kpi-value">23,782</div>
+            <div class="kpi-label">tCO₂ (+7.9%)</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-label">Total Utilized (MTD)</div>
+            <div class="kpi-value">6,250</div>
+            <div class="kpi-label">tCO₂ (+15.2%)</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-label">Compliance Rating</div>
+            <div class="kpi-value">94.7%</div>
+            <div class="kpi-label">Excellent Status</div>
+        </div>
+    </div>
+
+    <h2>SECTION 1: DAILY OPERATIONS PERFORMANCE</h2>
+
+    <h3>1.1 Current Day Operational Metrics</h3>
+
+    <div class="grid-2">
+        <div class="metric-box">
+            <h4>CO₂ Capture Performance</h4>
+            <div class="metric-row">
+                <span class="metric-label">Total CO₂ Captured:</span>
+                <span class="metric-value">1,247.8 tCO₂</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Performance Change:</span>
+                <span class="metric-value">+5.2% vs previous</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Capture Efficiency:</span>
+                <span class="metric-value">96.8%</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Operating Hours:</span>
+                <span class="metric-value">23.5 hrs</span>
+            </div>
+        </div>
+
+        <div class="metric-box">
+            <h4>CO₂ Injection Activities</h4>
+            <div class="metric-row">
+                <span class="metric-label">Total CO₂ Injected:</span>
+                <span class="metric-value">1,189.3 tCO₂</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Performance Change:</span>
+                <span class="metric-value">+4.8% vs previous</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Injection Efficiency:</span>
+                <span class="metric-value">95.3%</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Active Wells:</span>
+                <span class="metric-value">12 wells</span>
+            </div>
+        </div>
+
+        <div class="metric-box">
+            <h4>CO₂ Utilization</h4>
+            <div class="metric-row">
+                <span class="metric-label">Total CO₂ Utilized:</span>
+                <span class="metric-value">312.5 tCO₂</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Performance Change:</span>
+                <span class="metric-value">+12.3% vs previous</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Revenue Generated:</span>
+                <span class="metric-value">$156,250.00</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Utilization Rate:</span>
+                <span class="metric-value">25.0%</span>
+            </div>
+        </div>
+
+        <div class="metric-box">
+            <h4>CO₂ Transportation</h4>
+            <div class="metric-row">
+                <span class="metric-label">Total CO₂ Shipped:</span>
+                <span class="metric-value">156.7 tCO₂</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Performance Change:</span>
+                <span class="metric-value">-2.1% vs previous</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Pipeline Volume:</span>
+                <span class="metric-value">142.3 tCO₂</span>
+            </div>
+            <div class="metric-row">
+                <span class="metric-label">Truck Transport:</span>
+                <span class="metric-value">14.4 tCO₂</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- CO2 Flow Distribution Pie Chart -->
+    <div class="chart-container no-break">
+        <h4>FIGURE 1: CO₂ Flow Distribution (Month-to-Date)</h4>
+        <div class="chart-wrapper-small">
+            <canvas id="flowDistributionChart"></canvas>
+        </div>
+        <p style="font-size: 10px; text-align: center; margin-top: 10px;"><em>Source: Integrated Monitoring System | Data as of October 12, 2025</em></p>
+    </div>
+
+    <h3>1.2 Month-to-Date Performance Summary</h3>
+
+    <div class="metric-box">
+        <p><strong>SUMMARY:</strong> Month-to-date operations demonstrate strong positive trends across all primary metrics with total throughput of 58,122 metric tons CO₂. All facilities report operational status within acceptable parameters. Performance improvements attributed to enhanced monitoring systems and optimized injection protocols implemented Q3 2025.</p>
+        <div class="metric-row">
+            <span class="metric-label">Total Captured:</span>
+            <span class="metric-value">24,956 tCO₂ (+8.4% MTD)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Injected:</span>
+            <span class="metric-value">23,782 tCO₂ (+7.9% MTD)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Utilized:</span>
+            <span class="metric-value">6,250 tCO₂ (+15.2% MTD)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Shipped:</span>
+            <span class="metric-value">3,134 tCO₂ (+3.4% MTD)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Revenue (MTD):</span>
+            <span class="metric-value">$3,125,000.00</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Operating Days:</span>
+            <span class="metric-value">12 days</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Average Daily Capture:</span>
+            <span class="metric-value">2,079.7 tCO₂/day</span>
+        </div>
+    </div>
+
+    <!-- Monthly Performance Bar Chart -->
+    <div class="chart-container no-break">
+        <h4>FIGURE 2: Monthly Performance Trends (Six-Month Comparison)</h4>
+        <div class="chart-wrapper">
+            <canvas id="monthlyPerformanceChart"></canvas>
+        </div>
+        <p style="font-size: 10px; text-align: center; margin-top: 10px;"><em>Source: Monthly Operations Database | May 2025 - October 2025</em></p>
+    </div>
+
+    <h4>Mass Balance Analysis</h4>
+    <div class="metric-box">
+        <div class="metric-row">
+            <span class="metric-label">Input Volume (Captured):</span>
+            <span class="metric-value">24,956.0 tCO₂</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Output Volume (Total):</span>
+            <span class="metric-value">24,897.5 tCO₂</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Variance:</span>
+            <span class="metric-value">58.5 tCO₂</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Variance Percentage:</span>
+            <span class="metric-value">0.23%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Acceptable Range:</span>
+            <span class="metric-value">±2.00%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Status:</span>
+            <span class="metric-value">WITHIN TOLERANCE</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Measurement Accuracy:</span>
+            <span class="metric-value">99.77%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Calibration Status:</span>
+            <span class="metric-value">CURRENT</span>
+        </div>
+    </div>
+
+    <h3>1.3 Facility Performance Breakdown</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Facility ID</th>
+                <th>Facility Name</th>
+                <th>Captured (tCO₂)</th>
+                <th>Injected (tCO₂)</th>
+                <th>Efficiency (%)</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FAC-001</td>
+                <td>Geismar Ammonia</td>
+                <td>4,891</td>
+                <td>4,756</td>
+                <td>97.2%</td>
+                <td><span class="badge">OPTIMAL</span></td>
+            </tr>
+            <tr>
+                <td>FAC-002</td>
+                <td>Lake Charles CCS Hub</td>
+                <td>6,234</td>
+                <td>5,945</td>
+                <td>95.4%</td>
+                <td><span class="badge">OPTIMAL</span></td>
+            </tr>
+            <tr>
+                <td>FAC-003</td>
+                <td>Port Allen Ethanol</td>
+                <td>3,567</td>
+                <td>3,421</td>
+                <td>95.9%</td>
+                <td><span class="badge">OPTIMAL</span></td>
+            </tr>
+            <tr>
+                <td>FAC-004</td>
+                <td>St. James Industrial</td>
+                <td>2,998</td>
+                <td>2,834</td>
+                <td>94.5%</td>
+                <td><span class="badge">MONITOR</span></td>
+            </tr>
+            <tr>
+                <td>FAC-005</td>
+                <td>Bayou Energy Site</td>
+                <td>2,145</td>
+                <td>2,067</td>
+                <td>96.4%</td>
+                <td><span class="badge">OPTIMAL</span></td>
+            </tr>
+            <tr>
+                <td>FAC-006</td>
+                <td>Baton Rouge Refinery</td>
+                <td>1,876</td>
+                <td>1,789</td>
+                <td>95.4%</td>
+                <td><span class="badge">OPTIMAL</span></td>
+            </tr>
+            <tr>
+                <td>FAC-007</td>
+                <td>Plaquemine CO₂ Center</td>
+                <td>1,456</td>
+                <td>1,398</td>
+                <td>96.0%</td>
+                <td><span class="badge">OPTIMAL</span></td>
+            </tr>
+            <tr>
+                <td>FAC-008</td>
+                <td>Gulf South Terminal</td>
+                <td>987</td>
+                <td>945</td>
+                <td>95.7%</td>
+                <td><span class="badge">OPTIMAL</span></td>
+            </tr>
+            <tr>
+                <td>FAC-009</td>
+                <td>Denbury Onshore LLC</td>
+                <td>534</td>
+                <td>512</td>
+                <td>95.9%</td>
+                <td><span class="badge">OPTIMAL</span></td>
+            </tr>
+            <tr style="background: #d8d8d8;">
+                <td>FAC-010</td>
+                <td>Riverfront Gathering</td>
+                <td>268</td>
+                <td>115</td>
+                <td>42.9%</td>
+                <td><span class="badge">CRITICAL</span></td>
+            </tr>
+            <tr style="font-weight: bold;">
+                <td colspan="2">TOTAL ALL FACILITIES</td>
+                <td>24,956</td>
+                <td>23,782</td>
+                <td>95.3%</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="page-break"></div>
+
+    <h2>SECTION 2: COMPLIANCE & REGULATORY STATUS</h2>
+
+    <h3>2.1 Overall Compliance Rating</h3>
+    <div class="metric-box">
+        <div class="metric-row">
+            <span class="metric-label">Current Status:</span>
+            <span class="metric-value">EXCELLENT (94.7%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Compliance Checks:</span>
+            <span class="metric-value">342 checks</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Passed Checks:</span>
+            <span class="metric-value">324 (94.7%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Non-Compliance Issues:</span>
+            <span class="metric-value">18 (5.3%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Issues Resolved:</span>
+            <span class="metric-value">15 of 18 (83.3%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Issues Open:</span>
+            <span class="metric-value">3 (16.7%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Average Resolution Time:</span>
+            <span class="metric-value">4.2 days</span>
+        </div>
+        <p style="margin-top: 15px;"><strong>ASSESSMENT:</strong> The organization maintains strong regulatory compliance across all monitored parameters. All major regulatory requirements are currently met or exceeded. Three (3) open issues are classified as low-priority administrative matters with no operational impact.</p>
+    </div>
+
+    <h3>2.2 Federal and State Regulatory Requirements Status</h3>
+
+    <table class="no-break">
+        <thead>
+            <tr>
+                <th>Requirement</th>
+                <th>Regulation</th>
+                <th>Frequency</th>
+                <th>Last Submission</th>
+                <th>Next Due</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>EPA Class VI Well Monitoring</strong></td>
+                <td>40 CFR Part 146</td>
+                <td>Quarterly</td>
+                <td>Sep 28, 2025</td>
+                <td>Dec 31, 2025</td>
+                <td><span class="badge">COMPLIANT</span></td>
+            </tr>
+            <tr>
+                <td><strong>45Q Tax Credit Documentation</strong></td>
+                <td>IRS Section 45Q</td>
+                <td>Annual</td>
+                <td>Jan 31, 2025</td>
+                <td>Jan 31, 2026</td>
+                <td><span class="badge">COMPLIANT</span></td>
+            </tr>
+            <tr>
+                <td><strong>LDEQ Air Quality Reporting</strong></td>
+                <td>LAC 33:III.Ch.5</td>
+                <td>Annual</td>
+                <td>Nov 1, 2024</td>
+                <td>Nov 1, 2025</td>
+                <td><span class="badge">COMPLIANT</span></td>
+            </tr>
+            <tr>
+                <td><strong>EPA GHG Reporting</strong></td>
+                <td>40 CFR Part 98</td>
+                <td>Annual</td>
+                <td>Mar 31, 2025</td>
+                <td>Mar 31, 2026</td>
+                <td><span class="badge">COMPLIANT</span></td>
+            </tr>
+            <tr>
+                <td><strong>OSHA Process Safety Management</strong></td>
+                <td>29 CFR 1910.119</td>
+                <td>Ongoing</td>
+                <td>Sep 15, 2025</td>
+                <td>Continuous</td>
+                <td><span class="badge">COMPLIANT</span></td>
+            </tr>
+            <tr>
+                <td><strong>DOT Pipeline Safety</strong></td>
+                <td>49 CFR Part 195</td>
+                <td>Annual</td>
+                <td>Aug 12, 2025</td>
+                <td>Aug 12, 2026</td>
+                <td><span class="badge">COMPLIANT</span></td>
+            </tr>
+            <tr>
+                <td><strong>EPA Underground Injection Control</strong></td>
+                <td>40 CFR Part 144-148</td>
+                <td>Semi-Annual</td>
+                <td>Jun 30, 2025</td>
+                <td>Dec 31, 2025</td>
+                <td><span class="badge">COMPLIANT</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>2.3 Quarterly Compliance Report Status</h3>
+
+    <div class="metric-box">
+        <h4>Q3 2025 Compliance Report (July 1 - September 30, 2025)</h4>
+        <div class="metric-row">
+            <span class="metric-label">Report ID:</span>
+            <span class="metric-value">DOE-CCS-Q3-2025-CR</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Status:</span>
+            <span class="metric-value">DRAFT (87% Complete)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Pages:</span>
+            <span class="metric-value">284 pages</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Data Points Collected:</span>
+            <span class="metric-value">12,847</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Tables/Figures:</span>
+            <span class="metric-value">67 tables, 42 figures</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Sections Complete:</span>
+            <span class="metric-value">14 of 16</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Outstanding Items:</span>
+            <span class="metric-value">3 sections pending</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Target Completion:</span>
+            <span class="metric-value">October 15, 2025</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Submission Deadline:</span>
+            <span class="metric-value">October 31, 2025</span>
+        </div>
+    </div>
+
+    <div class="metric-box">
+        <h4>Q2 2025 Compliance Report (April 1 - June 30, 2025)</h4>
+        <div class="metric-row">
+            <span class="metric-label">Report ID:</span>
+            <span class="metric-value">DOE-CCS-Q2-2025-CR</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Status:</span>
+            <span class="metric-value">SUBMITTED (100% Complete)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Submission Date:</span>
+            <span class="metric-value">July 28, 2025</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total CO₂ Captured:</span>
+            <span class="metric-value">68,234 tCO₂</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total CO₂ Sequestered:</span>
+            <span class="metric-value">64,987 tCO₂</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Sequestration Rate:</span>
+            <span class="metric-value">95.2%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Non-Compliance Issues:</span>
+            <span class="metric-value">0 (Zero)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">EPA Approval Date:</span>
+            <span class="metric-value">August 15, 2025</span>
+        </div>
+    </div>
+
+    <div class="metric-box">
+        <h4>Q1 2025 Compliance Report (January 1 - March 31, 2025)</h4>
+        <div class="metric-row">
+            <span class="metric-label">Report ID:</span>
+            <span class="metric-value">DOE-CCS-Q1-2025-CR</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Status:</span>
+            <span class="metric-value">APPROVED (100% Complete)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Submission Date:</span>
+            <span class="metric-value">April 25, 2025</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total CO₂ Captured:</span>
+            <span class="metric-value">61,456 tCO₂</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total CO₂ Sequestered:</span>
+            <span class="metric-value">58,923 tCO₂</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Sequestration Rate:</span>
+            <span class="metric-value">95.9%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Non-Compliance Issues:</span>
+            <span class="metric-value">0 (Zero)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">EPA Approval Date:</span>
+            <span class="metric-value">May 18, 2025</span>
+        </div>
+    </div>
+
+    <h3>2.4 Pending Compliance Tasks and Action Items</h3>
+
+    <div class="alert-box alert-high">
+        <strong>TASK 1: Review Q3 2025 Compliance Report</strong><br>
+        <strong>Priority:</strong> HIGH<br>
+        <strong>Due Date:</strong> October 15, 2025<br>
+        <strong>Status:</strong> In Progress (87% Complete)<br>
+        <strong>Assigned To:</strong> Compliance Team (8 members)<br>
+        <strong>Team Lead:</strong> Chief Compliance Officer<br>
+        <strong>Estimated Hours Remaining:</strong> 24 hours<br>
+        <strong>Outstanding Sections:</strong> Section 14 (Financial Summary), Section 15 (Future Projections)<br>
+        <strong>Action Required:</strong> Final technical review, data verification, and executive approval required before October 15, 2025 deadline.
+    </div>
+
+    <div class="alert-box alert-medium">
+        <strong>TASK 2: Validate Port Allen Meter Calibration</strong><br>
+        <strong>Priority:</strong> MEDIUM<br>
+        <strong>Due Date:</strong> October 18, 2025<br>
+        <strong>Facility:</strong> Port Allen Ethanol (FAC-003)<br>
+        <strong>Equipment IDs:</strong> Flow Meters FM-301, FM-302, FM-303<br>
+        <strong>Last Calibration:</strong> July 15, 2025 (89 days ago)<br>
+        <strong>Calibration Frequency:</strong> 120 days<br>
+        <strong>Vendor:</strong> Emerson Process Management<br>
+        <strong>Estimated Cost:</strong> $4,500.00<br>
+        <strong>Action Required:</strong> Schedule on-site calibration verification. Coordinate with facility operations to minimize downtime.
+    </div>
+
+    <div class="alert-box alert-low">
+        <strong>TASK 3: Schedule Pipeline Integrity Test</strong><br>
+        <strong>Priority:</strong> LOW<br>
+        <strong>Due Date:</strong> October 25, 2025<br>
+        <strong>Pipeline Segments:</strong> 12 segments<br>
+        <strong>Total Length:</strong> 48.7 miles<br>
+        <strong>Test Type:</strong> Hydrostatic Pressure Test (per 49 CFR 195.406)<br>
+        <strong>Test Pressure:</strong> 1.5x Maximum Allowable Operating Pressure (MAOP)<br>
+        <strong>Last Test Date:</strong> October 2024<br>
+        <strong>Estimated Duration:</strong> 5 days<br>
+        <strong>Estimated Cost:</strong> $87,000.00<br>
+        <strong>Action Required:</strong> Finalize testing schedule with contractor. Obtain necessary permits from PHMSA.
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>SECTION 3: OPERATIONAL ALERTS & NOTIFICATIONS</h2>
+
+    <h3>3.1 High Priority Operational Alerts</h3>
+
+    <div class="alert-box alert-high no-break">
+        <strong>ALERT ID: OPS-2025-1010-001</strong><br>
+        <strong>Title:</strong> St. James Injection Pressure Anomaly<br>
+        <strong>Date/Time:</strong> October 10, 2025 at 14:32:17 UTC<br>
+        <strong>Severity:</strong> HIGH<br>
+        <strong>Location:</strong> St. James Industrial facility (FAC-004) - Injection Well IW-07<br>
+        <strong>Issue Description:</strong> Injection pressure anomaly detected during routine operations. Pressure surge recorded from 2,850 psi to 3,420 psi over 47-minute period.<br>
+        <strong>Current Status:</strong> Under Investigation<br>
+        <strong>Current Pressure Reading:</strong> 3,185 psi<br>
+        <strong>Target Operating Pressure:</strong> 2,900 psi (±150 psi)<br>
+        <strong>Pressure Deviation:</strong> +285 psi (9.8% above target)<br>
+        <strong>Affected Flow Rate:</strong> Reduced from 125 tCO₂/day to 87 tCO₂/day (-30.4%)<br>
+        <strong>Estimated Monthly Impact:</strong> Loss of 456 tCO₂ injection capacity<br>
+        <strong>Financial Impact:</strong> Estimated $22,800/month revenue loss<br>
+        <strong>Investigating Team:</strong> Operations Engineering, Reservoir Management<br>
+        <strong>Root Cause Analysis Status:</strong> 65% Complete<br>
+        <strong>Preliminary Findings:</strong> Possible formation pressure buildup in injection zone. Geomechanical evaluation scheduled.<br>
+        <strong>Corrective Actions Planned:</strong> (1) Reduce injection rate to 75 tCO₂/day, (2) Conduct pressure falloff test, (3) Evaluate alternative injection intervals<br>
+        <strong>Expected Resolution:</strong> October 20, 2025
+    </div>
+
+    <h3>3.2 Medium Priority Operational Alerts</h3>
+
+    <div class="alert-box alert-medium no-break">
+        <strong>ALERT ID: COMP-2025-1010-002</strong><br>
+        <strong>Title:</strong> 45Q Tax Credit Quarterly Filing Reminder<br>
+        <strong>Date:</strong> October 10, 2025 at 09:00:00 UTC<br>
+        <strong>Severity:</strong> MEDIUM<br>
+        <strong>Notice:</strong> Quarterly 45Q tax credit filing due in five (5) business days<br>
+        <strong>Filing Deadline:</strong> October 15, 2025 (23:59 UTC)<br>
+        <strong>Reporting Period:</strong> Q3 2025 (July 1 - September 30, 2025)<br>
+        <strong>Total CO₂ Captured (Q3):</strong> 129,750 tCO₂<br>
+        <strong>Total CO₂ Sequestered (Q3):</strong> 123,678 tCO₂<br>
+        <strong>Estimated Credit Value:</strong> $6,487,500.00 (at $50/ton rate)<br>
+        <strong>Documentation Status:</strong> 94% Complete<br>
+        <strong>Outstanding Items:</strong> (1) Third-party verification report, (2) Executive certification<br>
+        <strong>Assigned To:</strong> Tax Compliance Department<br>
+        <strong>Action Required:</strong> Obtain third-party verification signature and submit Form 8933 to IRS by deadline
+    </div>
+
+    <div class="alert-box alert-medium no-break">
+        <strong>ALERT ID: OPS-2025-1008-003</strong><br>
+        <strong>Title:</strong> Lake Charles CCS Hub - Compressor Maintenance Due<br>
+        <strong>Date:</strong> October 8, 2025<br>
+        <strong>Severity:</strong> MEDIUM<br>
+        <strong>Location:</strong> Lake Charles CCS Hub (FAC-002)<br>
+        <strong>Equipment:</strong> Primary CO₂ Compressor Unit C-101<br>
+        <strong>Equipment Hours:</strong> 8,742 operating hours<br>
+        <strong>Maintenance Interval:</strong> 9,000 hours<br>
+        <strong>Hours Until Due:</strong> 258 hours (10.75 days)<br>
+        <strong>Maintenance Type:</strong> Level 3 Inspection (per API 618)<br>
+        <strong>Estimated Downtime:</strong> 72 hours<br>
+        <strong>Backup Compressor Status:</strong> Available (C-102)<br>
+        <strong>Operational Impact:</strong> Minimal - Redundant capacity available<br>
+        <strong>Action Required:</strong> Schedule maintenance during planned shutdown window October 19-22, 2025
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>SECTION 4: PREDICTIVE ANALYTICS & FORECASTING</h2>
+
+    <h3>4.1 Three-Month Emissions Forecast</h3>
+
+    <div class="metric-box">
+        <div class="metric-row">
+            <span class="metric-label">Forecast Period:</span>
+            <span class="metric-value">October - December 2025</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Predicted Total Emissions:</span>
+            <span class="metric-value">875,388 mt CO₂</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Forecast Methodology:</span>
+            <span class="metric-value">ARIMA Time Series Model</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Historical Data Range:</span>
+            <span class="metric-value">36 months (Oct 2022 - Sep 2025)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Coverage:</span>
+            <span class="metric-value">All 10 facilities</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Emissions Trend:</span>
+            <span class="metric-value">+0.3% increase per month</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Model Performance (R² Score):</span>
+            <span class="metric-value">0.071 (Fair Fit)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Confidence Interval:</span>
+            <span class="metric-value">95%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Prediction Range:</span>
+            <span class="metric-value">812,450 - 938,326 mt CO₂</span>
+        </div>
+    </div>
+
+    <h4>Risk Assessment Summary</h4>
+    <div class="metric-box">
+        <div class="metric-row">
+            <span class="metric-label">High-Risk Facilities:</span>
+            <span class="metric-value">3 facilities</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Risk Threshold:</span>
+            <span class="metric-value">50,000 mt CO₂/quarter</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Medium-Risk Facilities:</span>
+            <span class="metric-value">5 facilities</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Low-Risk Facilities:</span>
+            <span class="metric-value">2 facilities</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Assessment Status:</span>
+            <span class="metric-value">Enhanced Monitoring Required</span>
+        </div>
+    </div>
+
+    <!-- Emissions Forecast Chart -->
+    <div class="chart-container no-break">
+        <h4>FIGURE A: Emissions Forecast with Prediction & Confidence Intervals</h4>
+        <div class="chart-wrapper">
+            <canvas id="emissionsChart"></canvas>
+        </div>
+        <p style="font-size: 10px; text-align: center; margin-top: 10px;"><em>Source: ARIMA Time Series Model | Historical Data: May-Oct 2025 | Forecast: Nov 2025-Jan 2026</em></p>
+    </div>
+
+    <!-- Emission Source Chart -->
+    <div class="chart-container no-break">
+        <h4>FIGURE B: Emission Source Forecast by Category</h4>
+        <div class="chart-wrapper">
+            <canvas id="sourceChart"></canvas>
+        </div>
+        <p style="font-size: 10px; text-align: center; margin-top: 10px;"><em>Source: Emission Source Database | Current vs Predicted Emissions by Source Type</em></p>
+    </div>
+
+    <h3>4.2 Facility Risk Assessment (Top 10 Facilities)</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Facility ID</th>
+                <th>Facility Name</th>
+                <th>Risk Score</th>
+                <th>Risk Status</th>
+                <th>Emissions (mt)</th>
+                <th>Growth Rate</th>
+                <th>VRU Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>FAC-001</td>
+                <td>Geismar Ammonia</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>FAC-002</td>
+                <td>Lake Charles CCS Hub</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>FAC-003</td>
+                <td>Port Allen Ethanol</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>FAC-004</td>
+                <td>St. James Industrial</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>FAC-005</td>
+                <td>Bayou Energy Site</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>FAC-006</td>
+                <td>Baton Rouge Refinery</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>FAC-007</td>
+                <td>Plaquemine CO₂ Center</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>FAC-008</td>
+                <td>Gulf South Terminal</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>FAC-009</td>
+                <td>Denbury Onshore LLC</td>
+                <td>21.1</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Installed</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>FAC-010</td>
+                <td>Riverfront Gathering</td>
+                <td>21.0</td>
+                <td>Low Risk</td>
+                <td>0</td>
+                <td>0.0%</td>
+                <td>Not Installed</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="page-break"></div>
+
+    <h3>4.3 Storage Capacity Analysis and Projections</h3>
+
+    <div class="alert-box alert-high">
+        <strong>CRITICAL CAPACITY ALERT - SITE-B</strong><br>
+        <strong>Site ID:</strong> STOR-02<br>
+        <strong>Current Utilization:</strong> 92.0%<br>
+        <strong>Current Volume:</strong> 920,000 metric tons<br>
+        <strong>Maximum Capacity:</strong> 1,000,000 metric tons<br>
+        <strong>Available Capacity:</strong> 80,000 metric tons<br>
+        <strong>Fill Rate:</strong> 40,000 mt/month<br>
+        <strong>Days Until Full:</strong> 60 days<br>
+        <strong>Projected Full Date:</strong> December 11, 2025<br>
+        <strong>Risk Level:</strong> CRITICAL<br>
+        <strong>Action Required:</strong> Immediate capacity expansion planning or offtake rate increase required. Alternative storage site activation recommended.<br>
+        <strong>Financial Impact:</strong> Potential $2.0M/month revenue loss if injection operations suspended.
+    </div>
+
+    <h4>Storage Status Summary - All Sites</h4>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Site ID</th>
+                <th>Site Name</th>
+                <th>Utilization</th>
+                <th>Current Volume (mt)</th>
+                <th>Max Capacity (mt)</th>
+                <th>Fill Rate (mt/mo)</th>
+                <th>Months to Full</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>STOR-01</td>
+                <td>Site-A</td>
+                <td>75.0%</td>
+                <td>750,000</td>
+                <td>1,000,000</td>
+                <td>25,000</td>
+                <td>10.0</td>
+                <td>Normal</td>
+            </tr>
+            <tr style="background: #d8d8d8;">
+                <td>STOR-02</td>
+                <td><strong>Site-B</strong></td>
+                <td><strong>92.0%</strong></td>
+                <td><strong>920,000</strong></td>
+                <td><strong>1,000,000</strong></td>
+                <td><strong>40,000</strong></td>
+                <td><strong>2.0</strong></td>
+                <td><strong>CRITICAL</strong></td>
+            </tr>
+            <tr>
+                <td>STOR-03</td>
+                <td>Site-C</td>
+                <td>65.0%</td>
+                <td>650,000</td>
+                <td>1,000,000</td>
+                <td>30,000</td>
+                <td>11.7</td>
+                <td>Normal</td>
+            </tr>
+            <tr style="background: #e8e8e8;">
+                <td>STOR-04</td>
+                <td>Site-D</td>
+                <td>88.0%</td>
+                <td>880,000</td>
+                <td>1,000,000</td>
+                <td>35,000</td>
+                <td>3.4</td>
+                <td>Watch</td>
+            </tr>
+            <tr>
+                <td>STOR-05</td>
+                <td>Site-E</td>
+                <td>45.0%</td>
+                <td>450,000</td>
+                <td>1,000,000</td>
+                <td>20,000</td>
+                <td>27.5</td>
+                <td>Normal</td>
+            </tr>
+            <tr>
+                <td>STOR-06</td>
+                <td>Site-F</td>
+                <td>78.0%</td>
+                <td>780,000</td>
+                <td>1,000,000</td>
+                <td>28,000</td>
+                <td>7.9</td>
+                <td>Normal</td>
+            </tr>
+            <tr style="font-weight: bold;">
+                <td colspan="2">TOTAL</td>
+                <td>78.3%</td>
+                <td>4,430,000</td>
+                <td>6,000,000</td>
+                <td>178,000</td>
+                <td>8.8 avg</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Storage Capacity Chart -->
+    <div class="chart-container no-break">
+        <h4>FIGURE 3: Storage Capacity Utilization by Site</h4>
+        <div class="chart-wrapper-small">
+            <canvas id="storageChart"></canvas>
+        </div>
+        <p style="font-size: 10px; text-align: center; margin-top: 10px;"><em>Source: Storage Management System | Data as of October 12, 2025</em></p>
+    </div>
+
+    <h3>4.4 Equipment Leak Detection and Forecasting</h3>
+
+    <p><strong>ANALYSIS:</strong> Predicted leak rates for next month show concerning trends in valve components, requiring proactive maintenance scheduling. Leak Detection and Repair (LDAR) program data analyzed using predictive algorithms.</p>
+
+    <div class="metric-box">
+        <h4>Equipment Leak Forecast Summary</h4>
+        <div class="metric-row">
+            <span class="metric-label">Valves - Current Average:</span>
+            <span class="metric-value">2,145 mt CO₂/month</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Valves - Predicted Next Month:</span>
+            <span class="metric-value">2,252 mt CO₂/month (+5.0%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Valves - Status:</span>
+            <span class="metric-value">ATTENTION REQUIRED</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Flanges - Current/Predicted:</span>
+            <span class="metric-value">1,234 mt / 1,247 mt (+1.1%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Pumps - Current/Predicted:</span>
+            <span class="metric-value">876 mt / 893 mt (+1.9%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Compressors - Current/Predicted:</span>
+            <span class="metric-value">1,567 mt / 1,645 mt (+5.0%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Connectors - Current/Predicted:</span>
+            <span class="metric-value">543 mt / 549 mt (+1.1%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Estimated Leakage (Current):</span>
+            <span class="metric-value">6,365 mt CO₂/month</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Estimated Leakage (Predicted):</span>
+            <span class="metric-value">6,586 mt CO₂/month (+3.5%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Financial Impact of Leakage:</span>
+            <span class="metric-value">$318,250/month at $50/mt</span>
+        </div>
+    </div>
+
+    <!-- Equipment Leak Chart -->
+    <div class="chart-container no-break">
+        <h4>FIGURE 4: Equipment Leak Forecasting by Component Type</h4>
+        <div class="chart-wrapper-small">
+            <canvas id="equipmentLeakChart"></canvas>
+        </div>
+        <p style="font-size: 10px; text-align: center; margin-top: 10px;"><em>Source: LDAR Program Database | Predictive Model Accuracy: 87%</em></p>
+    </div>
+
+    <h3>4.5 Revenue Forecast from CO₂ Utilization</h3>
+
+    <div class="metric-box">
+        <div class="metric-row">
+            <span class="metric-label">Three-Month Predicted Revenue:</span>
+            <span class="metric-value">$13,361,538.00</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">October Projected Revenue:</span>
+            <span class="metric-value">$4,687,500.00</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">November Projected Revenue:</span>
+            <span class="metric-value">$4,425,000.00</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">December Projected Revenue:</span>
+            <span class="metric-value">$4,249,038.00</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Monthly Average (Historical 6mo):</span>
+            <span class="metric-value">$4,462,500.00</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Growth Rate (Trend):</span>
+            <span class="metric-value">-4.2% (declining)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Primary Revenue Source:</span>
+            <span class="metric-value">Enhanced Oil Recovery (EOR) - 78%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Secondary Revenue Source:</span>
+            <span class="metric-value">Industrial Applications - 22%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Average Price per Metric Ton:</span>
+            <span class="metric-value">$500.00/mt CO₂</span>
+        </div>
+    </div>
+
+    <!-- Revenue Forecast Chart -->
+    <div class="chart-container no-break">
+        <h4>FIGURE 5: Revenue Forecast from CO₂ Utilization (6-Month Historical + 3-Month Projection)</h4>
+        <div class="chart-wrapper">
+            <canvas id="revenueForecastChart"></canvas>
+        </div>
+        <p style="font-size: 10px; text-align: center; margin-top: 10px;"><em>Source: Financial Management System | Historical Data: May-Oct 2025 | Forecast: Nov 2025-Jan 2026</em></p>
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>SECTION 5: INCIDENT MANAGEMENT SUMMARY</h2>
+
+    <h3>5.1 Overall Incident Statistics</h3>
+
+    <div class="metric-box">
+        <div class="metric-row">
+            <span class="metric-label">Reporting Period:</span>
+            <span class="metric-value">September 1 - October 12, 2025</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Total Incidents Reported:</span>
+            <span class="metric-value">8</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">High Severity Incidents:</span>
+            <span class="metric-value">0 (Zero)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Medium Severity Incidents:</span>
+            <span class="metric-value">5</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Low Severity Incidents:</span>
+            <span class="metric-value">3</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Average Resolution Time:</span>
+            <span class="metric-value">2.4 days</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Incidents Resolved:</span>
+            <span class="metric-value">7 (87.5%)</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Incidents Pending:</span>
+            <span class="metric-value">1 (12.5%)</span>
+        </div>
+    </div>
+
+    <h3>5.2 Incident Breakdown by Type</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Incident Type</th>
+                <th>Count</th>
+                <th>Percentage</th>
+                <th>Avg. Resolution (days)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Equipment Malfunction</td>
+                <td>3</td>
+                <td>37.5%</td>
+                <td>1.8</td>
+            </tr>
+            <tr>
+                <td>Leak Detection</td>
+                <td>2</td>
+                <td>25.0%</td>
+                <td>3.5</td>
+            </tr>
+            <tr>
+                <td>Pressure Anomaly</td>
+                <td>2</td>
+                <td>25.0%</td>
+                <td>2.0</td>
+            </tr>
+            <tr>
+                <td>Safety System Alert</td>
+                <td>1</td>
+                <td>12.5%</td>
+                <td>1.5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>5.3 Root Cause Analysis Summary</h3>
+
+    <div class="text-section">
+        <p><strong>Primary Root Causes Identified:</strong></p>
+        <ul>
+            <li><strong>Aging Equipment (40%):</strong> Three incidents were directly attributed to equipment that exceeded its recommended service life. Replacement or refurbishment is scheduled for Q1 2026.</li>
+            <li><strong>Environmental Factors (25%):</strong> Two incidents were related to extreme weather conditions affecting outdoor equipment performance.</li>
+            <li><strong>Operational Procedures (20%):</strong> Minor deviations from standard operating procedures contributed to two incidents. Additional training has been implemented.</li>
+            <li><strong>External Factors (15%):</strong> One incident was caused by a third-party contractor error during maintenance activities.</li>
+        </ul>
+    </div>
+
+    <h3>5.4 Corrective Actions Taken</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Status</th>
+                <th>Completion Date</th>
+                <th>Impact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Replaced faulty pressure sensors at Site-B</td>
+                <td>Completed</td>
+                <td>September 15, 2025</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Enhanced LDAR monitoring frequency</td>
+                <td>Completed</td>
+                <td>September 22, 2025</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Updated emergency response procedures</td>
+                <td>Completed</td>
+                <td>October 5, 2025</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Contractor re-training program</td>
+                <td>In Progress</td>
+                <td>November 1, 2025</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Weather protection upgrades</td>
+                <td>Scheduled</td>
+                <td>December 15, 2025</td>
+                <td>Low</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="page-break"></div>
+
+    <h2>SECTION 6: RECOMMENDATIONS & ACTION PLAN</h2>
+
+    <h3>6.1 High-Priority Recommendations</h3>
+
+    <div class="recommendation-box">
+        <h4>RECOMMENDATION 1: FOCUS ON HIGH-RISK FACILITIES</h4>
+        <p><strong>Priority:</strong> High | <strong>Timeline:</strong> Immediate</p>
+        <p><strong>Description:</strong> Geismar Ammonia, Lake Charles Industrial, and Baton Rouge Processing have the highest risk scores (>70) based on emission growth rate, total volume, leakage loss, and equipment reliability. These facilities require immediate intervention to prevent compliance violations and reduce environmental impact.</p>
+        <p><strong>Recommended Actions:</strong></p>
+        <ul>
+            <li>Conduct comprehensive facility audits within 30 days</li>
+            <li>Implement enhanced monitoring protocols</li>
+            <li>Allocate emergency maintenance budget ($500K)</li>
+            <li>Deploy additional technical resources</li>
+        </ul>
+        <p><strong>Expected Impact:</strong> 15-20% reduction in high-risk facility emissions | ROI: $2.5M annually</p>
+    </div>
+
+    <div class="recommendation-box">
+        <h4>RECOMMENDATION 2: EQUIPMENT LEAK MITIGATION PROGRAM</h4>
+        <p><strong>Priority:</strong> High | <strong>Timeline:</strong> 60 days</p>
+        <p><strong>Description:</strong> Compressors and pumps show a 5% predicted increase in leak rates. Proactive maintenance and replacement programs will prevent escalation and reduce financial losses from leakage (currently $318K/month).</p>
+        <p><strong>Recommended Actions:</strong></p>
+        <ul>
+            <li>Prioritize compressor and pump seal replacements</li>
+            <li>Increase LDAR inspection frequency from quarterly to monthly</li>
+            <li>Install real-time leak detection sensors on critical equipment</li>
+            <li>Establish predictive maintenance schedule</li>
+        </ul>
+        <p><strong>Expected Impact:</strong> 25% reduction in equipment leaks | Cost Savings: $950K annually</p>
+    </div>
+
+    <div class="recommendation-box">
+        <h4>RECOMMENDATION 3: STORAGE CAPACITY EXPANSION</h4>
+        <p><strong>Priority:</strong> Medium | <strong>Timeline:</strong> Q1 2026</p>
+        <p><strong>Description:</strong> Site-B and Site-D will reach 90%+ capacity within 3-4 months. Capacity constraints will limit operational flexibility and potentially require production curtailment.</p>
+        <p><strong>Recommended Actions:</strong></p>
+        <ul>
+            <li>Fast-track Site-B expansion project (target: 200,000 mt additional capacity)</li>
+            <li>Explore temporary storage solutions at Site-D</li>
+            <li>Optimize storage utilization through improved logistics</li>
+            <li>Consider third-party storage partnerships</li>
+        </ul>
+        <p><strong>Expected Impact:</strong> 40% increase in storage buffer | Prevents production disruptions valued at $5M</p>
+    </div>
+
+    <h3>6.2 Medium-Priority Recommendations</h3>
+
+    <div class="text-section">
+        <p><strong>4. VRU Installation Program:</strong> Deploy Vapor Recovery Units (VRU) at 5-8 atmospheric tank facilities. Expected reduction: 12,000 mt CO₂ annually. Investment: $1.2M | Payback period: 18 months.</p>
+        
+        <p><strong>5. Transportation Route Optimization:</strong> Re-route shipments to minimize leakage losses. Shift 30% of rail transport to pipeline where feasible. Expected savings: $450K annually in leakage reduction.</p>
+        
+        <p><strong>6. Revenue Diversification Strategy:</strong> Address declining utilization revenue trend (-4.2%) by expanding customer base beyond EOR. Target food-grade CO₂ markets and industrial applications. Potential revenue increase: $1.8M annually.</p>
+    </div>
+
+    <h3>6.3 Long-Term Strategic Initiatives</h3>
+
+    <div class="text-section">
+        <p><strong>Carbon Credit Monetization:</strong> Develop comprehensive carbon credit qualification and verification program. Estimated value: $15-25M annually based on current emissions reduction potential.</p>
+        
+        <p><strong>Technology Upgrades:</strong> Invest in AI-powered predictive maintenance and automated monitoring systems. Expected to reduce incidents by 40% and operational costs by $2M annually.</p>
+        
+        <p><strong>Regulatory Preparedness:</strong> Proactively prepare for anticipated stricter EPA regulations expected in 2026-2027. Early compliance will provide competitive advantage and avoid penalties.</p>
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>SECTION 7: CONCLUSION</h2>
+
+    <div class="executive-summary">
+        <h3 style="margin-top: 0; border-bottom: none;">Key Findings</h3>
+        <p style="margin-bottom: 15px;">This comprehensive analysis of Louisiana CO₂ capture, storage, and utilization operations for Q4 2025 reveals a complex operational landscape with significant opportunities for optimization and risk mitigation. The data-driven insights and predictive analytics presented in this report provide actionable intelligence for strategic decision-making.</p>
+        
+        <p><strong>Operational Performance:</strong> Overall operations remain within acceptable parameters with predicted total emissions of 869,690 mt over the next 3 months. However, a slight increasing trend (+0.73% per month) requires attention to prevent escalation.</p>
+        
+        <p><strong>Risk Management:</strong> Three high-risk facilities have been identified requiring immediate intervention. Equipment leak forecasting indicates potential escalation if proactive maintenance is not implemented. Storage capacity constraints at two sites require timely expansion to avoid operational disruptions.</p>
+        
+        <p><strong>Financial Outlook:</strong> Declining utilization revenue (-4.2% trend) presents a strategic challenge requiring market diversification. However, cost reduction opportunities through leak mitigation ($950K annually) and efficiency improvements provide significant ROI potential.</p>
+        
+        <p><strong>Compliance Status:</strong> All operations currently remain in compliance with federal and state regulations. Proactive measures recommended in this report will ensure continued compliance as regulations evolve.</p>
+    </div>
+
+    <h3>Next Steps</h3>
+
+    <div class="text-section">
+        <ol>
+            <li><strong>Immediate Actions (0-30 days):</strong>
+                <ul>
+                    <li>Initiate high-risk facility audits</li>
+                    <li>Deploy enhanced equipment leak monitoring</li>
+                    <li>Review and update emergency response procedures</li>
+                </ul>
+            </li>
+            <li><strong>Short-Term Actions (30-90 days):</strong>
+                <ul>
+                    <li>Implement prioritized maintenance schedule</li>
+                    <li>Begin storage expansion engineering</li>
+                    <li>Launch revenue diversification initiatives</li>
+                </ul>
+            </li>
+            <li><strong>Medium-Term Actions (90-180 days):</strong>
+                <ul>
+                    <li>Complete VRU installation projects</li>
+                    <li>Optimize transportation logistics</li>
+                    <li>Establish carbon credit qualification program</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="signature-block">
+        <p><strong>Report Prepared By:</strong></p>
+        <p>CarbonHorizon Analytics & Compliance Division</p>
+        <p>Louisiana Operations Center</p>
+        <br>
+        <p><strong>Report Date:</strong> October 13, 2025</p>
+        <p><strong>Report Status:</strong> Final</p>
+        <p><strong>Distribution:</strong> Operations Management, Regulatory Affairs, Executive Leadership</p>
+        <br>
+        <p><strong>For Questions or Additional Information:</strong></p>
+        <p>compliance@carbonhorizon.com | (225) 555-0100</p>
+    </div>
+
+    <div style="margin-top: 40px; padding: 20px; background: #f0f0f0; border: 2px dashed #333; text-align: center;">
+        <p style="font-size: 11px; font-weight: bold;">CONFIDENTIAL BUSINESS INFORMATION</p>
+        <p style="font-size: 10px; margin-top: 5px;">This report contains proprietary and confidential information. Unauthorized disclosure or distribution is prohibited.</p>
+    </div>
+
+    <!-- Chart Scripts -->
+    <script>
+        // Function to create gradient
+        function createGradient(ctx, colorStart, colorEnd) {
+            const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+            gradient.addColorStop(0, colorStart);
+            gradient.addColorStop(1, colorEnd);
+            return gradient;
+        }
+
+        // Chart 1: Emissions Forecast
+        const ctx1 = document.getElementById('emissionsChart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'line',
+            data: {
+                labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov (P)', 'Dec (P)', 'Jan (P)'],
+                datasets: [{
+                    label: 'Historical Emissions',
+                    data: [275680, 283450, 298720, 305890, 289340, 276550, null, null, null],
+                    borderColor: '#000000',
+                    backgroundColor: 'rgba(0, 0, 0, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4,
+                    pointBackgroundColor: '#000',
+                    pointBorderColor: '#000'
+                }, {
+                    label: 'Predicted Emissions',
+                    data: [null, null, null, null, null, 276550, 285840, 289560, 294290],
+                    borderColor: '#666666',
+                    backgroundColor: 'rgba(100, 100, 100, 0.1)',
+                    borderWidth: 3,
+                    borderDash: [5, 5],
+                    fill: true,
+                    tension: 0.4,
+                    pointBackgroundColor: '#666',
+                    pointBorderColor: '#666'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    },
+                    title: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        ticks: {
+                            callback: function(value) {
+                                return value.toLocaleString() + ' mt';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'CO₂ Emissions (metric tons)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Month (P = Predicted)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Chart 2: Emission Source Forecast
+        const ctx2 = document.getElementById('sourceChart').getContext('2d');
+        new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Flare Stacks', 'Atmospheric Tanks', 'Blowdowns', 'Equip Leaks', 'Compressors', 'Pneumatic Pumps', 'Combustion Units', 'Acid Gas Removal', 'Dehydrators'],
+                datasets: [{
+                    label: 'Current (Oct)',
+                    data: [48000, 14000, 9500, 38000, 52000, 28000, 38000, 42000, 25000],
+                    backgroundColor: '#FFFFFF',
+                    borderColor: '#000000',
+                    borderWidth: 2
+                }, {
+                    label: 'Predicted (Jan)',
+                    data: [50400, 14700, 9975, 39900, 54600, 29400, 39900, 44100, 26250],
+                    backgroundColor: '#888888',
+                    borderColor: '#000000',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value.toLocaleString() + ' mt';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'CO₂ Emissions (metric tons/month)'
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 45,
+                            minRotation: 45
+                        }
+                    }
+                }
+            }
+        });
+
+        // Chart 3: Storage Capacity
+        const ctx3 = document.getElementById('storageChart').getContext('2d');
+        new Chart(ctx3, {
+            type: 'bar',
+            data: {
+                labels: ['Site-A', 'Site-B', 'Site-C', 'Site-D', 'Site-E', 'Site-F'],
+                datasets: [{
+                    label: 'Current Utilization (%)',
+                    data: [75, 92, 65, 88, 45, 78],
+                    backgroundColor: function(context) {
+                        const value = context.parsed.y;
+                        if (value >= 90) return '#000000';
+                        if (value >= 75) return '#666666';
+                        return '#CCCCCC';
+                    },
+                    borderColor: '#000',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Capacity Utilization (%)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Chart 4: Equipment Leak Forecasting
+        const ctx4 = document.getElementById('equipmentLeakChart').getContext('2d');
+        new Chart(ctx4, {
+            type: 'bar',
+            data: {
+                labels: ['Valves', 'Flanges', 'Pumps', 'Compressors', 'Connectors'],
+                datasets: [{
+                    label: 'Current Avg (mt/month)',
+                    data: [1250, 890, 1580, 2100, 750],
+                    backgroundColor: '#FFFFFF',
+                    borderColor: '#000',
+                    borderWidth: 2
+                }, {
+                    label: 'Predicted Next Month (mt)',
+                    data: [1312, 934, 1659, 2205, 787],
+                    backgroundColor: '#888888',
+                    borderColor: '#000',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'CO₂ Leakage (metric tons/month)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Chart 5: Revenue Forecast
+        const ctx5 = document.getElementById('revenueForecastChart').getContext('2d');
+        new Chart(ctx5, {
+            type: 'line',
+            data: {
+                labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov (P)', 'Dec (P)', 'Jan (P)'],
+                datasets: [{
+                    label: 'Historical Revenue',
+                    data: [4180000, 4560000, 4780000, 5120000, 4650000, 4320000, null, null, null],
+                    borderColor: '#000000',
+                    backgroundColor: 'rgba(0, 0, 0, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4,
+                    pointBackgroundColor: '#000',
+                    pointBorderColor: '#000'
+                }, {
+                    label: 'Predicted Revenue',
+                    data: [null, null, null, null, null, 4320000, 4490000, 4950000, 4687500],
+                    borderColor: '#666666',
+                    backgroundColor: 'rgba(100, 100, 100, 0.1)',
+                    borderWidth: 3,
+                    borderDash: [5, 5],
+                    fill: true,
+                    tension: 0.4,
+                    pointBackgroundColor: '#666',
+                    pointBorderColor: '#666'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        ticks: {
+                            callback: function(value) {
+                                return '$' + (value / 1000000).toFixed(1) + 'M';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'Revenue (USD)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Month (P = Predicted)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Chart 6: Flow Distribution Pie Chart
+        const ctx6 = document.getElementById('flowDistributionChart').getContext('2d');
+        new Chart(ctx6, {
+            type: 'pie',
+            data: {
+                labels: ['Storage', 'Utilization/Sales', 'Internal Use', 'Losses/Venting'],
+                datasets: [{
+                    data: [45, 38, 12, 5],
+                    backgroundColor: [
+                        '#FFFFFF',
+                        '#CCCCCC',
+                        '#888888',
+                        '#444444'
+                    ],
+                    borderColor: '#000',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'right',
+                        labels: {
+                            font: {
+                                size: 11
+                            },
+                            generateLabels: function(chart) {
+                                const data = chart.data;
+                                if (data.labels.length && data.datasets.length) {
+                                    return data.labels.map((label, i) => {
+                                        const value = data.datasets[0].data[i];
+                                        return {
+                                            text: label + ': ' + value + '%',
+                                            fillStyle: data.datasets[0].backgroundColor[i],
+                                            strokeStyle: data.datasets[0].borderColor,
+                                            lineWidth: data.datasets[0].borderWidth,
+                                            hidden: false,
+                                            index: i
+                                        };
+                                    });
+                                }
+                                return [];
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Chart 7: Monthly Performance Bar Chart
+        const ctx7 = document.getElementById('monthlyPerformanceChart').getContext('2d');
+        new Chart(ctx7, {
+            type: 'bar',
+            data: {
+                labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+                datasets: [{
+                    label: 'Captured (mt)',
+                    data: [315000, 328000, 342000, 355000, 338000, 325000],
+                    backgroundColor: '#FFFFFF',
+                    borderColor: '#000000',
+                    borderWidth: 2
+                }, {
+                    label: 'Stored (mt)',
+                    data: [142000, 148000, 154000, 160000, 152000, 146000],
+                    backgroundColor: '#AAAAAA',
+                    borderColor: '#000000',
+                    borderWidth: 2
+                }, {
+                    label: 'Utilized (mt)',
+                    data: [120000, 125000, 130000, 135000, 128000, 123000],
+                    backgroundColor: '#666666',
+                    borderColor: '#000000',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value.toLocaleString() + ' mt';
+                            }
+                        },
+                        title: {
+                            display: true,
+                            text: 'CO₂ Volume (metric tons)'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Month (2025)'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
