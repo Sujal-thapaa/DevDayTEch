@@ -98,8 +98,8 @@
         h3 {
             color: #000;
             font-size: 14px;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            margin-top: 25px;
+            margin-bottom: 12px;
             font-weight: bold;
             clear: both;
         }
@@ -230,21 +230,20 @@
 
         .chart-container {
             position: relative;
-            margin: 35px 0;
-            padding: 25px;
+            margin: 30px 0;
+            padding: 20px;
             background: #fff;
             border: 2px solid #000;
             page-break-inside: avoid;
             clear: both;
-            min-height: 400px;
         }
 
         .chart-wrapper {
             position: relative;
             height: 600px;
             width: 100%;
-            margin: 20px auto;
-            padding: 15px 0;
+            margin: 15px auto;
+            padding: 10px 0;
         }
 
         .chart-wrapper-small {
@@ -262,16 +261,18 @@
         }
 
         .chart-container h4 {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             padding-bottom: 10px;
             border-bottom: 1px solid #ccc;
             font-size: 13px;
+            font-weight: bold;
         }
 
         .chart-container p {
-            margin-top: 20px;
+            margin-top: 15px;
             padding-top: 10px;
             clear: both;
+            font-size: 10px;
         }
 
         .kpi-grid {
@@ -1727,11 +1728,17 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 plugins: {
                     legend: {
                         display: true,
-                        position: 'bottom'
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                size: 24
+                            },
+                            padding: 20
+                        }
                     },
                     title: {
                         display: false
@@ -1741,19 +1748,33 @@
                     y: {
                         beginAtZero: false,
                         ticks: {
+                            font: {
+                                size: 20
+                            },
                             callback: function(value) {
                                 return value.toLocaleString() + ' mt';
                             }
                         },
                         title: {
                             display: true,
-                            text: 'CO₂ Emissions (metric tons)'
+                            text: 'CO₂ Emissions (metric tons)',
+                            font: {
+                                size: 22
+                            }
                         }
                     },
                     x: {
+                        ticks: {
+                            font: {
+                                size: 20
+                            }
+                        },
                         title: {
                             display: true,
-                            text: 'Month (P = Predicted)'
+                            text: 'Month (P = Predicted)',
+                            font: {
+                                size: 22
+                            }
                         }
                     }
                 }
@@ -1782,28 +1803,43 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 plugins: {
                     legend: {
                         display: true,
-                        position: 'bottom'
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                size: 24
+                            },
+                            padding: 20
+                        }
                     }
                 },
                 scales: {
                     y: {
                         beginAtZero: true,
                         ticks: {
+                            font: {
+                                size: 20
+                            },
                             callback: function(value) {
                                 return value.toLocaleString() + ' mt';
                             }
                         },
                         title: {
                             display: true,
-                            text: 'CO₂ Emissions (metric tons/month)'
+                            text: 'CO₂ Emissions (metric tons/month)',
+                            font: {
+                                size: 22
+                            }
                         }
                     },
                     x: {
                         ticks: {
+                            font: {
+                                size: 20
+                            },
                             autoSkip: false,
                             maxRotation: 45,
                             minRotation: 45
@@ -1834,7 +1870,7 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 plugins: {
                     legend: {
                         display: false
@@ -1845,13 +1881,26 @@
                         beginAtZero: true,
                         max: 100,
                         ticks: {
+                            font: {
+                                size: 20
+                            },
                             callback: function(value) {
                                 return value + '%';
                             }
                         },
                         title: {
                             display: true,
-                            text: 'Capacity Utilization (%)'
+                            text: 'Capacity Utilization (%)',
+                            font: {
+                                size: 22
+                            }
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 20
+                            }
                         }
                     }
                 }
@@ -1880,19 +1929,40 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 plugins: {
                     legend: {
                         display: true,
-                        position: 'bottom'
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                size: 24
+                            },
+                            padding: 20
+                        }
                     }
                 },
                 scales: {
                     y: {
                         beginAtZero: true,
+                        ticks: {
+                            font: {
+                                size: 20
+                            }
+                        },
                         title: {
                             display: true,
-                            text: 'CO₂ Leakage (metric tons/month)'
+                            text: 'CO₂ Leakage (metric tons/month)',
+                            font: {
+                                size: 22
+                            }
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            font: {
+                                size: 20
+                            }
                         }
                     }
                 }
@@ -1930,30 +2000,50 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 plugins: {
                     legend: {
                         display: true,
-                        position: 'bottom'
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                size: 24
+                            },
+                            padding: 20
+                        }
                     }
                 },
                 scales: {
                     y: {
                         beginAtZero: false,
                         ticks: {
+                            font: {
+                                size: 20
+                            },
                             callback: function(value) {
                                 return '$' + (value / 1000000).toFixed(1) + 'M';
                             }
                         },
                         title: {
                             display: true,
-                            text: 'Revenue (USD)'
+                            text: 'Revenue (USD)',
+                            font: {
+                                size: 22
+                            }
                         }
                     },
                     x: {
+                        ticks: {
+                            font: {
+                                size: 20
+                            }
+                        },
                         title: {
                             display: true,
-                            text: 'Month (P = Predicted)'
+                            text: 'Month (P = Predicted)',
+                            font: {
+                                size: 22
+                            }
                         }
                     }
                 }
@@ -2040,30 +2130,50 @@
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 plugins: {
                     legend: {
                         display: true,
-                        position: 'bottom'
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                size: 24
+                            },
+                            padding: 20
+                        }
                     }
                 },
                 scales: {
                     y: {
                         beginAtZero: true,
                         ticks: {
+                            font: {
+                                size: 20
+                            },
                             callback: function(value) {
                                 return value.toLocaleString() + ' mt';
                             }
                         },
                         title: {
                             display: true,
-                            text: 'CO₂ Volume (metric tons)'
+                            text: 'CO₂ Volume (metric tons)',
+                            font: {
+                                size: 22
+                            }
                         }
                     },
                     x: {
+                        ticks: {
+                            font: {
+                                size: 20
+                            }
+                        },
                         title: {
                             display: true,
-                            text: 'Month (2025)'
+                            text: 'Month (2025)',
+                            font: {
+                                size: 22
+                            }
                         }
                     }
                 }
