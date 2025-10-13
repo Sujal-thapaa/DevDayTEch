@@ -126,17 +126,17 @@ const universityNews: NewsItem[] = [
   }
 ];
 
-// University images map
+// University images map - Industrial and CO2 emissions related
 const universityImages: Record<string, string> = {
-  "Louisiana State University (LSU)": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&h=400&fit=crop",
-  "Harvard University": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=400&fit=crop",
-  "Massachusetts Institute of Technology (MIT)": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=800&h=400&fit=crop",
-  "University of Houston": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=800&h=400&fit=crop",
-  "Stanford University": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?w=800&h=400&fit=crop",
-  "Princeton University": "https://images.unsplash.com/photo-1576495199011-eb94736d05d6?w=800&h=400&fit=crop",
-  "Heriot-Watt University": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=400&fit=crop",
-  "Temple University": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&h=400&fit=crop",
-  "Cornell University": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=400&fit=crop"
+  "Louisiana State University (LSU)": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=400&fit=crop", // Industrial plant
+  "Harvard University": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop", // Solar panels and industry
+  "Massachusetts Institute of Technology (MIT)": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=400&fit=crop", // Wind turbines
+  "University of Houston": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=400&fit=crop", // Oil refinery
+  "Stanford University": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800&h=400&fit=crop", // Rock formations for carbon storage
+  "Princeton University": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=400&fit=crop", // Industrial pipes
+  "Heriot-Watt University": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&h=400&fit=crop", // AI/Technology
+  "Temple University": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop", // Concrete industrial
+  "Cornell University": "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&h=400&fit=crop" // Chemical industry
 };
 
 const getBadgeStyle = (badge: string) => {
@@ -268,11 +268,11 @@ export const UniversityBridgePage: React.FC = () => {
             {/* Image */}
             <div className="relative h-48 bg-gradient-to-br from-blue-100 to-blue-200 overflow-hidden">
               <img
-                src={universityImages[news.university] || 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&h=400&fit=crop'}
+                src={universityImages[news.university] || 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=400&fit=crop'}
                 alt={news.university}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 onError={(e) => {
-                  e.currentTarget.src = 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&h=400&fit=crop';
+                  e.currentTarget.src = 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=400&fit=crop';
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
