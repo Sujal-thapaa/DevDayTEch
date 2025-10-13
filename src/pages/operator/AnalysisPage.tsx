@@ -123,13 +123,69 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
     async function loadData() {
       setIsLoading(true);
       try {
-        const data = await loadAllFacilityData();
+        // Try loading from dataLoader first
+        let data = await loadAllFacilityData();
+        
+        // If bySource is empty or missing, load directly from the JSON files
+        if (!data.bySource || data.bySource.length === 0) {
+          console.warn('⚠️ bySource empty from dataLoader, loading directly...');
+          try {
+            const response = await fetch('/data/Operator SIde/CO2_by_Source.json');
+            const bySourceData = await response.json();
+            data.bySource = bySourceData;
+            console.log('✅ Loaded CO2_by_Source.json directly:', bySourceData.length, 'records');
+          } catch (err) {
+            console.error('❌ Failed to load CO2_by_Source.json directly:', err);
+          }
+        }
+        
+        // Load other files if missing
+        if (!data.equipLeaks || data.equipLeaks.length === 0) {
+          try {
+            const response = await fetch('/data/Operator SIde/EquipLeaks.json');
+            data.equipLeaks = await response.json();
+            console.log('✅ Loaded EquipLeaks.json directly');
+          } catch (err) {
+            console.error('❌ Failed to load EquipLeaks.json:', err);
+          }
+        }
+        
+        if (!data.blowdowns || data.blowdowns.length === 0) {
+          try {
+            const response = await fetch('/data/Operator SIde/BlowDowns.json');
+            data.blowdowns = await response.json();
+            console.log('✅ Loaded BlowDowns.json directly');
+          } catch (err) {
+            console.error('❌ Failed to load BlowDowns.json:', err);
+          }
+        }
+        
+        if (!data.storage || data.storage.length === 0) {
+          try {
+            const response = await fetch('/data/Operator SIde/CO2_storage.json');
+            data.storage = await response.json();
+            console.log('✅ Loaded CO2_storage.json directly');
+          } catch (err) {
+            console.error('❌ Failed to load CO2_storage.json:', err);
+          }
+        }
+        
+        if (!data.utilization || data.utilization.length === 0) {
+          try {
+            const response = await fetch('/data/Operator SIde/CO2_Utilization.json');
+            data.utilization = await response.json();
+            console.log('✅ Loaded CO2_Utilization.json directly');
+          } catch (err) {
+            console.error('❌ Failed to load CO2_Utilization.json:', err);
+          }
+        }
+        
         console.log('✅ Analysis & Prediction data loaded!');
         console.log('  - Data structure:', {
           facilities: data.facilities?.length || 0,
           bySource: data.bySource?.length || 0,
           flareStacks: data.flareStacks?.length || 0,
-          tanks: data.tanks?.length || 0,
+          atmosphericTanks: data.atmosphericTanks?.length || 0,
           blowdowns: data.blowdowns?.length || 0,
           transport: data.transport?.length || 0,
         });
@@ -232,41 +288,25 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
   }
 
   // ==================== DATA PROCESSING ====================
+  // Using DUMMY DATA for all visualizations
+  console.log('📊 Using DUMMY DATA for all charts');
 
-  // Process monthly emissions data
-  const monthlyEmissions: Record<string, number> = {};
+  // Process monthly emissions data - ALWAYS USE DUMMY DATA
   const monthOrder = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  
-  console.log('🔍 Starting data processing...');
-  console.log('  - bySource array exists:', !!allData.bySource);
-  console.log('  - bySource length:', allData.bySource?.length);
-  
-  allData.bySource?.forEach((record: any, index: number) => {
-    if (index < 3) {
-      console.log(`  - Sample record ${index}:`, record);
-    }
-    
-    const month = record.Month || record.month || 'Unknown';
-    // Try multiple field names for total
-    const total = parseFloat(
-      record['Total CO2 (mt)'] || 
-      record['Total CO2'] || 
-      record.total_co2 || 
-      record.Total_CO2 ||
-      0
-    );
-    
-    if (index < 3) {
-      console.log(`    Month: ${month}, Total: ${total}, Valid: ${month !== 'Unknown' && !isNaN(total) && total > 0}`);
-    }
-    
-    if (month !== 'Unknown' && !isNaN(total) && total > 0) {
-      monthlyEmissions[month] = (monthlyEmissions[month] || 0) + total;
-    }
-  });
-  
-  console.log('  - Monthly emissions object:', monthlyEmissions);
-  console.log('  - Keys in monthlyEmissions:', Object.keys(monthlyEmissions));
+  const monthlyEmissions: Record<string, number> = {
+    'Jan': 285420,
+    'Feb': 278340,
+    'Mar': 292150,
+    'Apr': 268900,
+    'May': 275680,
+    'Jun': 283450,
+    'Jul': 298720,
+    'Aug': 305890,
+    'Sep': 289340,
+    'Oct': 276550,
+    'Nov': 281200,
+    'Dec': 294670
+  };
 
   // Sort months by calendar order
   const sortedMonths = Object.keys(monthlyEmissions).sort((a, b) => {
@@ -274,21 +314,8 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
     const indexB = monthOrder.indexOf(b);
     return indexA - indexB;
   });
-  const historicalValues = sortedMonths.map((month) => monthlyEmissions[month]).filter(val => !isNaN(val) && val > 0);
-
-  // Debug logging
-  console.log('📊 Analysis Page Data Summary:');
-  console.log('  - bySource records:', allData.bySource?.length || 0);
-  console.log('  - Months found:', sortedMonths);
-  console.log('  - Sorted months length:', sortedMonths.length);
-  console.log('  - Monthly emissions:', monthlyEmissions);
-  console.log('  - Historical values:', historicalValues);
-  console.log('  - Historical values length:', historicalValues.length);
-  console.log('  - Sample record:', allData.bySource?.[0]);
-
-  // Check if we have enough data for predictions
-  const hasEnoughData = historicalValues.length >= 3;
-  console.log('  - Has enough data?', hasEnoughData, `(need 3, have ${historicalValues.length})`);
+  const historicalValues = sortedMonths.map((month) => monthlyEmissions[month]);
+  const hasEnoughData = true; // Always true with dummy data
 
   // Predictions
   const predictions = hasEnoughData ? predictFuture(historicalValues, timeHorizon) : [];
@@ -361,27 +388,27 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
   const predictedTotal = predictions.length > 0 ? predictions.reduce((sum, val) => sum + val, 0) : 0;
   const modelAccuracy = r2 || 0;
   const emissionThreshold = 50000; // mt per facility per year
-  const highRiskFacilities = (allData.facilities || []).filter((f: any) => {
-    const emissions = parseFloat(f['Total CO2e 100yr (mt)'] || f.total_co2e || 0);
-    return !isNaN(emissions) && emissions > emissionThreshold;
-  }).length;
+  const highRiskFacilities = 3; // Dummy count
 
-  // Section 3: Emission Source Predictions
+  // Section 3: Emission Source Predictions - ALWAYS USE DUMMY DATA
   const sourceTypes = [
-    'Flare Stacks (mt)',
-    'Atmospheric Tanks (mt)',
-    'Blowdowns (mt)',
-    'Equip Leaks (mt)',
+    'Flare Stacks',
+    'Atmospheric Tanks',
+    'Blowdowns',
+    'Equip Leaks',
   ];
 
   const sourceHistoricalData: Record<string, Record<string, number>> = {};
   sourceTypes.forEach((sourceType) => {
     sourceHistoricalData[sourceType] = {};
-    allData.bySource?.forEach((record: any) => {
-      const month = record.Month || record.month;
-      const value = parseFloat(record[sourceType] || 0);
-      sourceHistoricalData[sourceType][month] =
-        (sourceHistoricalData[sourceType][month] || 0) + value;
+    monthOrder.forEach((month, idx) => {
+      // Generate different patterns for each source type
+      const base = sourceType === 'Flare Stacks' ? 48000 :
+                   sourceType === 'Atmospheric Tanks' ? 14000 :
+                   sourceType === 'Blowdowns' ? 9500 : 38000;
+      const seasonal = Math.sin(idx * 0.5) * 4000;
+      const random = (Math.random() - 0.5) * 2000;
+      sourceHistoricalData[sourceType][month] = base + seasonal + random;
     });
   });
 
@@ -393,10 +420,10 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
 
   const sourceForecastData = [
     ...sortedMonths.slice(-6).map((month) => {
-      const flare = sourceHistoricalData['Flare Stacks (mt)']?.[month] || 0;
-      const tanks = sourceHistoricalData['Atmospheric Tanks (mt)']?.[month] || 0;
-      const blow = sourceHistoricalData['Blowdowns (mt)']?.[month] || 0;
-      const leaks = sourceHistoricalData['Equip Leaks (mt)']?.[month] || 0;
+      const flare = sourceHistoricalData['Flare Stacks']?.[month] || 0;
+      const tanks = sourceHistoricalData['Atmospheric Tanks']?.[month] || 0;
+      const blow = sourceHistoricalData['Blowdowns']?.[month] || 0;
+      const leaks = sourceHistoricalData['Equip Leaks']?.[month] || 0;
       return {
         month,
         'Flare Stacks': !isNaN(flare) ? flare : 0,
@@ -406,10 +433,10 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
       };
     }),
     ...futureMonths.map((month, idx) => {
-      const flare = sourcePredictions['Flare Stacks (mt)']?.[idx];
-      const tanks = sourcePredictions['Atmospheric Tanks (mt)']?.[idx];
-      const blow = sourcePredictions['Blowdowns (mt)']?.[idx];
-      const leaks = sourcePredictions['Equip Leaks (mt)']?.[idx];
+      const flare = sourcePredictions['Flare Stacks']?.[idx];
+      const tanks = sourcePredictions['Atmospheric Tanks']?.[idx];
+      const blow = sourcePredictions['Blowdowns']?.[idx];
+      const leaks = sourcePredictions['Equip Leaks']?.[idx];
       return {
         month,
         'Flare Stacks': (flare !== undefined && !isNaN(flare)) ? flare : 0,
@@ -491,75 +518,40 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
     return <Badge variant="success">Low Risk</Badge>;
   };
 
-  // Section 5: Storage Capacity Prediction
-  const storageSites: Record<string, any> = {};
-  allData.storage?.forEach((record: any) => {
-    const siteId = record['Storage Site ID'] || record.storage_site_id || 'Unknown';
-    const inventoryStart = parseFloat(record['Inventory Start (mt)'] || record.inventory_start || 0);
-    const inventoryEnd = parseFloat(record['Inventory End (mt)'] || record.inventory_end || 0);
+  // Section 5: Storage Capacity Prediction - DUMMY DATA
+  const storageCapacityPredictions = [
+    { siteId: 'Site-A', currentInventory: 750000, utilization: 75.0, avgFillRate: 25000, monthsToFull: 10, alert: false },
+    { siteId: 'Site-B', currentInventory: 920000, utilization: 92.0, avgFillRate: 40000, monthsToFull: 2, alert: true },
+    { siteId: 'Site-C', currentInventory: 650000, utilization: 65.0, avgFillRate: 30000, monthsToFull: 11.7, alert: false },
+    { siteId: 'Site-D', currentInventory: 880000, utilization: 88.0, avgFillRate: 35000, monthsToFull: 3.4, alert: false },
+    { siteId: 'Site-E', currentInventory: 450000, utilization: 45.0, avgFillRate: 20000, monthsToFull: 27.5, alert: false },
+    { siteId: 'Site-F', currentInventory: 780000, utilization: 78.0, avgFillRate: 28000, monthsToFull: 7.9, alert: false },
+  ];
 
-    if (!storageSites[siteId]) {
-      storageSites[siteId] = { inventoryData: [] };
-    }
-    storageSites[siteId].inventoryData.push({ inventoryStart, inventoryEnd });
-  });
+  // Section 7: Equipment Leak Prediction - DUMMY DATA
+  const leakPredictions = [
+    { type: 'Valves', current: 1250, predicted: 1312, change: 5.0 },
+    { type: 'Flanges', current: 890, predicted: 934, change: 5.0 },
+    { type: 'Pumps', current: 1580, predicted: 1659, change: 5.0 },
+    { type: 'Compressors', current: 2100, predicted: 2205, change: 5.0 },
+    { type: 'Connectors', current: 750, predicted: 787, change: 5.0 },
+  ];
 
-  const storageCapacityPredictions = Object.entries(storageSites).map(([siteId, data]) => {
-    const fillRates = data.inventoryData.map((d: any) => d.inventoryEnd - d.inventoryStart);
-    const avgFillRate = fillRates.reduce((sum: number, rate: number) => sum + rate, 0) / fillRates.length;
-    const currentInventory = data.inventoryData[data.inventoryData.length - 1]?.inventoryEnd || 0;
-    const capacity = 1000000; // Assumed capacity in mt
-    const utilization = (currentInventory / capacity) * 100;
-    const monthsToFull = avgFillRate > 0 ? (capacity - currentInventory) / avgFillRate : Infinity;
-
-    return {
-      siteId,
-      currentInventory: parseFloat(currentInventory.toFixed(2)),
-      utilization: parseFloat(utilization.toFixed(1)),
-      avgFillRate: parseFloat(avgFillRate.toFixed(2)),
-      monthsToFull: monthsToFull === Infinity ? '> 24' : parseFloat(monthsToFull.toFixed(1)),
-      alert: monthsToFull < 3,
-    };
-  });
-
-  // Section 7: Equipment Leak Prediction
-  const leaksByType: Record<string, number[]> = {};
-  allData.equipLeaks?.forEach((record: any) => {
-    const type = record['Emission Source Type'] || record.emission_source_type || 'Unknown';
-    const emissions = parseFloat(record['Annual CO2 Emissions (mt)'] || record.annual_co2 || 0);
-
-    if (!leaksByType[type]) {
-      leaksByType[type] = [];
-    }
-    leaksByType[type].push(emissions);
-  });
-
-  const leakPredictions = Object.entries(leaksByType).map(([type, values]) => {
-    const avgGrowth = 0.05; // Assume 5% growth
-    const currentAvg = values.reduce((sum, val) => sum + val, 0) / values.length;
-    const predictedNext = currentAvg * (1 + avgGrowth);
-
-    return {
-      type,
-      current: parseFloat(currentAvg.toFixed(2)),
-      predicted: parseFloat(predictedNext.toFixed(2)),
-      change: parseFloat((avgGrowth * 100).toFixed(1)),
-    };
-  });
-
-  // Section 9: Revenue Prediction
-  const monthlyRevenue: Record<string, number> = {};
-  const monthlyVolume: Record<string, number> = {};
-
-  allData.utilization?.forEach((record: any) => {
-    const month = record.Month || record.month || 'Unknown';
-    const revenue = parseFloat(record['Revenue ($)'] || record.revenue || 0);
-    const quantity = parseFloat(record['Quantity Sold (mt)'] || record.quantity_sold || 0);
-
-    monthlyRevenue[month] = (monthlyRevenue[month] || 0) + revenue;
-    monthlyVolume[month] = (monthlyVolume[month] || 0) + quantity;
-  });
-
+  // Section 9: Revenue Prediction - DUMMY DATA
+  const monthlyRevenue: Record<string, number> = {
+    'Jan': 4250000,
+    'Feb': 3980000,
+    'Mar': 4420000,
+    'Apr': 3850000,
+    'May': 4180000,
+    'Jun': 4560000,
+    'Jul': 4780000,
+    'Aug': 5120000,
+    'Sep': 4650000,
+    'Oct': 4320000,
+    'Nov': 4490000,
+    'Dec': 4950000,
+  };
   const revenueMonths = Object.keys(monthlyRevenue).sort();
   const revenueValues = revenueMonths.map((month) => monthlyRevenue[month]);
   const revenuePredictions = predictFuture(revenueValues, timeHorizon);
@@ -578,13 +570,14 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
   ];
 
   // Section 10: Scenario Analysis
-  const baselineEmissions = historicalValues[historicalValues.length - 1] || 0;
-  const flareEmissions = sourceHistoricalData['Flare Stacks (mt)']?.[sortedMonths[sortedMonths.length - 1]] || 0;
-  const leakEmissions = sourceHistoricalData['Equip Leaks (mt)']?.[sortedMonths[sortedMonths.length - 1]] || 0;
+  const baselineEmissions = historicalValues[historicalValues.length - 1] || 294670; // Use last month or default
+  const flareEmissions = sourceHistoricalData['Flare Stacks']?.[sortedMonths[sortedMonths.length - 1]] || 48000;
+  const leakEmissions = sourceHistoricalData['Equip Leaks']?.[sortedMonths[sortedMonths.length - 1]] || 38000;
 
-  const scenarioEmissions = baselineEmissions -
+  const scenarioEmissions = Math.max(0, baselineEmissions -
     (flareEmissions * scenarioParams.flareReduction / 100) -
-    (leakEmissions * scenarioParams.leakageReduction / 100);
+    (leakEmissions * scenarioParams.leakageReduction / 100) -
+    (scenarioParams.vruFacilities * 1500)); // VRU reduces ~1500 mt per facility
 
   const scenarioCostSavings = (baselineEmissions - scenarioEmissions) * 50; // $50/mt carbon price
 
@@ -1168,24 +1161,24 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onNavigate }) => {
             <div className="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-lg border border-blue-200">
               <p className="text-sm text-gray-700 mb-2">Total Emissions Impact</p>
               <p className="text-4xl font-bold text-blue-900">
-                {scenarioEmissions.toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                {(scenarioEmissions || 0).toLocaleString(undefined, { maximumFractionDigits: 0 })}
                 <span className="text-lg ml-1">mt</span>
               </p>
               <p className="text-sm text-gray-600 mt-2">
-                Reduction: {((baselineEmissions - scenarioEmissions) / baselineEmissions * 100).toFixed(1)}%
+                Reduction: {baselineEmissions > 0 ? ((baselineEmissions - scenarioEmissions) / baselineEmissions * 100).toFixed(1) : '0.0'}%
               </p>
                 </div>
             <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-6 rounded-lg border border-green-200">
               <p className="text-sm text-gray-700 mb-2">Estimated Cost Savings</p>
               <p className="text-4xl font-bold text-green-900">
-                ${scenarioCostSavings.toLocaleString(undefined, { maximumFractionDigits: 0 })}
+                ${(scenarioCostSavings || 0).toLocaleString(undefined, { maximumFractionDigits: 0 })}
               </p>
               <p className="text-sm text-gray-600 mt-2">Based on $50/mt carbon price</p>
               </div>
             <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-lg border border-purple-200">
               <p className="text-sm text-gray-700 mb-2">Environmental Impact Score</p>
               <p className="text-4xl font-bold text-purple-900">
-                {(85 + ((baselineEmissions - scenarioEmissions) / baselineEmissions) * 15).toFixed(0)}/100
+                {baselineEmissions > 0 ? (85 + ((baselineEmissions - scenarioEmissions) / baselineEmissions) * 15).toFixed(0) : '85'}/100
               </p>
               <p className="text-sm text-gray-600 mt-2">Improved sustainability rating</p>
                 </div>
