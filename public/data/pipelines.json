@@ -1,0 +1,260 @@
+[
+  {
+    "id": "pipe_en_trans_001",
+    "name": "Energis Baton Rouge to Lake Charles Pipeline",
+    "operator": "Energis",
+    "pipelineType": "CO2_TRANSPORT",
+    "diameter": 24.0,
+    "length": 125.5,
+    "capacity": 500000,
+    "startFacilityId": "fac_en_cap_btr",
+    "endFacilityId": "fac_en_sto_lc",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [30.45, -91.19],
+      [30.35, -91.8],
+      [30.25, -92.4],
+      [30.23, -93.22]
+    ]
+  },
+  {
+    "id": "pipe_en_inj_001",
+    "name": "Energis Lake Charles Storage Injection",
+    "operator": "Energis",
+    "pipelineType": "CO2_INJECTION",
+    "diameter": 16.0,
+    "length": 2.5,
+    "capacity": 200000,
+    "startFacilityId": "fac_en_sto_lc",
+    "endFacilityId": "fac_en_sto_lc",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [30.23, -93.22],
+      [30.20, -93.25],
+      [30.18, -93.28]
+    ]
+  },
+  {
+    "id": "pipe_gc_util_001",
+    "name": "GulfCem Lake Charles Utilization Pipeline",
+    "operator": "GulfCem",
+    "pipelineType": "CO2_UTILIZATION",
+    "diameter": 12.0,
+    "length": 8.2,
+    "capacity": 150000,
+    "startFacilityId": "fac_gc_cap_lc",
+    "endFacilityId": "fac_gc_utl_concrete",
+    "status": "PLANNED",
+    "routeCoordinates": [
+      [30.24, -93.22],
+      [30.25, -93.20],
+      [30.26, -93.20]
+    ]
+  },
+  {
+    "id": "pipe_bp_sto_001",
+    "name": "BioPulp Alexandria Storage Pipeline",
+    "operator": "BioPulp",
+    "pipelineType": "CO2_STORAGE",
+    "diameter": 20.0,
+    "length": 15.8,
+    "capacity": 300000,
+    "startFacilityId": "fac_bp_cap_alex",
+    "endFacilityId": "fac_bp_sto_cenla",
+    "status": "UNDER_CONSTRUCTION",
+    "routeCoordinates": [
+      [31.31, -92.44],
+      [31.30, -92.46],
+      [31.29, -92.48]
+    ]
+  },
+  {
+    "id": "pipe_bb_trans_001",
+    "name": "BayouBio Lafayette Transport Pipeline",
+    "operator": "BayouBio",
+    "pipelineType": "CO2_TRANSPORT",
+    "diameter": 16.0,
+    "length": 45.2,
+    "capacity": 200000,
+    "startFacilityId": "fac_bb_cap_laf",
+    "endFacilityId": "fac_bb_utl_ethanol",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [30.22, -92.02],
+      [30.23, -92.01],
+      [30.24, -92.00]
+    ]
+  },
+  {
+    "id": "pipe_dg_sto_001",
+    "name": "Delta Gas Houma Storage Pipeline",
+    "operator": "Delta Gas",
+    "pipelineType": "CO2_STORAGE",
+    "diameter": 14.0,
+    "length": 28.7,
+    "capacity": 180000,
+    "startFacilityId": "fac_dg_cap_houma",
+    "endFacilityId": "fac_dg_sto_gulf",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [29.59, -90.72],
+      [29.58, -90.73],
+      [29.57, -90.74]
+    ]
+  },
+  {
+    "id": "pipe_pc_trans_001",
+    "name": "PetroChem Iberia Transport Pipeline",
+    "operator": "PetroChem",
+    "pipelineType": "CO2_TRANSPORT",
+    "diameter": 18.0,
+    "length": 35.4,
+    "capacity": 300000,
+    "startFacilityId": "fac_pc_cap_iberia",
+    "endFacilityId": "fac_hub_sto_brx",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [29.95, -91.82],
+      [29.92, -91.0],
+      [29.9, -90.2]
+    ]
+  },
+  {
+    "id": "pipe_sc_util_001",
+    "name": "Sugar Co Iberville Utilization Pipeline",
+    "operator": "Sugar Co",
+    "pipelineType": "CO2_UTILIZATION",
+    "diameter": 10.0,
+    "length": 12.5,
+    "capacity": 120000,
+    "startFacilityId": "fac_sc_cap_iberville",
+    "endFacilityId": "fac_sc_utl_bioplastics",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [30.28, -91.32],
+      [30.29, -91.31],
+      [30.30, -91.30]
+    ]
+  },
+  {
+    "id": "pipe_rr_sto_001",
+    "name": "RiverRefinery Norco Storage Pipeline",
+    "operator": "RiverRefinery",
+    "pipelineType": "CO2_STORAGE",
+    "diameter": 16.0,
+    "length": 25.3,
+    "capacity": 250000,
+    "startFacilityId": "fac_rr_cap_norco",
+    "endFacilityId": "fac_rr_sto_plaquemines",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [30.00, -90.41],
+      [29.90, -90.20],
+      [29.80, -90.00],
+      [29.73, -89.98]
+    ]
+  },
+  {
+    "id": "pipe_bp_util_001",
+    "name": "BioPulp Alexandria Utilization Pipeline",
+    "operator": "BioPulp",
+    "pipelineType": "CO2_UTILIZATION",
+    "diameter": 8.0,
+    "length": 5.2,
+    "capacity": 100000,
+    "startFacilityId": "fac_bp_cap_alex",
+    "endFacilityId": "fac_bp_utl_plant",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [31.31, -92.44],
+      [31.32, -92.45],
+      [31.33, -92.45]
+    ]
+  },
+  {
+    "id": "pipe_bs_trans_001",
+    "name": "Bayou Steel Lafayette Transport Pipeline",
+    "operator": "Bayou Steel",
+    "pipelineType": "CO2_TRANSPORT",
+    "diameter": 12.0,
+    "length": 18.7,
+    "capacity": 80000,
+    "startFacilityId": "fac_bs_cap_laf",
+    "endFacilityId": "fac_hub_sto_brx",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [30.15, -92.05],
+      [30.10, -92.0],
+      [29.9, -90.2]
+    ]
+  },
+  {
+    "id": "pipe_gcc_util_001",
+    "name": "Gulf Coast Chemicals Utilization Pipeline",
+    "operator": "Gulf Coast Chemicals",
+    "pipelineType": "CO2_UTILIZATION",
+    "diameter": 10.0,
+    "length": 7.8,
+    "capacity": 90000,
+    "startFacilityId": "fac_gcc_cap_lc",
+    "endFacilityId": "fac_gcc_utl_chem",
+    "status": "ACTIVE",
+    "routeCoordinates": [
+      [30.20, -93.25],
+      [30.21, -93.24],
+      [30.22, -93.23]
+    ]
+  },
+  {
+    "id": "pipe_gc_util_002",
+    "name": "GulfCem Lake Charles Utilization Extension",
+    "operator": "GulfCem",
+    "pipelineType": "CO2_UTILIZATION",
+    "diameter": 14.0,
+    "length": 12.3,
+    "capacity": 150000,
+    "startFacilityId": "fac_gc_cap_lc",
+    "endFacilityId": "fac_gc_utl_concrete",
+    "status": "PLANNED",
+    "routeCoordinates": [
+      [30.24, -93.22],
+      [30.25, -93.21],
+      [30.26, -93.20]
+    ]
+  },
+  {
+    "id": "pipe_pc_trans_002",
+    "name": "PetroChem Iberia Expansion Pipeline",
+    "operator": "PetroChem",
+    "pipelineType": "CO2_TRANSPORT",
+    "diameter": 20.0,
+    "length": 42.1,
+    "capacity": 200000,
+    "startFacilityId": "fac_pc_cap_iberia",
+    "endFacilityId": "fac_pc_sto_hub",
+    "status": "PLANNED",
+    "routeCoordinates": [
+      [29.95, -91.82],
+      [29.90, -91.5],
+      [29.85, -91.2],
+      [29.80, -90.9]
+    ]
+  },
+  {
+    "id": "pipe_sc_util_002",
+    "name": "Sugar Co Bioplastics Extension Pipeline",
+    "operator": "Sugar Co",
+    "pipelineType": "CO2_UTILIZATION",
+    "diameter": 12.0,
+    "length": 8.9,
+    "capacity": 100000,
+    "startFacilityId": "fac_sc_cap_iberville",
+    "endFacilityId": "fac_sc_utl_bioplastics",
+    "status": "PLANNED",
+    "routeCoordinates": [
+      [30.28, -91.32],
+      [30.29, -91.31],
+      [30.30, -91.30]
+    ]
+  }
+]

@@ -61,6 +61,31 @@ export interface Incident {
   lng: number;
 }
 
+export interface Pipeline {
+  id: string;
+  name: string;
+  operator: string;
+  pipelineType: 'CO2_TRANSPORT' | 'CO2_INJECTION' | 'CO2_STORAGE' | 'CO2_UTILIZATION';
+  diameter: number;
+  length: number;
+  capacity: number;
+  startFacilityId: string;
+  endFacilityId: string;
+  status: 'ACTIVE' | 'PLANNED' | 'UNDER_CONSTRUCTION' | 'INACTIVE';
+  routeCoordinates: [number, number][];
+  startFacility?: Facility;
+  endFacility?: Facility;
+}
+
+export interface Facility {
+  id: string;
+  companyId: string;
+  type: 'capture' | 'storage' | 'utilization' | 'transport';
+  lat: number;
+  lon: number;
+  name?: string;
+}
+
 export type AppView = 'operator' | 'public';
-export type OperatorPage = 'home' | 'analysis' | 'reports' | 'incidents' | 'roi' | 'market' | 'data-entry' | 'settings';
+export type OperatorPage = 'home' | 'analysis' | 'reports' | 'incidents' | 'roi' | 'market' | 'data-entry' | 'settings' | 'pipeline';
 export type PublicPage = 'home' | 'explore' | 'economy' | 'alerts' | 'bridge';

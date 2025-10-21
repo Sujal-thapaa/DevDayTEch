@@ -10,6 +10,7 @@ import { IncidentsPage } from './pages/operator/IncidentsPage';
 import { MarketPage } from './pages/operator/MarketPage';
 import { DataEntryPage } from './pages/operator/DataEntryPage';
 import { SettingsPage } from './pages/operator/SettingsPage';
+import { PipelinePage } from './pages/operator/PipelinePage';
 import { PublicHomePage } from './pages/public/PublicHomePage';
 import { ExploreIndustryPage } from './pages/public/ExploreIndustryPage';
 import { UniversityBridgePage } from './pages/public/UniversityBridgePage';
@@ -30,6 +31,8 @@ function App() {
         return <HomePage onNavigate={setOperatorPage} />;
       case 'analysis':
         return <AnalysisPage onNavigate={setOperatorPage} />;
+      case 'pipeline':
+        return <PipelinePage />;
       case 'roi':
         return <ROIPage onNavigate={setOperatorPage} />;
       case 'reports':

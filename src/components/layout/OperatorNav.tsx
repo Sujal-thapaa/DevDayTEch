@@ -8,6 +8,7 @@ import {
   ShoppingCart,
   Database,
   Settings,
+  Route,
 } from 'lucide-react';
 import { OperatorPage } from '../../types';
 
@@ -20,6 +21,7 @@ const navItems = [
   { id: 'data-entry' as OperatorPage, label: 'Data Entry', icon: Database },
   { id: 'home' as OperatorPage, label: 'Analytics', icon: LayoutDashboard },
   { id: 'analysis' as OperatorPage, label: 'Analysis & Prediction', icon: TrendingUp },
+  { id: 'pipeline' as OperatorPage, label: 'Pipeline Infrastructure', icon: Route },
   { id: 'reports' as OperatorPage, label: 'Compliance Reports', icon: FileText },
   { id: 'incidents' as OperatorPage, label: 'Incident Center', icon: AlertTriangle },
   { id: 'roi' as OperatorPage, label: 'ROI Calculator', icon: DollarSign },
