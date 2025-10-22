@@ -321,3 +321,4 @@ getPipelinesByOperator(operator: string): Promise<Pipeline[]>
 The Pipeline Infrastructure implementation provides a comprehensive solution for tracking and visualizing CO₂ pipeline infrastructure in Louisiana. It integrates seamlessly with the existing Data 2.0 system while providing powerful new capabilities for operators to monitor and manage pipeline assets.
 
 The implementation follows Data 2.0 design patterns and maintains consistency with the existing codebase. It's built with scalability in mind and provides a solid foundation for future enhancements and integrations.
+
