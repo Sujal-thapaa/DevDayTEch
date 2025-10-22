@@ -1,0 +1,1082 @@
+[
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-4",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 7042186.63,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.791,
+    "CO2 Emissions (mt)": 1824.66
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-9",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 9757897.69,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.764,
+    "CO2 Emissions (mt)": 2959.29
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-10",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 8118602.23,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.652,
+    "CO2 Emissions (mt)": 3864
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-7",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 7512387.15,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.848,
+    "CO2 Emissions (mt)": 4737.44
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-9",
+    "Month": "May",
+    "Volume to Flare (scf)": 4005589.82,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.5,
+    "CO2 Emissions (mt)": 5199.61
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-1",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 3567278.61,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.541,
+    "CO2 Emissions (mt)": 2193.6
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-6",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 8480506.37,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.573,
+    "CO2 Emissions (mt)": 2465.26
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-4",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 6110146.41,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.841,
+    "CO2 Emissions (mt)": 6145.66
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-9",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 6452533.15,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.576,
+    "CO2 Emissions (mt)": 2717.08
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-4",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 5172464.11,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.776,
+    "CO2 Emissions (mt)": 5473.24
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-2",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 2233564.59,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.52,
+    "CO2 Emissions (mt)": 6168.56
+  },
+  {
+    "Facility Name": "Geismar Ammonia",
+    "Flare ID": "FL-6",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 4443823.19,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.8,
+    "CO2 Emissions (mt)": 4548.57
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-5",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 6375707.89,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.462,
+    "CO2 Emissions (mt)": 4701.51
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-2",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 3042249.42,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.77,
+    "CO2 Emissions (mt)": 4318.92
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-8",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 3347880.61,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.59,
+    "CO2 Emissions (mt)": 5487.87
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-6",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 4903606.57,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.531,
+    "CO2 Emissions (mt)": 3423.12
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-3",
+    "Month": "May",
+    "Volume to Flare (scf)": 9354773.34,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.869,
+    "CO2 Emissions (mt)": 2519.32
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-5",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 4577150.44,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.46,
+    "CO2 Emissions (mt)": 4475.94
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-7",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 7113029.12,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.671,
+    "CO2 Emissions (mt)": 2469.89
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-2",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 3673606.17,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.675,
+    "CO2 Emissions (mt)": 6583.26
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-6",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 2093777.59,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.484,
+    "CO2 Emissions (mt)": 4056.23
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-7",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 4886961.83,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.808,
+    "CO2 Emissions (mt)": 2519.28
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-7",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 2543066.47,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.532,
+    "CO2 Emissions (mt)": 4839.59
+  },
+  {
+    "Facility Name": "Lake Charles CCS Hub",
+    "Flare ID": "FL-10",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 3209595.14,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.821,
+    "CO2 Emissions (mt)": 4398.03
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-8",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 7314302.92,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.505,
+    "CO2 Emissions (mt)": 6795.81
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-7",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 3691108.59,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.514,
+    "CO2 Emissions (mt)": 6449.84
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-7",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 7954652.19,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.723,
+    "CO2 Emissions (mt)": 5610.08
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-9",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 3392080.32,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.551,
+    "CO2 Emissions (mt)": 5364.9
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-10",
+    "Month": "May",
+    "Volume to Flare (scf)": 5300486.63,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.649,
+    "CO2 Emissions (mt)": 5604.62
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-7",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 4576172.28,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.638,
+    "CO2 Emissions (mt)": 2400.59
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-3",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 6296155.88,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.669,
+    "CO2 Emissions (mt)": 1926.42
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-7",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 2478016.23,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.589,
+    "CO2 Emissions (mt)": 3812.98
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-1",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 6168495.6,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.528,
+    "CO2 Emissions (mt)": 6529.63
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-6",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 3652656.87,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.646,
+    "CO2 Emissions (mt)": 2297.68
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-2",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 7035151.21,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.775,
+    "CO2 Emissions (mt)": 5832.7
+  },
+  {
+    "Facility Name": "Port Allen Ethanol",
+    "Flare ID": "FL-10",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 5023936.02,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.883,
+    "CO2 Emissions (mt)": 3885.58
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-3",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 8750346.72,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.77,
+    "CO2 Emissions (mt)": 2519.23
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-6",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 4626319.45,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.815,
+    "CO2 Emissions (mt)": 4318.57
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-4",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 3058651.2,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.781,
+    "CO2 Emissions (mt)": 4775.97
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-10",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 7724823.48,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.884,
+    "CO2 Emissions (mt)": 5190.51
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-5",
+    "Month": "May",
+    "Volume to Flare (scf)": 9843610.09,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.539,
+    "CO2 Emissions (mt)": 3782.22
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-4",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 7276119.67,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.761,
+    "CO2 Emissions (mt)": 3637.66
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-10",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 8951641.71,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.454,
+    "CO2 Emissions (mt)": 6350.04
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-1",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 9132307.15,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.589,
+    "CO2 Emissions (mt)": 1959.03
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-10",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 2983425.06,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.764,
+    "CO2 Emissions (mt)": 3197.3
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-4",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 4283466.79,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.896,
+    "CO2 Emissions (mt)": 2107.98
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-2",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 9232723.11,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.737,
+    "CO2 Emissions (mt)": 4875.41
+  },
+  {
+    "Facility Name": "St. James Industrial",
+    "Flare ID": "FL-9",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 6563654.66,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.798,
+    "CO2 Emissions (mt)": 6658.27
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-5",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 2654784.37,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.613,
+    "CO2 Emissions (mt)": 3241.22
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-1",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 8662088.72,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.718,
+    "CO2 Emissions (mt)": 6709.67
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-8",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 8753523.07,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.689,
+    "CO2 Emissions (mt)": 2154.55
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-9",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 9558420.38,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.577,
+    "CO2 Emissions (mt)": 6834.57
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-8",
+    "Month": "May",
+    "Volume to Flare (scf)": 2522433.3,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.592,
+    "CO2 Emissions (mt)": 3969.95
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-5",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 2614167.49,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.583,
+    "CO2 Emissions (mt)": 4428.55
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-7",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 7905950.73,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.637,
+    "CO2 Emissions (mt)": 6787.49
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-9",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 6243017.66,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.713,
+    "CO2 Emissions (mt)": 5559.96
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-5",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 8115748.13,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.738,
+    "CO2 Emissions (mt)": 2352.51
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-7",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 8829507.03,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.666,
+    "CO2 Emissions (mt)": 2831.86
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-2",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 9422285.2,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.477,
+    "CO2 Emissions (mt)": 5003.49
+  },
+  {
+    "Facility Name": "Bayou Energy Site",
+    "Flare ID": "FL-2",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 6712115.69,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.877,
+    "CO2 Emissions (mt)": 2578.71
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-1",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 5678078.56,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.745,
+    "CO2 Emissions (mt)": 1709.73
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-3",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 4839559.18,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.506,
+    "CO2 Emissions (mt)": 4346.92
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-10",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 4082435.54,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.62,
+    "CO2 Emissions (mt)": 1969.94
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-10",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 2580480.75,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.762,
+    "CO2 Emissions (mt)": 2815.84
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-6",
+    "Month": "May",
+    "Volume to Flare (scf)": 6108091.18,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.797,
+    "CO2 Emissions (mt)": 6475.01
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-9",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 8345294.25,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.771,
+    "CO2 Emissions (mt)": 4258.09
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-2",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 8172040.12,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.769,
+    "CO2 Emissions (mt)": 3045.73
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-4",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 9323714.83,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.887,
+    "CO2 Emissions (mt)": 6991.38
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-1",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 4516963.92,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.641,
+    "CO2 Emissions (mt)": 2543.87
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-9",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 6702862.63,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.707,
+    "CO2 Emissions (mt)": 6467.38
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-9",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 2017564.35,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.705,
+    "CO2 Emissions (mt)": 4319.01
+  },
+  {
+    "Facility Name": "Baton Rouge Refinery",
+    "Flare ID": "FL-4",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 2900976.69,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.695,
+    "CO2 Emissions (mt)": 6952.44
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-7",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 8454060.46,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.457,
+    "CO2 Emissions (mt)": 6678.33
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-9",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 3995099.21,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.661,
+    "CO2 Emissions (mt)": 1814.08
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-9",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 2763704,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.502,
+    "CO2 Emissions (mt)": 3547.41
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-6",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 9214290.25,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.875,
+    "CO2 Emissions (mt)": 6720.55
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-6",
+    "Month": "May",
+    "Volume to Flare (scf)": 3063199.32,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.541,
+    "CO2 Emissions (mt)": 2318.67
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-9",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 7010432.16,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.608,
+    "CO2 Emissions (mt)": 6167.5
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-9",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 8760570.25,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.71,
+    "CO2 Emissions (mt)": 4112.79
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-5",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 5558272.67,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.616,
+    "CO2 Emissions (mt)": 2538.8
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-4",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 3624101.18,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.64,
+    "CO2 Emissions (mt)": 3679.62
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-2",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 2451518.31,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.804,
+    "CO2 Emissions (mt)": 4102.57
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-6",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 2833978.52,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.787,
+    "CO2 Emissions (mt)": 6085.38
+  },
+  {
+    "Facility Name": "Plaquemine CO2 Center",
+    "Flare ID": "FL-4",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 8535269.11,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.756,
+    "CO2 Emissions (mt)": 6429.17
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-2",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 3772007.42,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.682,
+    "CO2 Emissions (mt)": 6477.31
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-8",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 8200959.6,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.741,
+    "CO2 Emissions (mt)": 4857.91
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-3",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 8039286.78,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.814,
+    "CO2 Emissions (mt)": 4506.12
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-5",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 3311804.78,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.473,
+    "CO2 Emissions (mt)": 5795.2
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-3",
+    "Month": "May",
+    "Volume to Flare (scf)": 5118796.47,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.499,
+    "CO2 Emissions (mt)": 3006.18
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-5",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 9029265.84,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.752,
+    "CO2 Emissions (mt)": 2101.5
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-1",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 4954297.1,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.494,
+    "CO2 Emissions (mt)": 2744.39
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-4",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 2587235.62,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.68,
+    "CO2 Emissions (mt)": 4685.77
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-7",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 9341872.98,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.726,
+    "CO2 Emissions (mt)": 6352.95
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-9",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 3723938.3,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.763,
+    "CO2 Emissions (mt)": 2702.87
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-8",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 8420276.46,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.884,
+    "CO2 Emissions (mt)": 2405.22
+  },
+  {
+    "Facility Name": "Riverfront Gathering",
+    "Flare ID": "FL-3",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 5081721.27,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.692,
+    "CO2 Emissions (mt)": 4618.81
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-2",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 4310693.01,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.509,
+    "CO2 Emissions (mt)": 6948.31
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-1",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 2606738.29,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.68,
+    "CO2 Emissions (mt)": 1745.22
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-10",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 9768373.69,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.793,
+    "CO2 Emissions (mt)": 4055.9
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-8",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 9398798.88,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.519,
+    "CO2 Emissions (mt)": 4962.44
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-8",
+    "Month": "May",
+    "Volume to Flare (scf)": 6967528.98,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.859,
+    "CO2 Emissions (mt)": 1852.31
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-7",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 3018255.87,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.77,
+    "CO2 Emissions (mt)": 4040.97
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-8",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 4662878.92,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.521,
+    "CO2 Emissions (mt)": 3331.13
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-1",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 6223822.84,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.686,
+    "CO2 Emissions (mt)": 2709.52
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-3",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 8421864.88,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.453,
+    "CO2 Emissions (mt)": 4528.08
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-9",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 2323376.52,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.786,
+    "CO2 Emissions (mt)": 4953.05
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-2",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 3661164.42,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.649,
+    "CO2 Emissions (mt)": 6954.65
+  },
+  {
+    "Facility Name": "Gulf South Terminal",
+    "Flare ID": "FL-7",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 8735837.46,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.776,
+    "CO2 Emissions (mt)": 5302.35
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-8",
+    "Month": "Jan",
+    "Volume to Flare (scf)": 5957995.56,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.545,
+    "CO2 Emissions (mt)": 2456.76
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-10",
+    "Month": "Feb",
+    "Volume to Flare (scf)": 7102420.72,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.848,
+    "CO2 Emissions (mt)": 4055.46
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-1",
+    "Month": "Mar",
+    "Volume to Flare (scf)": 7547390.09,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.666,
+    "CO2 Emissions (mt)": 4118.54
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-1",
+    "Month": "Apr",
+    "Volume to Flare (scf)": 4514906.82,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.762,
+    "CO2 Emissions (mt)": 5993.29
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-4",
+    "Month": "May",
+    "Volume to Flare (scf)": 5061742.15,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.505,
+    "CO2 Emissions (mt)": 1847.46
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-3",
+    "Month": "Jun",
+    "Volume to Flare (scf)": 3952015.73,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.627,
+    "CO2 Emissions (mt)": 4650.66
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-3",
+    "Month": "Jul",
+    "Volume to Flare (scf)": 9249086.75,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.703,
+    "CO2 Emissions (mt)": 3353.83
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-10",
+    "Month": "Aug",
+    "Volume to Flare (scf)": 3486144.66,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.456,
+    "CO2 Emissions (mt)": 2348.24
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-2",
+    "Month": "Sep",
+    "Volume to Flare (scf)": 8372602.84,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.49,
+    "CO2 Emissions (mt)": 1806.79
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-7",
+    "Month": "Oct",
+    "Volume to Flare (scf)": 5171104.44,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.734,
+    "CO2 Emissions (mt)": 6942.76
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-3",
+    "Month": "Nov",
+    "Volume to Flare (scf)": 3608585.96,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.504,
+    "CO2 Emissions (mt)": 4475.02
+  },
+  {
+    "Facility Name": "Denbury Onshore LLC",
+    "Flare ID": "FL-7",
+    "Month": "Dec",
+    "Volume to Flare (scf)": 6508531.23,
+    "Flare Combustion Efficiency": 0.98,
+    "XCO2 (mole frac)": 0.67,
+    "CO2 Emissions (mt)": 4652.19
+  }
+]

@@ -79,10 +79,29 @@ CarbonHorizon is built using a modern, enterprise-grade technology stack that en
 ## AI & Machine Learning
 
 ### Artificial Intelligence
-- **OpenAI GPT-4** - Advanced language model for compliance report generation
-- **Natural Language Processing (NLP)** - Automated document analysis and extraction
-- **Predictive Analytics Engine** - Machine learning models for emission forecasting
-- **TensorFlow.js** - Client-side ML for real-time anomaly detection
+### **OpenAI Integration**
+- **GPT-4**: Advanced language model for intelligent data analysis
+- **OpenAI API**: Real-time AI-powered insights and recommendations
+- **Custom AI Models**: Fine-tuned models for carbon capture predictions
+- **Natural Language Processing**: Automated report generation and insights
+- **Claude AI**: Anthropic's AI for advanced reasoning and analysis
+- **LightGBM** helper for spreadsheet auto-mapping and graphing
+
+### **AI-Powered Features**
+- **Automated Report Generation**: AI creates comprehensive compliance reports
+- **Predictive Analytics**: Machine learning models for risk assessment
+- **Smart Recommendations**: AI suggests optimal investment strategies
+- **Natural Language Queries**: Users can ask questions in plain English
+- **Intelligent Data Processing**: AI extracts insights from raw sensor data
+
+### **Machine Learning Pipeline**
+- **TensorFlow.js**: Client-side machine learning for real-time predictions
+- **Scikit-learn**: Python-based ML models for backend analytics
+- **Pandas**: Data manipulation and analysis
+- **NumPy**: Numerical computing for complex calculations
+- **Custom Algorithms**: Risk calculation formulas and optimization
+
+---
 
 ### Data Processing
 - **Python 3.11** - Backend data science pipeline
