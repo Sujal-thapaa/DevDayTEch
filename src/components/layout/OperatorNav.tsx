@@ -34,14 +34,15 @@ export const OperatorNav: React.FC<OperatorNavProps> = ({
   onNavigate,
 }) => {
   return (
-    <nav className="w-64 bg-[#174B7A] h-screen fixed left-0 top-0 text-white flex flex-col">
+    <nav className="w-64 bg-gradient-to-b from-green-700 to-green-800 h-screen fixed left-0 top-0 text-white flex flex-col shadow-xl">
       <div className="p-6 border-b border-white/10">
         <img 
           src="/image/CarbonHorizon.png" 
           alt="CarbonHorizon" 
-          className="h-20 w-auto mb-3"
+          className="h-16 w-auto mb-3"
         />
-        <p className="text-sm text-white/70">Operator Portal</p>
+        <p className="text-sm text-green-100 font-medium">Operator Portal</p>
+        <p className="text-xs text-green-200 mt-1">Professional Dashboard</p>
       </div>
 
       <div className="flex-1 overflow-y-auto py-4">
@@ -53,10 +54,10 @@ export const OperatorNav: React.FC<OperatorNavProps> = ({
             <button
               key={item.id}
               onClick={() => onNavigate(item.id)}
-              className={`w-full flex items-center gap-3 px-6 py-3 text-left transition-all ${
+              className={`w-full flex items-center gap-3 px-6 py-3 text-left transition-all duration-200 ${
                 isActive
-                  ? 'bg-white/10 text-white border-l-4 border-[#1AAE9F]'
-                  : 'text-white/70 hover:bg-white/5 hover:text-white'
+                  ? 'bg-white/15 text-white border-l-4 border-emerald-400 font-semibold'
+                  : 'text-green-100 hover:bg-white/10 hover:text-white hover:border-l-4 hover:border-green-300'
               }`}
             >
               <Icon size={20} />
@@ -68,12 +69,12 @@ export const OperatorNav: React.FC<OperatorNavProps> = ({
 
       <div className="p-6 border-t border-white/10">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-[#1AAE9F] flex items-center justify-center font-semibold">
+          <div className="w-10 h-10 rounded-full bg-emerald-500 flex items-center justify-center font-bold text-white shadow-lg">
             JD
           </div>
           <div>
-            <p className="text-sm font-medium">John Doe</p>
-            <p className="text-xs text-white/70">Admin</p>
+            <p className="text-sm font-semibold text-white">John Doe</p>
+            <p className="text-xs text-green-200">Administrator</p>
           </div>
         </div>
       </div>

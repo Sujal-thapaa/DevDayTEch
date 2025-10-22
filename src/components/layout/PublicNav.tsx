@@ -19,30 +19,31 @@ export const PublicNav: React.FC<PublicNavProps> = ({ currentPage, onNavigate, o
 
   return (
     <>
-      <div className="bg-[#E9A23B] text-gray-900 py-2 px-6 text-sm font-medium text-center">
-        Public Safety Portal - Information is provided for transparency and community awareness
+      <div className="bg-gradient-to-r from-green-600 to-emerald-600 text-white py-2 px-6 text-sm font-medium text-center">
+        Louisiana Carbon Capture Transparency Portal - Real-time data for community awareness
       </div>
-      <nav className="bg-white border-b border-gray-200 py-4 px-6">
+      <nav className="bg-white border-b border-green-200 py-4 px-6 shadow-sm">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <img 
               src="/image/CarbonHorizon.png" 
               alt="CarbonHorizon" 
-              className="h-20 w-auto"
+              className="h-16 w-auto"
             />
-            <div className="border-l border-gray-300 pl-3">
-              <p className="text-xs text-gray-600 font-medium">Public Portal</p>
+            <div className="border-l border-green-300 pl-4">
+              <p className="text-sm text-green-700 font-semibold">Public Portal</p>
+              <p className="text-xs text-green-600">Community Access</p>
             </div>
           </div>
-          <div className="flex gap-6 items-center">
+          <div className="flex gap-8 items-center">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => onNavigate(item.id)}
-                className={`text-sm font-medium transition-colors ${
+                className={`text-sm font-medium transition-all duration-200 ${
                   currentPage === item.id
-                    ? 'text-[#174B7A] border-b-2 border-[#174B7A] pb-1'
-                    : 'text-gray-600 hover:text-gray-900'
+                    ? 'text-green-600 border-b-2 border-green-600 pb-1 font-semibold'
+                    : 'text-gray-600 hover:text-green-600 hover:border-b-2 hover:border-green-300 pb-1'
                 }`}
               >
                 {item.label}
@@ -51,7 +52,7 @@ export const PublicNav: React.FC<PublicNavProps> = ({ currentPage, onNavigate, o
             {onBack && (
               <button
                 onClick={onBack}
-                className="ml-4 flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-[#174B7A] hover:bg-[#0f3350] rounded-lg transition-colors"
+                className="ml-6 flex items-center gap-2 px-5 py-2 text-sm font-medium text-white bg-green-600 hover:bg-green-700 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
               >
                 <LogOut size={16} />
                 Back to Entry

@@ -31,7 +31,7 @@ export const OperatorHeader: React.FC<OperatorHeaderProps> = ({ onLogout }) => {
 
   return (
     <>
-      <header className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-6">
+      <header className="h-16 bg-white border-b border-green-200 flex items-center justify-between px-6 shadow-sm">
         <div className="flex items-center gap-4 flex-1">
           <Select
             value={tenant}
@@ -53,26 +53,29 @@ export const OperatorHeader: React.FC<OperatorHeaderProps> = ({ onLogout }) => {
             <input
               type="text"
               placeholder="Search facilities, reports, incidents..."
-              className="input w-full pl-10"
+              className="input w-full pl-10 border-gray-300 focus:border-green-500 focus:ring-green-500"
             />
           </div>
         </div>
 
         <div className="flex items-center gap-3">
-          <button className="relative p-2 hover:bg-gray-100 rounded-lg transition-colors">
+          <button className="relative p-2 hover:bg-green-50 rounded-lg transition-colors">
             <Bell size={20} className="text-gray-600" />
-            <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
+            <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
           </button>
 
-          <Button variant="primary" size="md" onClick={handleCreateReport}>
-            <Plus size={18} className="inline mr-1" />
+          <button 
+            onClick={handleCreateReport}
+            className="flex items-center gap-2 px-5 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-all duration-200 shadow-sm hover:shadow-md font-medium"
+          >
+            <Plus size={18} />
             Create Report
-          </Button>
+          </button>
 
           {onLogout && (
             <button
               onClick={onLogout}
-              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-700 hover:bg-green-50 rounded-lg transition-all duration-200"
             >
               <LogOut size={18} />
               Logout
@@ -88,24 +91,24 @@ export const OperatorHeader: React.FC<OperatorHeaderProps> = ({ onLogout }) => {
             <div className="flex flex-col items-center text-center">
               {/* Animated Icon */}
               <div className="relative mb-6">
-                <div className="absolute inset-0 bg-blue-500/20 rounded-full animate-ping"></div>
-                <div className="relative bg-gradient-to-br from-blue-500 to-blue-600 rounded-full p-4">
+                <div className="absolute inset-0 bg-green-500/20 rounded-full animate-ping"></div>
+                <div className="relative bg-gradient-to-br from-green-600 to-emerald-600 rounded-full p-4">
                   <Sparkles className="w-12 h-12 text-white animate-pulse" />
                 </div>
               </div>
 
               {/* Loading Spinner */}
-              <Loader2 className="w-16 h-16 text-blue-600 animate-spin mb-4" />
+              <Loader2 className="w-16 h-16 text-green-600 animate-spin mb-4" />
 
               {/* Text */}
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">AI Generating Report</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Generating Report</h3>
               <p className="text-gray-600 mb-6">
                 Analyzing emissions data, compiling insights, and preparing your comprehensive report...
               </p>
 
               {/* Progress Bar */}
               <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-blue-500 to-blue-600 rounded-full animate-progress"></div>
+                <div className="h-full bg-gradient-to-r from-green-600 to-emerald-600 rounded-full animate-progress"></div>
               </div>
             </div>
           </div>

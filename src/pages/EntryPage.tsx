@@ -7,12 +7,19 @@ interface EntryPageProps {
 
 export const EntryPage: React.FC<EntryPageProps> = ({ onSelectPublic, onSelectOperator }) => {
   return (
-    <div 
-      className="min-h-screen bg-cover bg-center bg-fixed flex items-center justify-center"
-      style={{ backgroundImage: 'url(/image/bg.jpg)' }}
-    >
+    <div className="min-h-screen relative flex items-center justify-center overflow-hidden">
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src="/image/bg_video.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
+
       {/* Dark overlay for better contrast */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/45"></div>
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-md px-6 animate-fade-in">

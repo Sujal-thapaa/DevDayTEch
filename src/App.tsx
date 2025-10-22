@@ -124,7 +124,7 @@ function App() {
 
   // Operator route
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-emerald-50">
       <div className="flex">
         <OperatorNav currentPage={operatorPage} onNavigate={setOperatorPage} />
         <div className="flex-1 ml-64">
