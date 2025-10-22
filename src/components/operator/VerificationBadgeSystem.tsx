@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ArrowRight } from 'lucide-react';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
@@ -218,139 +219,301 @@ export const VerificationBadgeSystem: React.FC = () => {
 
   return (
     <div className="space-y-6">
-      {/* Interactive Simulation Interface */}
-      <Card className="p-6 bg-gradient-to-r from-purple-50 to-blue-50 border-l-4 border-l-purple-500">
-        <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-          🧮 Interactive CO₂ Verification Simulator
-        </h2>
-        <p className="text-gray-600 mb-6">
-          Simulate investments and see how they affect verification badges in real-time
+      {/* Badge Tier Information */}
+      <Card className="p-8 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+        <h2 className="text-2xl font-bold mb-6 text-center">Verification Badge Tiers</h2>
+        <p className="text-gray-300 text-center mb-8">
+          Achieve higher badge levels by increasing your CO₂ offset percentage through strategic investments
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-          {/* Company Selection */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Select CO₂ Capture Company
-            </label>
-            <Select
-              value={selectedCompany.toString()}
-              onChange={(e) => setSelectedCompany(Number(e.target.value))}
-              options={captureCompanies.map(company => ({
-                value: company.id.toString(),
-                label: company.name
-              }))}
-            />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Bronze Badge */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:border-amber-400 transition-all duration-300 hover:scale-105">
+            <div className="flex flex-col items-center text-center space-y-4">
+              <div className="relative w-20 h-20">
+                <img 
+                  src="/image/bronze.png" 
+                  alt="Bronze Badge"
+                  className="w-full h-full object-contain drop-shadow-2xl"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const fallback = document.createElement('div');
+                    fallback.className = 'w-full h-full rounded-full bg-gradient-to-r from-amber-600 to-amber-800 flex items-center justify-center text-white font-bold text-3xl shadow-xl';
+                    fallback.textContent = '🟤';
+                    target.parentNode?.appendChild(fallback);
+                  }}
+                />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-amber-400 mb-2">Bronze</h3>
+                <div className="text-3xl font-bold mb-2">25%</div>
+                <p className="text-sm text-gray-300">CO₂ Offset Required</p>
+              </div>
+              <div className="w-full pt-4 border-t border-white/10">
+                <p className="text-xs text-gray-400">Entry level verification for carbon capture initiatives</p>
+              </div>
+            </div>
           </div>
-          
-          {/* Project Selection */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Choose Investment Type
-            </label>
-            <Select
-              value={selectedProject.toString()}
-              onChange={(e) => setSelectedProject(Number(e.target.value))}
-              options={simulationProjects.map(project => ({
-                value: project.id.toString(),
-                label: project.name
-              }))}
-            />
+
+          {/* Silver Badge */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:border-gray-400 transition-all duration-300 hover:scale-105">
+            <div className="flex flex-col items-center text-center space-y-4">
+              <div className="relative w-20 h-20">
+                <img 
+                  src="/image/silver.png" 
+                  alt="Silver Badge"
+                  className="w-full h-full object-contain drop-shadow-2xl"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const fallback = document.createElement('div');
+                    fallback.className = 'w-full h-full rounded-full bg-gradient-to-r from-gray-400 to-gray-600 flex items-center justify-center text-white font-bold text-3xl shadow-xl';
+                    fallback.textContent = '⚪';
+                    target.parentNode?.appendChild(fallback);
+                  }}
+                />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-300 mb-2">Silver</h3>
+                <div className="text-3xl font-bold mb-2">50%</div>
+                <p className="text-sm text-gray-300">CO₂ Offset Required</p>
+              </div>
+              <div className="w-full pt-4 border-t border-white/10">
+                <p className="text-xs text-gray-400">Intermediate verification for committed operators</p>
+              </div>
+            </div>
           </div>
-          
-          {/* Investment Amount */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Investment Amount ($)
-            </label>
-            <Input
-              type="number"
-              value={investmentAmount}
-              onChange={(e) => setInvestmentAmount(Number(e.target.value))}
-              placeholder="Enter amount"
-            />
+
+          {/* Gold Badge */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:border-yellow-400 transition-all duration-300 hover:scale-105">
+            <div className="flex flex-col items-center text-center space-y-4">
+              <div className="relative w-20 h-20">
+                <img 
+                  src="/image/gold.png" 
+                  alt="Gold Badge"
+                  className="w-full h-full object-contain drop-shadow-2xl"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const fallback = document.createElement('div');
+                    fallback.className = 'w-full h-full rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600 flex items-center justify-center text-white font-bold text-3xl shadow-xl';
+                    fallback.textContent = '🟡';
+                    target.parentNode?.appendChild(fallback);
+                  }}
+                />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-yellow-400 mb-2">Gold</h3>
+                <div className="text-3xl font-bold mb-2">75%</div>
+                <p className="text-sm text-gray-300">CO₂ Offset Required</p>
+              </div>
+              <div className="w-full pt-4 border-t border-white/10">
+                <p className="text-xs text-gray-400">Advanced verification for leading sustainability</p>
+              </div>
+            </div>
           </div>
-          
-          {/* Calculate Button */}
-          <div className="flex items-end">
-            <Button
-              onClick={calculateSimulation}
-              className="w-full bg-purple-600 hover:bg-purple-700 text-white"
-            >
-              Calculate Impact
-            </Button>
+
+          {/* Diamond Badge */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:border-purple-400 transition-all duration-300 hover:scale-105 relative overflow-hidden">
+            {/* Sparkle Effect */}
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 animate-pulse"></div>
+            
+            <div className="relative flex flex-col items-center text-center space-y-4">
+              <div className="relative w-20 h-20">
+                <img 
+                  src="/image/diamond.png" 
+                  alt="Diamond Badge"
+                  className="w-full h-full object-contain drop-shadow-2xl"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const fallback = document.createElement('div');
+                    fallback.className = 'w-full h-full rounded-full bg-gradient-to-r from-blue-400 to-purple-600 flex items-center justify-center text-white font-bold text-3xl shadow-xl';
+                    fallback.textContent = '💎';
+                    target.parentNode?.appendChild(fallback);
+                  }}
+                />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">Diamond</h3>
+                <div className="text-3xl font-bold mb-2">100%</div>
+                <p className="text-sm text-gray-300">CO₂ Offset Required</p>
+              </div>
+              <div className="w-full pt-4 border-t border-white/10">
+                <p className="text-xs text-gray-400">Premium verification for carbon neutrality excellence</p>
+              </div>
+            </div>
           </div>
         </div>
-        
-        {/* Company Details Panel */}
-        {(() => {
-          const selectedCompanyData = captureCompanies.find(c => c.id === selectedCompany);
-          return selectedCompanyData && (
-            <Card className="p-6 bg-gradient-to-r from-green-50 to-blue-50 border-l-4 border-l-green-500 mb-6">
-              <div className="flex items-start gap-4">
+
+        {/* Additional Info */}
+        <div className="mt-8 p-4 bg-white/5 rounded-lg border border-white/10">
+          <div className="flex items-start gap-3">
+            <div className="text-2xl">ℹ️</div>
+            <div className="flex-1">
+              <h4 className="font-semibold text-white mb-2">How Badge Verification Works</h4>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                Badge tiers are determined by your CO₂ offset percentage relative to your facility's annual emissions or capture capacity. 
+                Invest in verified capture projects to increase your offset percentage and unlock higher badge tiers. 
+                Each tier demonstrates your commitment to environmental responsibility and carbon neutrality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </Card>
+
+      {/* Interactive Simulation Interface */}
+      <div className="space-y-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-gray-900 mb-3">Interactive CO₂ Verification Simulator</h2>
+          <p className="text-lg text-gray-600">
+            Select a capture company and simulate investments to see how they affect verification badges in real-time
+          </p>
+        </div>
+
+        {/* Company Selection Panels */}
+        <div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Select CO₂ Capture Company</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {captureCompanies.map((company) => (
+              <Card
+                key={company.id}
+                className={`p-6 cursor-pointer transition-all duration-300 hover:shadow-xl relative ${
+                  selectedCompany === company.id
+                    ? 'border-4 border-green-500 bg-gradient-to-br from-green-50 to-emerald-50 shadow-lg scale-105'
+                    : 'border-2 border-gray-200 hover:border-green-300 hover:scale-102'
+                }`}
+                onClick={() => setSelectedCompany(company.id)}
+              >
+                {/* Selection Indicator */}
+                {selectedCompany === company.id && (
+                  <div className="absolute -top-3 -right-3 w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold shadow-lg animate-pulse">
+                    ✓
+                  </div>
+                )}
+
                 {/* Company Logo with Diamond Badge */}
-                <div className="relative">
-                  <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {selectedCompanyData.name.charAt(0)}
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="relative flex-shrink-0">
+                    <div className={`w-16 h-16 bg-gradient-to-br rounded-xl flex items-center justify-center text-white font-bold text-2xl shadow-lg ${
+                      company.type === 'Algae Farm' ? 'from-green-500 to-green-700' :
+                      company.type === 'Direct Air Capture' ? 'from-blue-500 to-blue-700' :
+                      company.type === 'Forest Conservation' ? 'from-emerald-500 to-emerald-700' :
+                      company.type === 'Ocean Enhancement' ? 'from-cyan-500 to-cyan-700' :
+                      company.type === 'Soil Sequestration' ? 'from-amber-500 to-amber-700' :
+                      'from-teal-500 to-teal-700'
+                    }`}>
+                      {company.name.charAt(0)}
+                    </div>
+                    {/* Diamond Badge */}
+                    <div className="absolute -top-2 -left-2 w-7 h-7 rounded-full shadow-lg overflow-hidden">
+                      <img 
+                        src="/image/diamond.png"
+                        alt="Diamond badge"
+                        className="w-full h-full object-contain"
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.style.display = 'none';
+                          const fallback = document.createElement('div');
+                          fallback.className = 'w-full h-full bg-gradient-to-r from-blue-400 to-purple-600 rounded-full flex items-center justify-center text-xs';
+                          fallback.textContent = '💎';
+                          target.parentNode?.appendChild(fallback);
+                        }}
+                      />
+                    </div>
                   </div>
-                  {/* Diamond Badge */}
-                  <div className="absolute -top-2 -left-2 w-6 h-6 rounded-full shadow-lg overflow-hidden">
-                    <img 
-                      src="/image/diamond.png"
-                      alt="Diamond verification badge"
-                      className="w-full h-full object-contain"
-                      onError={(e) => {
-                        const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
-                        const fallback = document.createElement('div');
-                        fallback.className = 'w-full h-full bg-gradient-to-r from-blue-400 to-purple-600 rounded-full flex items-center justify-center text-white text-xs font-bold';
-                        fallback.textContent = '💎';
-                        target.parentNode?.appendChild(fallback);
-                      }}
-                    />
+
+                  <div className="flex-1 min-w-0">
+                    <h4 className="font-bold text-gray-900 mb-1 text-lg truncate">{company.name}</h4>
+                    <p className="text-xs text-gray-600 font-medium">{company.type}</p>
                   </div>
                 </div>
-                
+
                 {/* Company Details */}
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{selectedCompanyData.name}</h3>
-                  <p className="text-gray-600 mb-3">{selectedCompanyData.description}</p>
-                  
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-                    <div>
-                      <span className="text-gray-500">Type:</span>
-                      <div className="font-semibold text-gray-900">{selectedCompanyData.type}</div>
-                    </div>
-                    <div>
-                      <span className="text-gray-500">Capacity:</span>
-                      <div className="font-semibold text-green-600">{formatNumber(selectedCompanyData.capacity)} tons/year</div>
-                    </div>
-                    <div>
-                      <span className="text-gray-500">Location:</span>
-                      <div className="font-semibold text-gray-900">{selectedCompanyData.location}</div>
-                    </div>
-                    <div>
-                      <span className="text-gray-500">Efficiency:</span>
-                      <div className="font-semibold text-blue-600">{selectedCompanyData.efficiency}</div>
-                    </div>
-                    <div>
-                      <span className="text-gray-500">Founded:</span>
-                      <div className="font-semibold text-gray-900">{selectedCompanyData.founded}</div>
-                    </div>
-                    <div>
-                      <span className="text-gray-500">Employees:</span>
-                      <div className="font-semibold text-gray-900">{selectedCompanyData.employees}</div>
-                    </div>
-                    <div className="md:col-span-2">
-                      <span className="text-gray-500">Technology:</span>
-                      <div className="font-semibold text-gray-900">{selectedCompanyData.technology}</div>
-                    </div>
+                <div className="space-y-2 text-sm">
+                  <div className="flex justify-between items-center py-2 border-t border-gray-200">
+                    <span className="text-gray-600">Capacity:</span>
+                    <span className="font-bold text-green-600">{formatNumber(company.capacity)} t/yr</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">Location:</span>
+                    <span className="font-semibold text-gray-900 text-xs">{company.location}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">Efficiency:</span>
+                    <span className={`font-semibold text-xs px-2 py-1 rounded ${
+                      company.efficiency === 'Very High' ? 'bg-green-100 text-green-700' :
+                      company.efficiency === 'High' ? 'bg-blue-100 text-blue-700' :
+                      'bg-gray-100 text-gray-700'
+                    }`}>
+                      {company.efficiency}
+                    </span>
+                  </div>
+                  <div className="pt-2 border-t border-gray-200">
+                    <p className="text-xs text-gray-500 line-clamp-2">{company.description}</p>
                   </div>
                 </div>
-              </div>
-            </Card>
-          );
-        })()}
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Investment Configuration */}
+        <Card className="p-8 bg-gradient-to-r from-purple-50 to-blue-50 border-l-4 border-l-purple-500">
+          <h3 className="text-xl font-bold text-gray-900 mb-6">Configure Investment</h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Project Selection */}
+            <div>
+              <label className="block text-sm font-semibold text-gray-700 mb-3">
+                Choose Investment Type
+              </label>
+              <Select
+                value={selectedProject.toString()}
+                onChange={(e) => setSelectedProject(Number(e.target.value))}
+                options={simulationProjects.map(project => ({
+                  value: project.id.toString(),
+                  label: project.name
+                }))}
+                className="text-base"
+              />
+              <p className="text-xs text-gray-500 mt-2">
+                Efficiency: {simulationProjects.find(p => p.id === selectedProject)?.efficiency.toFixed(4)} tons/$
+              </p>
+            </div>
+            
+            {/* Investment Amount */}
+            <div>
+              <label className="block text-sm font-semibold text-gray-700 mb-3">
+                Investment Amount ($)
+              </label>
+              <Input
+                type="number"
+                value={investmentAmount}
+                onChange={(e) => setInvestmentAmount(Number(e.target.value))}
+                placeholder="Enter amount"
+                className="text-base"
+              />
+              <p className="text-xs text-gray-500 mt-2">
+                Formatted: ${formatNumber(investmentAmount)}
+              </p>
+            </div>
+            
+            {/* Calculate Button */}
+            <div className="flex flex-col justify-end">
+              <Button
+                onClick={calculateSimulation}
+                className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white py-4 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                <span className="flex items-center justify-center gap-2">
+                  Calculate Impact
+                  <ArrowRight size={20} />
+                </span>
+              </Button>
+            </div>
+          </div>
+        </Card>
         
         {/* Simulation Result */}
         {simulationResult && (
@@ -442,7 +605,7 @@ export const VerificationBadgeSystem: React.FC = () => {
             </div>
           </Card>
         )}
-      </Card>
+      </div>
 
       {/* Summary Bar */}
       <Card className="p-6 bg-gradient-to-r from-green-50 to-blue-50 border-l-4 border-l-green-500">

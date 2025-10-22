@@ -41,8 +41,26 @@ export const OperatorNav: React.FC<OperatorNavProps> = ({
           alt="CarbonHorizon" 
           className="h-16 w-auto mb-3"
         />
-        <p className="text-sm text-green-100 font-medium">Operator Portal</p>
-        <p className="text-xs text-green-200 mt-1">Professional Dashboard</p>
+        <div className="flex items-center gap-2">
+          <div>
+            <p className="text-sm text-green-100 font-medium">Operator Portal</p>
+            <p className="text-xs text-green-200 mt-1">Professional Dashboard</p>
+          </div>
+          <img 
+            src="/image/diamond.png" 
+            alt="Diamond Badge" 
+            className="w-8 h-8 object-contain"
+            onError={(e) => {
+              // Fallback to colored circle if image not found
+              const target = e.target as HTMLImageElement;
+              target.style.display = 'none';
+              const fallback = document.createElement('div');
+              fallback.className = 'w-8 h-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-600 flex items-center justify-center text-white text-xs font-bold shadow-lg';
+              fallback.textContent = 'D';
+              target.parentNode?.appendChild(fallback);
+            }}
+          />
+        </div>
       </div>
 
       <div className="flex-1 overflow-y-auto py-4">
