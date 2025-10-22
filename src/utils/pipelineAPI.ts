@@ -1,6 +1,8 @@
 // Pipeline API endpoints for Data 2.0 system
 // These endpoints would typically be implemented in a backend API server
 
+import { Pipeline } from '../types';
+
 export interface PipelineAPI {
   // GET /api/pipelines - Get all pipelines
   getAllPipelines(): Promise<Pipeline[]>;
@@ -132,3 +134,4 @@ export const formatPipelineLength = (length: number): string => {
 export const formatPipelineDiameter = (diameter: number): string => {
   return `${diameter.toFixed(0)}"`;
 };
+

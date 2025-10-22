@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { MapPin, TrendingUp, Users, Briefcase } from 'lucide-react';
+import { MapPin, TrendingUp, Users, Briefcase, Route } from 'lucide-react';
 import { Card } from '../../components/ui/Card';
 import { Badge } from '../../components/ui/Badge';
 import { FacilityMap } from '../../components/maps/FacilityMap';
+import { PipelineMap } from '../../components/maps/PipelineMap';
+import { MapControls } from '../../components/maps/MapControls';
 import { GOOGLE_MAPS_API_KEY } from '../../config/maps';
+import { Pipeline } from '../../types';
+import { pipelineAPI } from '../../utils/pipelineAPI';
 
 interface FacilityData {
   "Facility Name": string;
@@ -18,6 +22,14 @@ interface FacilityData {
 export const PublicHomePage: React.FC = () => {
   const [facilities, setFacilities] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  
+  // Pipeline map state
+  const [showFacilities, setShowFacilities] = useState(true);
+  const [showPipelines, setShowPipelines] = useState(true);
+  const [selectedPipelineType, setSelectedPipelineType] = useState<Pipeline['pipelineType']>();
+  const [selectedStatus, setSelectedStatus] = useState<Pipeline['status']>();
+  const [pipelines, setPipelines] = useState<Pipeline[]>([]);
+  const [isPipelineLoading, setIsPipelineLoading] = useState(true);
 
   useEffect(() => {
     // Load facility data from public folder
@@ -32,17 +44,26 @@ export const PublicHomePage: React.FC = () => {
         console.log(`📥 Received ${data.length} facilities from facility.json`);
         
         // Transform data to match FacilityMap expected structure
-        const transformedData = data.map((facility, index) => ({
-          id: `facility-${index}`,
-          name: facility["Facility Name"],
-          lat: facility.Latitude,
-          lng: facility.Longitude,
-          type: facility.Sector,
-          emissions: Math.round(facility["Total CO2e (mt CO2e)"]),
-          unit: "mt CO2e",
-          year: facility["Reporting Year"],
-          status: facility.Sector.includes("Transport & Storage") ? "active" : "monitored"
-        }));
+        const transformedData = data
+          .filter(facility => 
+            facility.Latitude && 
+            facility.Longitude && 
+            !isNaN(facility.Latitude) && 
+            !isNaN(facility.Longitude) &&
+            facility.Latitude >= 28 && facility.Latitude <= 33 && // Louisiana bounds
+            facility.Longitude >= -94 && facility.Longitude <= -88 // Louisiana bounds
+          )
+          .map((facility, index) => ({
+            id: `facility-${index}`,
+            name: facility["Facility Name"],
+            lat: facility.Latitude,
+            lng: facility.Longitude,
+            type: facility.Sector,
+            emissions: Math.round(facility["Total CO2e (mt CO2e)"]),
+            unit: "mt CO2e",
+            year: facility["Reporting Year"],
+            status: facility.Sector.includes("Transport & Storage") ? "active" : "monitored"
+          }));
         
         console.log(`✅ Transformed ${transformedData.length} facilities for map`);
         console.log('📍 First facility:', transformedData[0]);
@@ -55,6 +76,22 @@ export const PublicHomePage: React.FC = () => {
         console.error('❌ Error loading facility data:', error);
         setIsLoading(false);
       });
+  }, []);
+
+  // Load pipeline data
+  useEffect(() => {
+    const loadPipelines = async () => {
+      try {
+        const allPipelines = await pipelineAPI.getAllPipelines();
+        setPipelines(allPipelines);
+      } catch (error) {
+        console.error('Failed to load pipelines:', error);
+      } finally {
+        setIsPipelineLoading(false);
+      }
+    };
+
+    loadPipelines();
   }, []);
 
   return (
@@ -142,6 +179,79 @@ export const PublicHomePage: React.FC = () => {
             </p>
           </>
         )}
+      </Card>
+
+      {/* Pipeline Infrastructure Map */}
+      <Card className="p-6">
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+            <Route className="text-[#174B7A]" size={24} />
+            Pipeline Infrastructure
+          </h2>
+          <div className="flex gap-3 items-center text-sm">
+            <div className="flex items-center gap-1">
+              <span className="w-4 h-4 rounded-sm bg-[#ffe8b3] border-2 border-[#800000] opacity-30"></span>
+              <span className="text-gray-600 font-medium">Louisiana Border</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <span className="w-3 h-3 rounded-full bg-[#1AAE9F]"></span>
+              <span className="text-gray-600">Transport</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <span className="w-3 h-3 rounded-full bg-[#3A7BF7]"></span>
+              <span className="text-gray-600">Storage</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <span className="w-3 h-3 rounded-full bg-[#F59E0B]"></span>
+              <span className="text-gray-600">Utilization</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <span className="w-3 h-3 rounded-full bg-[#EF4444]"></span>
+              <span className="text-gray-600">Injection</span>
+            </div>
+          </div>
+        </div>
+        
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+          {/* Controls Sidebar */}
+          <div className="lg:col-span-1">
+            <MapControls
+              showFacilities={showFacilities}
+              showPipelines={showPipelines}
+              selectedPipelineType={selectedPipelineType}
+              selectedStatus={selectedStatus}
+              onToggleFacilities={() => setShowFacilities(!showFacilities)}
+              onTogglePipelines={() => setShowPipelines(!showPipelines)}
+              onPipelineTypeChange={setSelectedPipelineType}
+              onStatusChange={setSelectedStatus}
+            />
+          </div>
+
+          {/* Map Content */}
+          <div className="lg:col-span-3">
+            {isPipelineLoading ? (
+              <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg">
+                <div className="text-center">
+                  <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#174B7A] mx-auto mb-4"></div>
+                  <p className="text-gray-600">Loading pipeline data...</p>
+                </div>
+              </div>
+            ) : (
+              <>
+                <PipelineMap
+                  facilities={facilities}
+                  showFacilities={showFacilities}
+                  showPipelines={showPipelines}
+                  selectedPipelineType={selectedPipelineType}
+                  selectedStatus={selectedStatus}
+                />
+                <p className="text-sm text-gray-600 mt-4">
+                  Interactive map showing {pipelines.length} pipelines across Louisiana. Click on pipeline routes for detailed information including capacity, length, and operator details.
+                </p>
+              </>
+            )}
+          </div>
+        </div>
       </Card>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

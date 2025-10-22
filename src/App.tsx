@@ -14,6 +14,7 @@ import { PipelinePage } from './pages/operator/PipelinePage';
 import { PublicHomePage } from './pages/public/PublicHomePage';
 import { ExploreIndustryPage } from './pages/public/ExploreIndustryPage';
 import { UniversityBridgePage } from './pages/public/UniversityBridgePage';
+import { SafetyAlertPage } from './pages/public/SafetyAlertPage';
 import { EntryPage } from './pages/EntryPage';
 import { OperatorAuthPage } from './pages/auth/OperatorAuthPage';
 import { OperatorPage, PublicPage } from './types';
@@ -64,12 +65,7 @@ function App() {
           </div>
         );
       case 'alerts':
-        return (
-          <div className="max-w-7xl mx-auto py-8 px-6">
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">Safety Alerts</h1>
-            <p className="text-gray-600">Public safety incident feed coming soon...</p>
-          </div>
-        );
+        return <SafetyAlertPage />;
       case 'bridge':
         return <UniversityBridgePage />;
       default:
