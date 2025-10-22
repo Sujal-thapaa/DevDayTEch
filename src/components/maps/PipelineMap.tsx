@@ -9,7 +9,6 @@ interface PipelineMapProps {
   showFacilities?: boolean;
   showPipelines?: boolean;
   selectedPipelineType?: Pipeline['pipelineType'];
-  selectedStatus?: Pipeline['status'];
 }
 
 const mapContainerStyle = {
@@ -107,7 +106,6 @@ export const PipelineMap: React.FC<PipelineMapProps> = ({
   showFacilities = true,
   showPipelines = true,
   selectedPipelineType,
-  selectedStatus
 }) => {
   const [pipelines, setPipelines] = useState<Pipeline[]>([]);
   const [selectedPipeline, setSelectedPipeline] = useState<Pipeline | null>(null);
@@ -156,7 +154,6 @@ export const PipelineMap: React.FC<PipelineMapProps> = ({
   // Filter pipelines based on selected criteria
   const filteredPipelines = pipelines.filter(pipeline => {
     if (selectedPipelineType && pipeline.pipelineType !== selectedPipelineType) return false;
-    if (selectedStatus && pipeline.status !== selectedStatus) return false;
     return true;
   });
 

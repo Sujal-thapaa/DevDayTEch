@@ -27,7 +27,6 @@ export const PublicHomePage: React.FC = () => {
   const [showFacilities, setShowFacilities] = useState(true);
   const [showPipelines, setShowPipelines] = useState(true);
   const [selectedPipelineType, setSelectedPipelineType] = useState<Pipeline['pipelineType']>();
-  const [selectedStatus, setSelectedStatus] = useState<Pipeline['status']>();
   const [pipelines, setPipelines] = useState<Pipeline[]>([]);
   const [isPipelineLoading, setIsPipelineLoading] = useState(true);
 
@@ -219,11 +218,9 @@ export const PublicHomePage: React.FC = () => {
               showFacilities={showFacilities}
               showPipelines={showPipelines}
               selectedPipelineType={selectedPipelineType}
-              selectedStatus={selectedStatus}
               onToggleFacilities={() => setShowFacilities(!showFacilities)}
               onTogglePipelines={() => setShowPipelines(!showPipelines)}
               onPipelineTypeChange={setSelectedPipelineType}
-              onStatusChange={setSelectedStatus}
             />
           </div>
 
@@ -243,7 +240,6 @@ export const PublicHomePage: React.FC = () => {
                   showFacilities={showFacilities}
                   showPipelines={showPipelines}
                   selectedPipelineType={selectedPipelineType}
-                  selectedStatus={selectedStatus}
                 />
                 <p className="text-sm text-gray-600 mt-4">
                   Interactive map showing {pipelines.length} pipelines across Louisiana. Click on pipeline routes for detailed information including capacity, length, and operator details.

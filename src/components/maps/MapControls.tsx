@@ -8,11 +8,9 @@ interface MapControlsProps {
   showFacilities: boolean;
   showPipelines: boolean;
   selectedPipelineType?: Pipeline['pipelineType'];
-  selectedStatus?: Pipeline['status'];
   onToggleFacilities: () => void;
   onTogglePipelines: () => void;
   onPipelineTypeChange: (type: Pipeline['pipelineType'] | undefined) => void;
-  onStatusChange: (status: Pipeline['status'] | undefined) => void;
 }
 
 const pipelineTypes: { value: Pipeline['pipelineType']; label: string; color: string }[] = [
@@ -22,22 +20,14 @@ const pipelineTypes: { value: Pipeline['pipelineType']; label: string; color: st
   { value: 'CO2_INJECTION', label: 'Injection', color: '#8B5CF6' },
 ];
 
-const pipelineStatuses: { value: Pipeline['status']; label: string; color: string }[] = [
-  { value: 'ACTIVE', label: 'Active', color: '#10B981' },
-  { value: 'PLANNED', label: 'Planned', color: '#F59E0B' },
-  { value: 'UNDER_CONSTRUCTION', label: 'Under Construction', color: '#3B82F6' },
-  { value: 'INACTIVE', label: 'Inactive', color: '#6B7280' },
-];
 
 export const MapControls: React.FC<MapControlsProps> = ({
   showFacilities,
   showPipelines,
   selectedPipelineType,
-  selectedStatus,
   onToggleFacilities,
   onTogglePipelines,
   onPipelineTypeChange,
-  onStatusChange,
 }) => {
   return (
     <Card className="p-4 space-y-4">
@@ -114,40 +104,6 @@ export const MapControls: React.FC<MapControlsProps> = ({
         </div>
       </div>
 
-      {/* Pipeline Status Filter */}
-      <div className="space-y-3">
-        <h4 className="text-sm font-medium text-gray-700">Pipeline Status</h4>
-        <div className="space-y-2">
-          <button
-            onClick={() => onStatusChange(undefined)}
-            className={`w-full text-left px-3 py-2 rounded-md text-sm transition-colors ${
-              !selectedStatus
-                ? 'bg-[#174B7A] text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
-            All Statuses
-          </button>
-          {pipelineStatuses.map((status) => (
-            <button
-              key={status.value}
-              onClick={() => onStatusChange(status.value)}
-              className={`w-full text-left px-3 py-2 rounded-md text-sm transition-colors flex items-center gap-2 ${
-                selectedStatus === status.value
-                  ? 'bg-[#174B7A] text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
-            >
-              <div
-                className="w-3 h-3 rounded-full"
-                style={{ backgroundColor: status.color }}
-              ></div>
-              {status.label}
-            </button>
-          ))}
-        </div>
-      </div>
-
       {/* Legend */}
       <div className="space-y-3 pt-3 border-t border-gray-200">
         <h4 className="text-sm font-medium text-gray-700">Legend</h4>
@@ -161,19 +117,6 @@ export const MapControls: React.FC<MapControlsProps> = ({
                 style={{ backgroundColor: type.color }}
               ></div>
               <span className="text-xs text-gray-600">{type.label}</span>
-            </div>
-          ))}
-        </div>
-
-        <div className="space-y-2">
-          <div className="text-xs text-gray-600 mb-2">Status:</div>
-          {pipelineStatuses.map((status) => (
-            <div key={status.value} className="flex items-center gap-2">
-              <div
-                className="w-3 h-3 rounded-full"
-                style={{ backgroundColor: status.color }}
-              ></div>
-              <span className="text-xs text-gray-600">{status.label}</span>
             </div>
           ))}
         </div>
