@@ -99,6 +99,19 @@ export const ExploreIndustryPage: React.FC = () => {
     return colors[sector] || 'bg-gray-100 text-gray-800';
   };
 
+  // Verification badge types
+  const verificationBadges = ['bronze', 'silver', 'gold', 'diamond'];
+  
+  // Function to get random badge for a facility
+  const getRandomBadge = (facilityName: string) => {
+    // Use facility name as seed for consistent badge assignment
+    const hash = facilityName.split('').reduce((a, b) => {
+      a = ((a << 5) - a) + b.charCodeAt(0);
+      return a & a;
+    }, 0);
+    return verificationBadges[Math.abs(hash) % verificationBadges.length];
+  };
+
   // If a facility is selected, show detail page
   if (selectedFacility) {
     return <FacilityDetailPage facilityName={selectedFacility} onBack={() => setSelectedFacility(null)} />;
@@ -277,10 +290,33 @@ export const ExploreIndustryPage: React.FC = () => {
               {filteredFacilities.map((facility, index) => (
                 <Card 
                   key={index} 
-                  className="p-6 hover:shadow-lg transition-all cursor-pointer hover:scale-105 hover:border-[#1AAE9F]"
+                  className="p-6 hover:shadow-lg transition-all cursor-pointer hover:scale-105 hover:border-[#1AAE9F] relative"
                   onClick={() => setSelectedFacility(facility["Facility Name"])}
                 >
-                  <div className="flex items-start justify-between mb-3">
+                  {/* Verification Badge */}
+                  <div className="absolute top-3 right-3">
+                    <img 
+                      src={`/image/${getRandomBadge(facility["Facility Name"])}.png`}
+                      alt={`${getRandomBadge(facility["Facility Name"])} verification badge`}
+                      className="w-8 h-8 object-contain"
+                      onError={(e) => {
+                        // Fallback to colored circle if image not found
+                        const target = e.target as HTMLImageElement;
+                        target.style.display = 'none';
+                        const fallback = document.createElement('div');
+                        fallback.className = `w-8 h-8 rounded-full flex items-center justify-center text-white text-xs font-bold ${
+                          getRandomBadge(facility["Facility Name"]) === 'bronze' ? 'bg-amber-600' :
+                          getRandomBadge(facility["Facility Name"]) === 'silver' ? 'bg-gray-400' :
+                          getRandomBadge(facility["Facility Name"]) === 'gold' ? 'bg-yellow-500' :
+                          'bg-gradient-to-r from-blue-400 to-purple-600'
+                        }`;
+                        fallback.textContent = getRandomBadge(facility["Facility Name"]).charAt(0).toUpperCase();
+                        target.parentNode?.appendChild(fallback);
+                      }}
+                    />
+                  </div>
+
+                  <div className="flex items-start justify-between mb-3 pr-12">
                     <h3 className="font-bold text-gray-900 text-lg flex-1">
                       {facility["Facility Name"]}
                     </h3>
