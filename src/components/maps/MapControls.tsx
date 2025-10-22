@@ -30,72 +30,62 @@ export const MapControls: React.FC<MapControlsProps> = ({
   onPipelineTypeChange,
 }) => {
   return (
-    <Card className="p-4 space-y-4">
-      <h3 className="text-lg font-semibold text-gray-900 mb-3">Map Controls</h3>
+    <Card className="p-5 space-y-5 border-l-4 border-l-green-500">
+      <h3 className="text-lg font-bold text-gray-900 mb-3">Map Controls</h3>
       
       {/* Layer Toggles */}
       <div className="space-y-3">
-        <h4 className="text-sm font-medium text-gray-700">Layers</h4>
+        <h4 className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Layers</h4>
         
-        <div className="flex items-center justify-between">
-          <label className="flex items-center gap-2 cursor-pointer">
+        <div className="space-y-2">
+          <label className="flex items-center gap-3 p-2 rounded-lg hover:bg-green-50 cursor-pointer transition-colors">
             <input
               type="checkbox"
               checked={showFacilities}
               onChange={onToggleFacilities}
-              className="w-4 h-4 text-[#174B7A] bg-gray-100 border-gray-300 rounded focus:ring-[#1AAE9F] focus:ring-2"
+              className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 focus:ring-2"
             />
-            <span className="text-sm text-gray-700">Facilities</span>
+            <span className="text-sm text-gray-700 font-medium">Show Facilities</span>
           </label>
-          <div className="flex items-center gap-1">
-            <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
-            <span className="text-xs text-gray-500">Markers</span>
-          </div>
-        </div>
 
-        <div className="flex items-center justify-between">
-          <label className="flex items-center gap-2 cursor-pointer">
+          <label className="flex items-center gap-3 p-2 rounded-lg hover:bg-green-50 cursor-pointer transition-colors">
             <input
               type="checkbox"
               checked={showPipelines}
               onChange={onTogglePipelines}
-              className="w-4 h-4 text-[#174B7A] bg-gray-100 border-gray-300 rounded focus:ring-[#1AAE9F] focus:ring-2"
+              className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 focus:ring-2"
             />
-            <span className="text-sm text-gray-700">Pipelines</span>
+            <span className="text-sm text-gray-700 font-medium">Show Pipelines</span>
           </label>
-          <div className="flex items-center gap-1">
-            <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-            <span className="text-xs text-gray-500">Lines</span>
-          </div>
         </div>
       </div>
 
       {/* Pipeline Type Filter */}
-      <div className="space-y-3">
-        <h4 className="text-sm font-medium text-gray-700">Pipeline Type</h4>
+      <div className="space-y-3 pt-3 border-t border-gray-200">
+        <h4 className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Filter by Type</h4>
         <div className="space-y-2">
           <button
             onClick={() => onPipelineTypeChange(undefined)}
-            className={`w-full text-left px-3 py-2 rounded-md text-sm transition-colors ${
+            className={`w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium transition-all ${
               !selectedPipelineType
-                ? 'bg-[#174B7A] text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                ? 'bg-green-600 text-white shadow-md'
+                : 'bg-gray-100 text-gray-700 hover:bg-green-50 hover:text-green-700'
             }`}
           >
-            All Types
+            All Pipeline Types
           </button>
           {pipelineTypes.map((type) => (
             <button
               key={type.value}
               onClick={() => onPipelineTypeChange(type.value)}
-              className={`w-full text-left px-3 py-2 rounded-md text-sm transition-colors flex items-center gap-2 ${
+              className={`w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium transition-all flex items-center gap-3 ${
                 selectedPipelineType === type.value
-                  ? 'bg-[#174B7A] text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  ? 'bg-green-600 text-white shadow-md'
+                  : 'bg-gray-100 text-gray-700 hover:bg-green-50 hover:text-green-700'
               }`}
             >
               <div
-                className="w-3 h-3 rounded-full"
+                className="w-4 h-4 rounded-full border-2 border-white shadow-sm"
                 style={{ backgroundColor: type.color }}
               ></div>
               {type.label}
@@ -106,19 +96,29 @@ export const MapControls: React.FC<MapControlsProps> = ({
 
       {/* Legend */}
       <div className="space-y-3 pt-3 border-t border-gray-200">
-        <h4 className="text-sm font-medium text-gray-700">Legend</h4>
+        <h4 className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Legend</h4>
         
-        <div className="space-y-2">
-          <div className="text-xs text-gray-600 mb-2">Pipeline Types:</div>
+        <div className="space-y-2.5">
           {pipelineTypes.map((type) => (
-            <div key={type.value} className="flex items-center gap-2">
+            <div key={type.value} className="flex items-center gap-3 p-2 rounded-lg bg-gray-50">
               <div
-                className="w-3 h-3 rounded-full"
+                className="w-4 h-4 rounded-full shadow-sm"
                 style={{ backgroundColor: type.color }}
               ></div>
-              <span className="text-xs text-gray-600">{type.label}</span>
+              <span className="text-sm text-gray-700 font-medium">{type.label}</span>
             </div>
           ))}
+          
+          <div className="pt-2 border-t border-gray-200 text-xs text-gray-500 space-y-1">
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-white border-2 border-gray-400"></div>
+              <span>Source Point</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 bg-white border-2 border-gray-400"></div>
+              <span>Destination Point</span>
+            </div>
+          </div>
         </div>
       </div>
     </Card>

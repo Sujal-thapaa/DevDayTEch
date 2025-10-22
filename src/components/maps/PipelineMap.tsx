@@ -22,61 +22,42 @@ const center = {
   lng: -92.0,
 };
 
-// Function to create flowing gas particles animation
-const createFlowingGasIcon = (color: string, size: number = 12) => {
+// Function to create direction arrow icon
+const createDirectionArrow = (color: string, rotation: number) => {
   return {
     url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`
-      <svg width="${size}" height="${size}" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" transform="rotate(${rotation})">
         <defs>
-          <filter id="gasGlow">
-            <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+          <filter id="arrowGlow">
+            <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
             <feMerge> 
               <feMergeNode in="coloredBlur"/>
               <feMergeNode in="SourceGraphic"/>
             </feMerge>
           </filter>
         </defs>
-        <circle cx="12" cy="12" r="4" fill="${color}" filter="url(#gasGlow)" opacity="0.8">
-          <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
-          <animateTransform attributeName="transform" type="scale" values="0.8;1.2;0.8" dur="1.5s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="8" cy="8" r="2" fill="${color}" opacity="0.6">
-          <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="16" cy="16" r="2" fill="${color}" opacity="0.6">
-          <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" repeatCount="indefinite"/>
+        <path d="M12 2 L20 12 L12 10 L12 2 Z" fill="${color}" filter="url(#arrowGlow)" opacity="0.9"/>
+        <circle cx="12" cy="12" r="3" fill="${color}" opacity="0.7">
+          <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
         </circle>
       </svg>
     `),
-    scaledSize: new window.google.maps.Size(size, size),
-    anchor: new window.google.maps.Point(size/2, size/2),
+    scaledSize: new window.google.maps.Size(24, 24),
+    anchor: new window.google.maps.Point(12, 12),
   };
 };
 
-// Function to create flowing pipeline segments with moving particles
-const createFlowingSegment = (startCoord: [number, number], endCoord: [number, number], color: string, pipelineId: string, segmentIndex: number) => {
-  const [startLat, startLng] = startCoord;
-  const [endLat, endLng] = endCoord;
+// Function to calculate bearing between two points
+const calculateBearing = (startLat: number, startLng: number, endLat: number, endLng: number): number => {
+  const dLng = (endLng - startLng) * Math.PI / 180;
+  const lat1 = startLat * Math.PI / 180;
+  const lat2 = endLat * Math.PI / 180;
   
-  // Create multiple flowing particles along the segment
-  const particles = [];
-  for (let i = 0; i <= 4; i++) {
-    const ratio = i / 4;
-    const lat = startLat + (endLat - startLat) * ratio;
-    const lng = startLng + (endLng - startLng) * ratio;
-    
-    particles.push(
-      <Marker
-        key={`particle-${pipelineId}-${segmentIndex}-${i}`}
-        position={{ lat, lng }}
-        icon={createFlowingGasIcon(color, 10)}
-        zIndex={250}
-        clickable={false}
-      />
-    );
-  }
+  const y = Math.sin(dLng) * Math.cos(lat2);
+  const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLng);
+  const bearing = Math.atan2(y, x) * 180 / Math.PI;
   
-  return particles;
+  return (bearing + 360) % 360;
 };
 
 // Function to create flowing pipeline icon (for future use)
@@ -265,109 +246,100 @@ export const PipelineMap: React.FC<PipelineMapProps> = ({
       {/* Pipeline Polylines */}
       {showPipelines && filteredPipelines.map((pipeline) => {
         const color = getPipelineTypeColor(pipeline.pipelineType);
-        const opacity = pipeline.status === 'ACTIVE' ? 0.8 : 
+        const opacity = pipeline.status === 'ACTIVE' ? 0.85 : 
                        pipeline.status === 'UNDER_CONSTRUCTION' ? 0.6 : 0.4;
         const isActive = pipeline.status === 'ACTIVE';
+        const strokeWeight = isActive ? 5 : 3;
         
         return (
           <React.Fragment key={`pipeline-${pipeline.id}`}>
-            {/* Main Pipeline Line with Enhanced Visual */}
+            {/* Main Pipeline Line - Cleaner Design */}
             <Polyline
               path={pipeline.routeCoordinates.map(([lat, lng]) => ({ lat, lng }))}
               options={{
                 strokeColor: color,
                 strokeOpacity: opacity,
-                strokeWeight: isActive ? Math.max(8, pipeline.diameter / 2) : Math.max(4, pipeline.diameter / 4),
+                strokeWeight: strokeWeight,
                 clickable: true,
                 zIndex: 100,
+                geodesic: true,
               }}
               onClick={() => handlePipelineClick(pipeline)}
             />
             
-            {/* Secondary Pipeline Line for Depth Effect */}
-            {isActive && (
-              <Polyline
-                path={pipeline.routeCoordinates.map(([lat, lng]) => ({ lat, lng }))}
-                options={{
-                  strokeColor: '#ffffff',
-                  strokeOpacity: 0.3,
-                  strokeWeight: isActive ? Math.max(6, pipeline.diameter / 2.5) : Math.max(3, pipeline.diameter / 5),
-                  clickable: false,
-                  zIndex: 99,
-                }}
-              />
-            )}
-            
-            {/* Flowing Gas Particles */}
+            {/* Direction Arrows - Only for active pipelines, positioned strategically */}
             {isActive && animationEnabled && pipeline.routeCoordinates.length > 1 && (
               <>
-                {pipeline.routeCoordinates.slice(0, -1).map((coord, index) => {
-                  const nextCoord = pipeline.routeCoordinates[index + 1];
-                  return createFlowingSegment(coord, nextCoord, color, pipeline.id, index);
+                {/* Show arrows at 25%, 50%, and 75% of the route */}
+                {[0.25, 0.5, 0.75].map((ratio) => {
+                  const index = Math.floor((pipeline.routeCoordinates.length - 1) * ratio);
+                  const nextIndex = Math.min(index + 1, pipeline.routeCoordinates.length - 1);
+                  
+                  const [startLat, startLng] = pipeline.routeCoordinates[index];
+                  const [endLat, endLng] = pipeline.routeCoordinates[nextIndex];
+                  
+                  // Calculate midpoint
+                  const midLat = (startLat + endLat) / 2;
+                  const midLng = (startLng + endLng) / 2;
+                  
+                  // Calculate bearing for arrow rotation
+                  const bearing = calculateBearing(startLat, startLng, endLat, endLng);
+                  
+                  return (
+                    <Marker
+                      key={`arrow-${pipeline.id}-${ratio}`}
+                      position={{ lat: midLat, lng: midLng }}
+                      icon={createDirectionArrow(color, bearing)}
+                      zIndex={250}
+                      clickable={false}
+                    />
+                  );
                 })}
               </>
             )}
             
-            {/* Start and End Facility Markers */}
+            {/* Start Marker - Source */}
             {pipeline.routeCoordinates.length > 0 && (
-              <>
-                <Marker
-                  position={{ 
-                    lat: pipeline.routeCoordinates[0][0], 
-                    lng: pipeline.routeCoordinates[0][1] 
-                  }}
-                  title={`Source: ${pipeline.name}`}
-                  icon={{
-                    url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`
-                      <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="sourceGlow">
-                            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-                            <feMerge> 
-                              <feMergeNode in="coloredBlur"/>
-                              <feMergeNode in="SourceGraphic"/>
-                            </feMerge>
-                          </filter>
-                        </defs>
-                        <circle cx="14" cy="14" r="12" fill="${color}" stroke="white" stroke-width="3" filter="url(#sourceGlow)"/>
-                        <circle cx="14" cy="14" r="8" fill="white" opacity="0.3"/>
-                        <text x="14" y="18" text-anchor="middle" fill="white" font-size="12" font-weight="bold">⚡</text>
-                      </svg>
-                    `),
-                    scaledSize: new window.google.maps.Size(28, 28),
-                    anchor: new window.google.maps.Point(14, 14),
-                  }}
-                  zIndex={150}
-                />
-                <Marker
-                  position={{ 
-                    lat: pipeline.routeCoordinates[pipeline.routeCoordinates.length - 1][0], 
-                    lng: pipeline.routeCoordinates[pipeline.routeCoordinates.length - 1][1] 
-                  }}
-                  title={`Destination: ${pipeline.name}`}
-                  icon={{
-                    url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`
-                      <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                          <filter id="destGlow">
-                            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-                            <feMerge> 
-                              <feMergeNode in="coloredBlur"/>
-                              <feMergeNode in="SourceGraphic"/>
-                            </feMerge>
-                          </filter>
-                        </defs>
-                        <circle cx="14" cy="14" r="12" fill="${color}" stroke="white" stroke-width="3" filter="url(#destGlow)"/>
-                        <circle cx="14" cy="14" r="8" fill="white" opacity="0.3"/>
-                        <text x="14" y="18" text-anchor="middle" fill="white" font-size="12" font-weight="bold">🏭</text>
-                      </svg>
-                    `),
-                    scaledSize: new window.google.maps.Size(28, 28),
-                    anchor: new window.google.maps.Point(14, 14),
-                  }}
-                  zIndex={150}
-                />
-              </>
+              <Marker
+                position={{ 
+                  lat: pipeline.routeCoordinates[0][0], 
+                  lng: pipeline.routeCoordinates[0][1] 
+                }}
+                title={`Source: ${pipeline.name}`}
+                icon={{
+                  url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`
+                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="9" fill="${color}" stroke="white" stroke-width="2"/>
+                      <circle cx="10" cy="10" r="5" fill="white" opacity="0.6"/>
+                    </svg>
+                  `),
+                  scaledSize: new window.google.maps.Size(20, 20),
+                  anchor: new window.google.maps.Point(10, 10),
+                }}
+                zIndex={150}
+              />
+            )}
+            
+            {/* End Marker - Destination */}
+            {pipeline.routeCoordinates.length > 1 && (
+              <Marker
+                position={{ 
+                  lat: pipeline.routeCoordinates[pipeline.routeCoordinates.length - 1][0], 
+                  lng: pipeline.routeCoordinates[pipeline.routeCoordinates.length - 1][1] 
+                }}
+                title={`Destination: ${pipeline.name}`}
+                icon={{
+                  url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(`
+                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="10" cy="10" r="9" fill="${color}" stroke="white" stroke-width="2"/>
+                      <rect x="6" y="6" width="8" height="8" fill="white" opacity="0.6"/>
+                    </svg>
+                  `),
+                  scaledSize: new window.google.maps.Size(20, 20),
+                  anchor: new window.google.maps.Point(10, 10),
+                }}
+                zIndex={150}
+              />
             )}
           </React.Fragment>
         );
