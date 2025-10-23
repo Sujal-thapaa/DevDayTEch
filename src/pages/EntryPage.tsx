@@ -7,10 +7,10 @@ interface EntryPageProps {
 
 export const EntryPage: React.FC<EntryPageProps> = ({ onSelectPublic, onSelectOperator }) => {
   return (
-    <div className="min-h-screen relative flex items-center justify-center overflow-hidden">
+    <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-slate-900 via-green-900 to-slate-800">
       {/* Background Video */}
       <video
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover opacity-20"
         src="/image/bg_video.mp4"
         autoPlay
         muted
@@ -18,47 +18,189 @@ export const EntryPage: React.FC<EntryPageProps> = ({ onSelectPublic, onSelectOp
         playsInline
       />
 
-      {/* Dark overlay for better contrast */}
-      <div className="absolute inset-0 bg-black/45"></div>
-      
-      {/* Content */}
-      <div className="relative z-10 text-center max-w-md px-6 animate-fade-in">
-        {/* Logo */}
-        <div className="mb-6 flex justify-center">
+      {/* Navigation Header */}
+      <nav className="relative z-20 flex justify-between items-center px-8 py-6">
+        {/* Company Name with Logo */}
+        <div className="flex items-center space-x-4">
+          <div className="text-white">
+            <h1 className="text-2xl font-bold">Carbon Horizon</h1>
+            <p className="text-sm text-green-200">Louisiana Carbon Capture Portal</p>
+          </div>
           <img 
             src="/image/CarbonHorizon.png" 
             alt="CarbonHorizon" 
-            className="h-64 w-auto"
+            className="h-16 w-auto drop-shadow-lg"
           />
         </div>
-        
-        {/* Subtitle */}
-        <p className="text-xl text-white mb-12 font-normal">
-          Select how you want to access the system.
-        </p>
-        
-        {/* Buttons */}
-        <div className="space-y-4">
+
+        {/* Navigation Buttons */}
+        <div className="flex space-x-4">
           <button
             onClick={onSelectPublic}
-            className="w-full py-4 px-6 text-lg font-bold text-white bg-white/15 backdrop-blur-sm rounded-xl border-2 border-white/30 hover:bg-white hover:text-[#174B7A] transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-white/50"
+            className="px-6 py-3 bg-white/10 backdrop-blur-sm text-white border border-white/20 rounded-lg hover:bg-white/20 transition-all duration-300 font-medium"
           >
-            For Public
+            Public Access
           </button>
-          
           <button
             onClick={onSelectOperator}
-            className="w-full py-4 px-6 text-lg font-bold text-white bg-white/15 backdrop-blur-sm rounded-xl border-2 border-white/30 hover:bg-white hover:text-[#174B7A] transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-white/50"
+            className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-all duration-300 font-medium shadow-lg"
           >
-            For Operator
+            Operator Login
           </button>
         </div>
-        
-        {/* Footer text */}
-        <p className="mt-8 text-sm text-white/80">
-          Louisiana Carbon Capture Transparency Portal
-        </p>
+      </nav>
+
+      {/* Main Content */}
+      <div className="relative z-10 flex items-center justify-center min-h-[calc(100vh-120px)] px-8">
+        <div className="max-w-6xl mx-auto text-center">
+          {/* Hero Section */}
+          <div className="mb-20 animate-fade-in">
+            <h1 className="text-6xl md:text-7xl font-bold text-white mb-8 leading-tight">
+              Louisiana Carbon Capture
+              <span className="block text-green-400">Transparency Portal</span>
+            </h1>
+            <p className="text-2xl text-green-100 mb-12 max-w-4xl mx-auto leading-relaxed font-light">
+              Comprehensive monitoring and transparency platform for Louisiana's carbon capture infrastructure. 
+              Track emissions, monitor facilities, and ensure environmental compliance across the state.
+            </p>
+          </div>
+
+          {/* Scrolling Feature Panels */}
+          <div className="mb-20 overflow-hidden">
+            <div className="inline-flex animate-scroll">
+              {/* Panel 1 - Real-Time Monitoring */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">Real-Time Monitoring</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Track CO2 emissions, storage levels, and facility performance with live data updates and comprehensive analytics.
+                </p>
+              </div>
+
+              {/* Panel 2 - AI Generated Report */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">AI Generated Report</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Automated compliance reports generated by AI, providing detailed insights and recommendations for operators.
+                </p>
+              </div>
+
+              {/* Panel 3 - Analysis and Prediction */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">Analysis and Prediction</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Advanced predictive analytics for emission trends, risk assessment, and optimization recommendations.
+                </p>
+              </div>
+
+              {/* Panel 4 - Marketplace */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">Marketplace</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Trade carbon credits and access environmental market data with real-time pricing and transaction history.
+                </p>
+              </div>
+
+              {/* Panel 5 - V Badge */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">V Badge</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Verification badge system with Bronze, Silver, Gold, and Diamond tiers based on compliance performance.
+                </p>
+              </div>
+
+              {/* Panel 6 - Facility Locations */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">Facility Locations</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Interactive map showing 110+ facilities across Louisiana with detailed location and operational data.
+                </p>
+              </div>
+
+              {/* Panel 7 - Pipeline Infrastructure */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">Pipeline Infrastructure</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Comprehensive pipeline network visualization with capacity, flow rates, and safety zone monitoring.
+                </p>
+              </div>
+
+              {/* Panel 8 - Environmental Safety Monitoring */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">Environmental Safety Monitoring</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Real-time safety alerts, incident tracking, and comprehensive environmental impact monitoring system.
+                </p>
+              </div>
+
+              {/* Panel 9 - University Bridge */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">University Bridge</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Connect with Louisiana universities for research collaboration, education, and workforce development programs.
+                </p>
+              </div>
+
+              {/* Duplicate panels for seamless loop */}
+              {/* Panel 1 - Duplicate */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">Real-Time Monitoring</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Track CO2 emissions, storage levels, and facility performance with live data updates and comprehensive analytics.
+                </p>
+              </div>
+
+              {/* Panel 2 - Duplicate */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">AI Generated Report</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Automated compliance reports generated by AI, providing detailed insights and recommendations for operators.
+                </p>
+              </div>
+
+              {/* Panel 3 - Duplicate */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+                <h3 className="text-xl font-bold text-white mb-4">Analysis and Prediction</h3>
+                <p className="text-green-100 leading-relaxed">
+                  Advanced predictive analytics for emission trends, risk assessment, and optimization recommendations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Statistics */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-20">
+            <div className="text-center group">
+              <div className="text-5xl md:text-6xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors duration-300">110+</div>
+              <div className="text-green-200 text-lg font-medium">Facilities Monitored</div>
+            </div>
+            <div className="text-center group">
+              <div className="text-5xl md:text-6xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors duration-300">24/7</div>
+              <div className="text-green-200 text-lg font-medium">Real-Time Tracking</div>
+            </div>
+            <div className="text-center group">
+              <div className="text-5xl md:text-6xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors duration-300">99.9%</div>
+              <div className="text-green-200 text-lg font-medium">System Uptime</div>
+            </div>
+            <div className="text-center group">
+              <div className="text-5xl md:text-6xl font-bold text-white mb-4 group-hover:text-green-400 transition-colors duration-300">AI</div>
+              <div className="text-green-200 text-lg font-medium">Powered Analytics</div>
+            </div>
+          </div>
+
+        </div>
       </div>
+
+      {/* Footer */}
+      <footer className="relative z-10 border-t border-white/10 py-12">
+        <div className="max-w-6xl mx-auto px-8 text-center">
+          <p className="text-green-200 text-lg font-medium mb-2">
+            Louisiana Carbon Capture Transparency Portal
+          </p>
+          <p className="text-green-300 text-base">
+            Powered by advanced AI analytics and real-time monitoring technology
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
