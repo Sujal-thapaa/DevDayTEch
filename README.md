@@ -1,5 +1,51 @@
 # 🏆 Louisiana Nexus DayDay ClimateTech Winner — Presented by: [Nexus Louisiana](https://www.nexusla.org/) • [FUEL](https://fuelouisiana.org/) + [Baker Hughes](https://www.bakerhughes.com/)
 
+## 🎉 Award Recognition
+
+<div align="center">
+
+### 🏆 ClimateTech Winner Certificate & Recognition
+
+<table>
+<tr>
+<td align="center">
+<img src="./a.jpg" alt="Award Certificate 1" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<br><strong>Award Certificate</strong>
+</td>
+<td align="center">
+<img src="./b.jpg" alt="Award Certificate 2" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<br><strong>Recognition Document</strong>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="./c.jpg" alt="Award Certificate 3" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<br><strong>Winner Badge</strong>
+</td>
+<td align="center">
+<img src="./d.jpg" alt="Award Certificate 4" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<br><strong>Official Recognition</strong>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="./e.jpg" alt="Award Certificate 5" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<br><strong>ClimateTech Achievement</strong>
+</td>
+<td align="center">
+<img src="./f.jpg" alt="Award Certificate 6" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<br><strong>Final Recognition</strong>
+</td>
+</tr>
+</table>
+
+**🎯 Louisiana Nexus DayDay ClimateTech Winner**  
+*Recognized for innovative carbon capture monitoring and transparency platform*
+
+</div>
+
+---
+
 # 🌍 Carbon Horizon - Louisiana Carbon Capture Transparency Portal
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
