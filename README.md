@@ -6,15 +6,15 @@
 
 ### 🏆 Event Gallery
 
-<img src="./image/a.jpg" alt="Group Photo 1" width="200" style="border-radius: 10px; margin: 5px;">
-<img src="./image/b.jpg" alt="Group Photo 2" width="200" style="border-radius: 10px; margin: 5px;">
-<img src="./image/c.jpg" alt="Group Photo 3" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./public/image/a.jpg" alt="Group Photo 1" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./public/image/b.jpg" alt="Group Photo 2" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./public/image/c.jpg" alt="Group Photo 3" width="200" style="border-radius: 10px; margin: 5px;">
 
 <br>
 
-<img src="./image/d.jpg" alt="Group Photo 4" width="200" style="border-radius: 10px; margin: 5px;">
-<img src="./image/e.jpg" alt="Group Photo 5" width="200" style="border-radius: 10px; margin: 5px;">
-<img src="./image/f.jpg" alt="Group Photo 6" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./public/image/d.jpg" alt="Group Photo 4" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./public/image/e.jpg" alt="Group Photo 5" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./public/image/f.jpg" alt="Group Photo 6" width="200" style="border-radius: 10px; margin: 5px;">
 
 </div>
 
