@@ -4,43 +4,17 @@
 
 <div align="center">
 
-### 🏆 ClimateTech Winner Certificate & Recognition
+### 🏆 Event Gallery
 
-<table>
-<tr>
-<td align="center">
-<img src="./image/a.jpg" alt="Award Certificate 1" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<br><strong>Award Certificate</strong>
-</td>
-<td align="center">
-<img src="./image/b.jpg" alt="Award Certificate 2" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<br><strong>Recognition Document</strong>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="./image/c.jpg" alt="Award Certificate 3" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<br><strong>Winner Badge</strong>
-</td>
-<td align="center">
-<img src="./image/d.jpg" alt="Award Certificate 4" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<br><strong>Official Recognition</strong>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="./image/e.jpg" alt="Award Certificate 5" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<br><strong>ClimateTech Achievement</strong>
-</td>
-<td align="center">
-<img src="./image/f.jpg" alt="Award Certificate 6" width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<br><strong>Final Recognition</strong>
-</td>
-</tr>
-</table>
+<img src="./image/a.jpg" alt="Group Photo 1" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./image/b.jpg" alt="Group Photo 2" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./image/c.jpg" alt="Group Photo 3" width="200" style="border-radius: 10px; margin: 5px;">
 
-**🎯 Louisiana Nexus DayDay ClimateTech Winner**  
-*Recognized for innovative carbon capture monitoring and transparency platform*
+<br>
+
+<img src="./image/d.jpg" alt="Group Photo 4" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./image/e.jpg" alt="Group Photo 5" width="200" style="border-radius: 10px; margin: 5px;">
+<img src="./image/f.jpg" alt="Group Photo 6" width="200" style="border-radius: 10px; margin: 5px;">
 
 </div>
 
